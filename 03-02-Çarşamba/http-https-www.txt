@@ -1,0 +1,104 @@
+# http, https, www teknolojileri
+
+1 - http (Hypertext Transfer Protocol)
+Günümüz internetinin belkemiğini WWW protokolü, WWW protokolünün belkemiğini ise HTTP protokol ailesi, web adreslerini temsil eden URL
+ve HTML işaretleme lisanı oluşturuyor. HTTP ilke olarak verilerin bir iletişim ağı üzerinden paylaşılmasını sağlayan bir araç. World Wide Web’de bulunan web sayfalarının kullanılan web tarayıcıya yüklenmesini sağlıyor.
+
+2 - https (Hypertext Transfer Protocol Secure)
+Güvenli HTTPS protokolü, HTTP’nin bir versiyonu.
+HTTP’nin aksine web sunucusu ile web tarayıcı arasındaki iletişimin şifrelenmiş bir şekilde gerçekleşmesini sağlar.
+Netscape tarafından 1994’te HTTP protokolüne SSL protokolünün entegre edilmesiyle geliştirilmiş, özellikle son yıllarda siber saldırıların artması ve kablosuz internetin yaygınlaşmasıyla birlikte daha da önem kazanan bir protokol haline gelmiştir. HTTPS bağlantıları için kullanılan standart port numarası 443’dür
+
+3 - www (World Wide Web)
+World Wide Web, Dünya Çapında Ağ (kısaca WWW veya Web), İnternet üzerinde yayınlanan birbirleriyle bağlantılı hiper-metin dokümanlarından oluşan bir bilgi sistemidir. Bu dokümanların her birine Web sayfası adı verilir ve Web sayfalarına İnternet kullanıcısının bilgisayarında çalışan Web tarayıcısı adı verilen bilgisayar programları aracılığıyla erişilir. Web sayfalarında metin, imaj, video ve diğer multimedya ögeleri bulunabilir ve diğer bağlantı ya da link adı verilen hiper-bağlantılar ile başka Web sayfalarına geçiş yapılabilir.
+İnternet ve Web terimleri aynı olguyu tanımlamaz. Zira Web sadece İnternet üzerinde çalışan bir servistir. Web kavramı, CERN'de bir bilgisayar programcısı olan Tim Berners-Lee'nin HTML adlı metin işaretleme dilini geliştirmesiyle oluşmuştur. Bugün de kendisinin başkanı olduğu W3C (World Wide Web Consortium) tarafından standartları belirlenmektedir.
+
+4 - URL (Uniform Resource Locator)
+
+5 - HTML (Hypertext Markup Language)
+HTML, günümüzde de web sayfalarının oluşturulmasında kullanılan ana teknolojilerden biridir. 
+HTML, bir programlama lisanından çok bir metin işaretleme lisanıdır. Başlıca görevi web sayfalarının birbirlerine bağlanmasını ve bu sayfalarda yer alan görsellerin ve metinlerin web tarayıcılarda doğru bir şekilde görüntülenmesini sağlamaktır. Tıpkı diğer protokoller gibi HTML’nin geliştirilmesinden de World Wide Web Consortium (W3C) sorumludur.
+
+6 - İnternet'in NSF
+
+7 - Web Browser
+Web tarayıcılar World Wide Web’de bulunan bilgilerin, verilerin ve web sayfalarının görüntülenmesi amacıyla geliştirilen özel yazılımlardır, yani WWW’nin görünen yüzüdür. Sadece metin tabanlı işlev gören ilk web tarayıcıların aksine günümüz web tarayıcıları çok gelişmiştir. 
+Çok çeşitli protokolleri (HTTPS, FTP), dosya tiplerini (farklı türde görseller, pdf belgeleri) ve e-posta iletişimini desteklemektedirler. İlk web tarayıcı yine Tim Berners-Lee tarafından 1990’da geliştirilmişti. 
+Nexus adındaki bu tarayıcı sadece metin tabanlı çalışıyordu ve grafik, resim gibi görselleri görüntüleyemiyordu.
+
+8 - port numarası
+
+- VPN (Virtual Private Network)
+ Türkçeye çevirmek gerektiğinde Sanal Özel Ağ olarak tanımlanabiliyor. VPN programı ile amaçlanan şey, fiziksel olarak bulunulmayan bir ağa kullanıcıyı uzaktan bağlamak oluyor. Buradaki esas amaç da güvenli bir iletişim yolu kurarak çeşitli kurumsal çözümlere ulaşmak. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Web yürütümü standart İstemci-sunucu modelini izler. Aşağıdaki şekilde gösterildiği gibi "Web tarayıcısı" adı verilen
+programı çalıştıran bir istemci bilgisayar ile Web sunucu yazılımı çalıştıran bir sunucu bilgisayar arasındaki etkileşime
+"istemci-sunucu" etkileşimi adı verilir. İstemci bilgisayar sunucudan HTTP'yi (Hypertext Transfer Protocol) ve İnternet mesaj
+standardı TCP/IP'yi kullanarak bir doküman ister ve sunucu istemcinin göstereceği dokümanı geri döndürür.
+
+"World-Wide Web" ibaresi HTTP ile anlaşan sunucuların kolektif ağını ifade etmek için kullanılır. HTTP, var olan bilgilerin kullandıkları protokolün küresel yapısıdır.
+Web tarayıcılarının ve sunucularının kendi aralarında iletişim için kullandıkları protokole HTTP (Hypertext Transfer Protocol) adı verilir. 
+Bunun için Web sunuculara genellikle HTTP sunucu veya HTTP Deaemons (HTTPD) denir.
+
+Bu örnekte bir tarayıcı kullanıyorsunuz (Netscape, Mosaic, veya diğer bir tarayıcı) ve “ Webmaster Magazine Online'”ı referans olarak tıklıyorsunuz. 
+Tarayıcı, sizin bu nesneye ulaşmak için http://tr.wikipedia.org 3 Temmuz 2008 tarihinde Wayback Machine sitesinde arşivlendi. - Web adresine (veya URL) gitmek istediğinizi anlayacaktır.
+
+
+
+Sunucular ve istemciler arasındaki iş paylaşımı
+Tarayıcı, istemcinin isteğini sunucuya iletir. İsim sunucularının, domain isimlerinin, adres isimlerinin ve fiziksel konumların tutulduğu diğer araçlarla iletir. 
+Tarayıcı www.cio.com için istekleri karşılayan makineye doğru iletir.
+
+Bilgiler Web sunucuya gelince sunucu onları başka bir işleme gönderir (arama işlemi veya bir uygulama) ve bir süre bekler. 
+Cevabı alırsa nesneyi hedef tarayıcınıza gönderir. Tarayıcı birçok değişik parçayı birlikte tutar. 
+Bir Web sayfası ağ üzerindeki birçok nesnenin referansını tutabilir. Hepsini birlikte çeker ve son ürünü geri sunar.
+
+
+
+
+
+Hypertext
+WWW belgelerinin temel özelliklerinden biri Hypertext yapılarıdır Grafik terminalde bir referans alt çizgili bir yazı veya işaretçi ile sunulur. 
+Kullanıcı, bunu tıklar ve referans edilen belge gelir.
+Bu yöntem bilgilerin kopyalanmasını gereksiz kılar, verinin bir kere yüklenmesi yeterlidir ve ona referans edilen bütün bağlarla orijinal belgeye ulaşılabilir.
+
+
+URL
+URL Web nesnesini bulmak için Web istemcisinin ihtiyacı olan erişim yöntemini (nasıl), konumunu (nerede), ve sunucu ismini (ne) belirtir. 
+URL'nin genel yapısı: erişim-yöntemi://sunucu-ismi[: port] / konum şeklindedir.
+
+
+Nasıl çalışır?
+1. İnternet üzerinde kendi sitesini barındırmak isteyen abc firması ya da kişisi, kendisine ait bir alan (İngilizce: domain) adı seçer. 
+Örneğimizde bu alan adı abc.com olsun. 
+Daha sonra kişi ya da firma, alan adı kaydı yapabilen bir firmaya giderek (İngilizce: registrar) kendisi için belirlemiş olduğu alan adını,
+belli bir süre için (bir yıldan az olmamak şartı ile) tescil ettirir. 
+2. Nasıl ki bir yere gitmek için gidilecek yerin adresine ihtiyaç varsa sanal dünya olan İnternet’te de bir siteye girmek için o sitenin adresine ihtiyacımız vardır. 
+İnternet üzerindeki sunucuların adresleri IP (İngilizce: Internet Protocol) denilen her biri 0..255 arasında olan dört basamaktan oluşur (Ör: 10.23.12.5; 192.168.5.3 gibi).
+İnternet kullanıcılarının girmek istedikleri Web sitelerinin IP adreslerini akıllarında tutmaları çok zor olacağından İnternet üzerinde alan adı 
+– IP adresi eşleştirmesi yapan servisler yer almaktadır. Bu servislere DNS (İngilizce: Domain Name Services – Alan Adı Servisi) adı verilir. 
+DNS’ler kendilerine sorulan alan adlarını IP adreslerini soran kullanıcılara verirler. Çok basit olarak bunu bir telefon rehberine benzetebilirsiniz.
+
+Alan Adı IP Adresi
+
+abc.com 13.56.11.120
+
+vyz.com 168.32.45.11
+
+bcg.net 89.86.10.51
+

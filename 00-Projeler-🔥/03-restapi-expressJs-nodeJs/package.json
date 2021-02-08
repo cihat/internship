@@ -1,0 +1,20 @@
+{
+  "name": "03-restapi-expressjs-nodes",
+  "version": "1.0.0",
+  "description": "```javascript // package.json'daki paketleri indirin npm install // server'ı ayağa kaldırın npm run dev ```",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=* nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "serve-index": "^1.9.1"
+  }
+}

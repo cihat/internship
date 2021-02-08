@@ -1,0 +1,5 @@
+Araştırılması Gerekilen Konular
+
+Büyük yazılım şirketlerinin gelişme yolları, planları, rotaları, stratejileri, neler yaptıkları, nasıl bu kadar geliştikleri
+NLP(Natural language processing)
+Block Chain, Makina Öğrenmesi
