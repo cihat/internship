@@ -7,9 +7,12 @@
 
 ### !NOT Eğer mongodb-27017.sock dostyası bozuk veya silinmiş ise komutları takip edin yoksa localhost:27017'ye bağlanamayacaktır.
 
+```py
 $ sudo rm -rf /tmp/mongodb-27017.sock
 $ sudo service mongod start
 $ sudo service mongod status
+
+```
 
 <hr>
 <br>
