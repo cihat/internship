@@ -1,5 +1,12 @@
 # Mongoose İle Crud işlemleri
 
+```javascript
+// package.json'daki paketleri indirin
+npm install
+// server'ı ayağa kaldırın
+npm run dev
+```
+
 - mongoose.Schema kullanarak MongoDB'de Schema'yı (belge / veri yapısı) tanımlıyoruz.
 - Create Data Access Object file: Data Access Object (DAO) katmanında, veri tabanına doğrudan bağlı olan ve veri alıp veri tabanından ve veri tabanına kaydedilen işlevi tanımlayabiliriz.
 - Tüm fonksiyonu mongoose.statics kullanarak tanımlıyoruz. Statikler, method'larlar hemen hemen aynıdır, ancak doğrudan Modelinizde bulunan işlevleri tanımlamaya izin verir.
