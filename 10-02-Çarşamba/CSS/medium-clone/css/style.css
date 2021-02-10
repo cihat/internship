@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  *:focus {
+    outline: 0; }
+
+body {
+  background: #fff;
+  height: 100vh; }
+  body .header {
+    width: 60%;
+    margin: auto;
+    height: 65px;
+    display: flex;
+    justify-content: space-between; }
+    body .header .icon {
+      float: left;
+      cursor: pointer; }
+      body .header .icon img {
+        width: 80px; }
+    body .header ul {
+      float: right;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      body .header ul li {
+        margin: 10px;
+        color: black;
+        cursor: pointer;
+        color: #848585; }
+        body .header ul li.get-started button {
+          color: #848585;
+          cursor: pointer;
+          padding: 10px;
+          border-radius: 5px;
+          border: 1px #848585 solid; }
+  body .sub-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f9f9f9; }
+    body .sub-header .sub-buttons {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 53px;
+      margin: 0 40px; }
+      body .sub-header .sub-buttons span {
+        color: #848585;
+        margin: 0 5px; }
+      body .sub-header .sub-buttons a {
+        color: black;
+        font-size: 16px;
+        color: #848585; }
+  body main {
+    width: 35%;
+    margin: auto; }
+    body main .title h1 {
+      font-size: 48px;
+      font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+      margin-bottom: 20px; }
+    body main .account-bar {
+      display: flex;
+      justify-content: space-between; }
+      body main .account-bar .account-icon ul {
+        display: flex;
+        justify-content: baseline; }
+        body main .account-bar .account-icon ul li > svg > path {
+          color: #848585; }
+    body main .photo img.images {
+      width: 60vw;
+      max-width: 60vw;
+      margin: 20px 0;
+      box-sizing: border-box;
+      border-radius: 5px; }
+    body main .photo-info {
+      margin: 20px 0;
+      color: #848585;
+      display: flex;
+      justify-content: center; }
+      body main .photo-info a {
+        color: #848585;
+        text-decoration: underline; }
+    body main span {
+      margin: 50px 0;
+      display: flex;
+      justify-content: center;
+      font-size: 30px; }
+    body main p.text-paragraf {
+      font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+      font-size: 1.5rem;
+      line-height: 1.9rem;
+      margin-bottom: 40px;
+      font-weight: 400;
+      letter-spacing: 0.1px;
+      font-style: normal;
+      color: #292929;
+      word-break: break-word; }
+    body main h1.sub-title {
+      font-weight: 900;
+      font-size: 1.4rem;
+      font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 20px 0; }
+    body main img.images {
+      width: 35vw;
+      margin: 20px 0;
+      box-sizing: border-box;
+      border-radius: 5px; }
+    body main .list ul {
+      text-decoration: dashed; }
+      body main .list ul li {
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-decoration: dashed;
+        list-style: circle; }
+    body main ul {
+      text-decoration: dashed;
+      margin: 30px; }
+      body main ul li {
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-decoration: dashed;
+        list-style: circle; }
+    body main h1 {
+      margin: 20px 0; }
+  body footer.footer-page {
+    height: 355px;
+    background-color: black; }

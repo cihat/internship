@@ -18,7 +18,7 @@
 
 - border, margin, padding gibi elementlerin "top-bottom right-left" şeklinde de verebiliriz.
 
-- margin: auto auto; özelliği aşağıdan-yukarıdan, sağdan-soldan ortalamaya yarıyor. Genelde "width: 50%;margin: auto auto;" özellikleri birlikte kullanılır. Ayrıca margin: 0 auto; özelliği ile üsten ve altdan boşluk verme ama sağdan ve soldan boşlukları ortala.
+### - margin: auto auto; özelliği aşağıdan-yukarıdan, sağdan-soldan ortalamaya yarıyor. Genelde "width: 50%;margin: auto auto;" özellikleri birlikte kullanılır. Ayrıca margin: 0 auto; özelliği ile üsten ve altdan boşluk verme ama sağdan ve soldan boşlukları ortala.
 
 - Width ve height değerleri sadece content alanına verilir ama elemente padding değerleri verdiğimizde o elementin width ve height değerleri artar bunun önüne geçmek için box-sizing: border-box; özelliği vererek verdiğimiz width ve height değerleri aşmıyoruz sadece içindeki content alanını küçültüyoruz. Yani elemente verdiğimiz padding değeri o elementi artırmıyor.
 
@@ -53,3 +53,20 @@ div.box-2 {
 - % uzunluk bulunduğu parent scope'da font-size'ın %'lik değerine denk gelir.. Örneğin 16px ise parent scope %50'si 8px dir ve o element 8px olacaktır.
 
 - icon için "https://cdnjs.com/"'de cdn linkleri mevcut fonw-awesome aratarak cdn'e ulaşabilir ardından "https://fontawesome.com/"'den istediğin bedava ikonu kullanabilirsin.
+
+# CSS Pseudo Class -> Videonun sonuna kadar
+
+- Pseudo classları -> &:hover, &:visited gibi örnekleri vardır.
+- Pseudo elementi -> &::after veya &::before şeklinde kullanılabilinir.
+
+- nth-child selecetor -> p:nth-child(1){...} veya p:first-child{...} çocuklardan 1.elementi alır.
+
+- position: fixed; right 0px ; top: 0px ile sağ üste sabitleyebilirsin.
+
+- position: relative ise sadece bulunduğu yerden yani ekranda neredeyse ona göre left, right, top, bottom: 20px gibi örneklerle hareket etme kabiliyeti sağlar.
+
+- z-index: değeri yükseldikçe daha görülür(default 0'dır).
+
+### - position: absoulte bulunduğu kapsayıcıya göre hereket eder ama kapsayıcısıda position: static dışında relative veya fixed olmalı ama zaten relative yapıyorum.
+
+- float:left, float: right ile sağa ve sola konumlandırabilirsiniz.
