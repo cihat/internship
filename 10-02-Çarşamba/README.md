@@ -100,6 +100,20 @@
 <hr>
 <br>
 
+# 5 Things Better than a Computer Science Degree(Bilgisayar Bilimleri Lisansından daha iyi 5 Şey)
+
+- Yazılım hakkındaki blogları, github'ı ve insanları takip ederek gelişilebilir ama aktif olmak şartıyla.
+- Çözemediğin bir sorun olursa Stackoverflow'da ara en iyi çözümü bulursan oy vermeyi ihmal etme.
+- Stackoverflow'da sorunları çozerek puanını yüksek tut.
+- Blog yaz, hem öğrenmek hem de öğretmek için.
+- open source kominitesine dahil ol, oradan insanlar katkı yaparak kendini geliştirebilirsin.
+- Bir ürün ortaya çıkarmak, bu bir internet sitesi olabilir. Bunu yaparken biz ya isteyerek yada istemeyerek büyük bir bilgi ve deneyim(bir ürün oluşurken arkada olan bütün işleri, neler döndüğünü deneyimlersin.) sağlar.Bunlar dışında pazarlama konusunda da ufuk açar.
+- Akademik eğitimden çok projeler yapmak daha etkili bir yoldur.
+- CV'de yazılım hakkındaki platformların hesaplarının linki bırakılmalı örneğin (Github, Stackoverflow) gibi.
+
+<hr>
+<br>
+
 tavsiye
 [Awesome CSS Learning ](https://github.com/micromata/awesome-css-learning#readme)
 [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
@@ -115,4 +129,5 @@ tavsiye
 
 [1 Videoda HTML, CSS, Flexbox, Responsive Tasarım - Web Geliştirme Eğitimi(Yazılım Bilimi)](https://www.youtube.com/watch?v=y745R3Lv9WI)<br>
 [Non-Coding Activities That Boost Developer Skills(Makale Linki)](https://medium.com/swlh/non-coding-activities-that-boost-developer-skills-bcae28cb8847)
-[Warning: Your programming career](https://medium.com/sololearn/warning-your-programming-career-b9579b3a878b)
+[Warning: Your programming career](https://medium.com/sololearn/warning-your-programming-career-b9579b3a878b)<br>
+[5 Things Better than a Computer Science Degree](Açık kaynak kitaplık ol
