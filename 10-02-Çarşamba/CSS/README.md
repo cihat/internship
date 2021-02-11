@@ -70,3 +70,35 @@ div.box-2 {
 ### - position: absoulte bulunduğu kapsayıcıya göre hereket eder ama kapsayıcısıda position: static dışında relative veya fixed olmalı ama zaten relative yapıyorum.
 
 - float:left, float: right ile sağa ve sola konumlandırabilirsiniz.
+- eski bir yöntem <div> style="clear: both</div> ile sağındaki ve solundakileri temizler.
+- text-align ile center, right, left olarak konumlandırılır.
+
+## Flexbox Ana Kapsayıcaya verilen özellikler
+
+- ilk olarak kapsayıcının display: flex; dememiz gerekiyor.
+
+- flex-direction: row(default) olarak gelir bu satır mu sütün mu olacağına karar verir. column kullanılırsa yukarıdan aşağıya doğru olur.
+
+- justify-content ise yatayda nasıl konumlandırılacağını belirler.
+
+- align-items ise dikeyde konumlandırmaya yarar.(default olarak stretch gelir.)
+
+- flex-wrap ile bir satırda yer kalmazsa elemanları aşağıya indirir(default olarak no-wrap vardır ve bu sağması için küçültür.)
+
+## Flexbox itemlara verilen özellikler
+
+- order ile öncelik, sıralama gibi kolaylıklar sağlar.
+
+- align-self ile item'a özgü özellikler verilebilir.
+
+- flex-grow ile alandaki alacağı uzunluğu oranlayabiliriz. Eğer sadece bir item'a flex-grow verilirse alanı doldurmaya çalışır. ayrıca flex:1 gibi yazılırsa de olur.
+
+- Responsive dizayn içn @medi(max-width: 768px){ body {...}} gibi kullanabiliriz. Yani max 768px ve altında ise içndeki kurallar geçerli olsun.
+
+- Responsive tasarımlarda px değilde %'li değerler vermek daha mantıklı.Yani Responsive Units dediğimiz, em, rem, %, vw, vh gibi değerleri kullnmak bizim için daha kolay sürectir.
+
+- em parent elemanın font-size ile ilgiliydi
+- rem html'deki yani root'taki font-size göre çalışır.
+- % html'deki font-size eğer 16px ise 50% ise 8px olur.
+- vw, safyanın görenin kısmının genişliğine %'delik değerine tekabül eder
+- vh, safyanın görenin kısmının yüksekliğine %'delik değerine tekabül eder

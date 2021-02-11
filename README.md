@@ -15,7 +15,7 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 8. [Mongoose İle Crud işlemleri](https://github.com/cihatdev/staj/tree/master/08-02-Pazartesi)
 9. [Node.js, Express ve MongoDB ile Restful CRUD API'si Oluşturma](https://github.com/cihatdev/staj/tree/master/09-02-Salı)
 10. [HTML-CSS](https://github.com/cihatdev/staj/tree/master/10-02-Çarşamba)
-11. [Devam ediyor...](#)
+11. [Landing Page App](#)
 12. [Devam ediyor...](#)
 13. [Devam ediyor...](#)
 14. [Devam ediyor...](#)
