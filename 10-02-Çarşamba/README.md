@@ -1,147 +1,132 @@
-# Makalelerden Çıkardıklarım
+# CSS
 
-## Non-Coding Activities That Boost Developer Skills
+- !important, attribute'ü eğer ezilmesini istemediniz bir özelliğin yanına koyarsanız değişmez.örneğin 'color: red !important'.
 
-- Sürekli kod yazmayın, ara verin kendiniz için. Büyük resmi görmeye çalışın. Eğer gecelere kadar kod yazıyorsanız bir sorun var demektir. Hem de büyük bir sorun var demektir projenin mirmarisi hakkında zayıf kararlar verebilecek kadar. Ne kadar çok kodlarsanız o kadar iyi değildir.Demek istediğim iyi veya kötü kod yazmak önemli değil. Önemli olan iyi veya kötü yazdığınız kod üzerinde düşünmek, zaman geçirmek, anlamak ve özümsemektir.
+- border özelliği margin ve padding arasında kalan sınırdır.Dıştan içe doğru margin > border > padding
 
-- Basit faaliyetlerle nasıl becerilerimizi geliştirebiliriz ?
+- width(genişlik-x) ve height(uzunluk-y) değerlerine %'li değerler vererek, tarayıcını boyutuna göre davranır.
 
-  - Oyun oynamak. Ancak bu oyunlar beyni geliştiren, düşünmeyi sevk eden oyunlar olmalıdır. Örneğin strateji, bulmaca oyunları sizi planlamaya, problem çozmeye sevk edebilecek oyunlardır. Kaynakları yönetmek, bir saldırı planlamak veya bir bulmacayı çözmek, sizi daha keskin bir geliştirici yapmanıza katkıda bulunur.
-    Bu tür oyunlarda ileriyi düşünmeye ve stratejileri test etmeye zorlanırsınız. Bir şey inşa edebilir, taşıyabilir, yeniden inşa edebilirsiniz. Kaynakları farklı araştırma alanlarına tahsis edebilir ve genel teknoloji ağacını nasıl etkilediğini görebilirsiniz. Bu öğelerin tümü, kodlamaya büyük paralellikler kurar. Bir uygulama geliştirdiğinizde aynı şeyi yaparsınız. Stratejileri test ediyor ve bulmacaları çözüyorsunuz. Tek fark, genellikle işle ilişkili süslü grafiklerin olmamasıdır. Tabi oyun geliştiricileri haric.
+- Bir element bulunduğu parent elemente göre width ve height gibi özellikleri şekil alır. Örneğin div.box-1 > div.box-2 elementlerinde width=%50 özelliği varsa box-2 box-1'e göre küçülür veya büyür.
 
-- Elektronik Projeler
+- max-width özelliği ile responsive tasarımlar yapabiliriz. Örneğin max-width = 700px dediğimiz element maximum 700px olabilir eğer pencere 700px küçük olursa elementimiz küçülebilir.
 
-  - Elektronik projeler yani basit bir devre ile programlama arasında çok yakından bir ilişki var, örneğin elektronik devrede bir bağlantıyı yanlış yere bağladın ve o yanlışı görmedin saatlerce yanlışı ararsın ve bu yanlışları yapa yapa ustaşır ve daha deneyim sahibi olursunuz.
+- inline elementlerine width ve height değerleri veremeyiz ama display özelliğini blok yaparsak verebiliriz. Ayrıca inline-blog özelliği vardır bu hem inline hem de blok gibi davranır. Yani inline element gibi yanına element alabilir(bulunduğu satırın tamamını blok özellik gibi kaplayamıyor) ayrıca blok elemente verebildiğimiz width ve height özelliklerini vermemize imkan tanıyor.
 
-- Ahşap İşleme
+- border(sınır) ile content arasındaki kısım 'padding' oluyor. border(sınır) ile dış elementler arasındaki kısım 'margin' oluyor.
 
-  - Yazılım ve ahşap işleme arasında birçok benzerlik vardır, ahşap işlemede eğer yeniyseniz ilk zamanlarda hata yapabilirsiniz bunlar deneyim ve el kabiliyeti isteyen kritik notlardır. Ahşap işleme gerçekten sabır isteyen bir aktivitedir.
-    Örneğin bir tutkalın 8 saat boyunca yapışmasını beklemek ile yazdığınız bir kodun hatasız bir şekilde derlenmesini beklemek aynı şeyler olabilir. Bunun birçok örneği verilebilir yani kısaca ahşap işleme de yazılım da sabır isteyen bir işlerdir.
+- border, margin, padding gibi elementlerin değerlerini -top right bottom left- şeklinde yukarıdan saat yönünde verebiliriz.
 
-- Çizim / Şema Oluşturma
+- border, margin, padding gibi elementlerin "top-bottom right-left" şeklinde de verebiliriz.
 
-  - Çizim yapmak yani bir akış şeması oluşturmak sizi yazılım konusunda işlerinizi kolaylaştıracak eylemdir. Eğer tecrubeli bir yazılımcı değilseniz kafanızdaki planı kağıda dökemiyorsanız kod yazarken birçok karmaşaya neden olabilirsiniz. Planı ilk olarak akış şemaları üzerinden daha basit bir şekilde kağıda dökmek daha anlaşılır, daha iyi öngürülebilir ve daha somut yani elle tutulur bir şey ortaya çıkmış olur. Yani önceden yazıp, çizmek görsel olarak fiziksel olarak düşünmenize yardımcı olur.
+### - margin: auto auto; özelliği aşağıdan-yukarıdan, sağdan-soldan ortalamaya yarıyor. Genelde "width: 50%;margin: auto auto;" özellikleri birlikte kullanılır. Ayrıca margin: 0 auto; özelliği ile üsten ve altdan boşluk verme ama sağdan ve soldan boşlukları ortala.
 
-  - Sonra UML diyagramlarıyla biraz daha ayrıntıya girerek sınıfları, interfacelerı, değişkenleri tanımlarsanız önceden işin büyük bir kısmını halletmiş olursunuz ve sadece arkanıza yaslanız kodu yapmak kalacaktır. Bu da gerçekten keyifli bir olaydır. Yani önceden planlayıp çizip daha sonra kod yazmak bir mühendislik yaklaşımı sayılabilir.
+- Width ve height değerleri sadece content alanına verilir ama elemente padding değerleri verdiğimizde o elementin width ve height değerleri artar bunun önüne geçmek için box-sizing: border-box; özelliği vererek verdiğimiz width ve height değerleri aşmıyoruz sadece içindeki content alanını küçültüyoruz. Yani elemente verdiğimiz padding değeri o elementi artırmıyor.
 
-- Egzersiz yapmak
+```css
+div.box-1 {
+  width: 500px;
+  height: 200px;
+  border: 5px solid black;
+  padding: 50px;
+}
+div.box-2 {
+  box-sizing: border-box;
+  width: 500px;
+  height: 200px;
+  border: 5px solid black;
+  padding: 50px;
+}
+```
 
-  - Egzersizin fiziksel sağlığa faydalarının yanı sıra, zihinsel birçok faydası vardır. Bunlar daha iyi düşünmek, daha keskin bir hafıza gibi birçok faydası vardır. Eğer bir problemle karşılaştığınızda bunun çözümünü antremanda bulabilirsiniz. Ayrıca daha verimli kodda yazabilirsiniz. Eğer sizde egzersize başlarsanız fark edeceksiniz ki daha az hata yaptığınızı ve daha verim aldığınızı göreceksiniz.
+- box-sizing: border-box; özelliğini reset.css olarak da kullanbilirz yani önceden tanımlayarak.
 
----
+- text-align: center ile yazılarımızı ortalaya bilirzi. letter-spacing: 1px ile harflerinin arasını 1px açabiliriz
 
-<br>
-<hr>
+- em releative uzunluğu nedir ? Bir p elemanın içindesin be font-size'ı 14px ise p elementin içindeki elementin boyutuna 2em verirseniz 28px olur.
 
-## Warning: Your programming career
+- rem ise html'in root'taki değeri baz alır. html'in default olarak 16px'dir ancak bu default değeri değiştirebilirsiiz eğer diğer elementleri rem olarak tanımlamışsanız o değerlerde artacaktır. Siz herhangi bir yerde herhangi bir elemente 2.5rem verirseniz 40px font-size'ı olmuş olur.
 
-- Bir front-end developer https protocolu, api'yi, JSON'ın ne olduğu bilmelidir.
+- vw ise sayfanın görünen kısmının genişliğini %'lik olarak değer verirmesidir. örnegin %1 ise sayfanın görünen kısmının genişliği %1'lik kısmına denk gelir.
 
-- Yazılımın hemen hemen her alanında, dil, framework, database olarak birçok alternatifi vardır. Bu alternatifleri ihtiyaca göre seçmeliyiz. Web'in iki tarafı vardır. Kullanıcıların gördüğü front-end tarafı ve arkada database sorgularının, gerekli işlemlerin yapıldığı back-end vardır. Back-end'te birçok alternatif diller vardır, birçok database vardır bunları ihtiyaca göre seçilmeliyiz. Herbirinin alanı farklıdır, farklı ihtiyaclar doğrultusunda çıkmışlardır. İhtiyacları iyi belirlemeli ve problemi iyi analiz etmeliyiz ve ihtiyaçlar doğrultusunda bir dili, freamwork'u veya database'i seçmeliyiz. Dil, framework, database dışında bilmemiz gereken temel konular var(Caching, Servers, Sockets, Database Design, Security) onları araştırmalıyız. Daha sonra OOP(Object Oriented Programming) ile bir sorunu somutlaştırarak sorunu çozmemiz gerekir. Mülakatlarda başarılı olmamız için; Algoritmalar ve Veri Yapıları, Bilgisayar Organizasyonu ve İşletim Sistemleri, Kodlama ve Sistem Dizaynı konuları hakkında bilgi sahibi olmalımız gerekiyor.
+- vh ise sayfanın görünen kısmının yüksekliğini %'lik olarak değer verirmesidir. örnegin %1 ise sayfanın görünen kısmının yüksekliğin %1'lik kısmına denk gelir.
 
-- Bilmemiz gereken konular;
+- % uzunluk bulunduğu parent scope'da font-size'ın %'lik değerine denk gelir.. Örneğin 16px ise parent scope %50'si 8px dir ve o element 8px olacaktır.
 
-  - Caching
-  - Servers
-  - Sockets
-  - Database Design
-  - Security
+- icon için "https://cdnjs.com/"'de cdn linkleri mevcut fonw-awesome aratarak cdn'e ulaşabilir ardından "https://fontawesome.com/"'den istediğin bedava ikonu kullanabilirsin.
 
-- To successfully prepare for coding interviews you should be confident in the following areas:
+# CSS Pseudo Class -> Videonun sonuna kadar
 
-1. Algorithms & Data Structures
+- Pseudo classları -> &:hover, &:visited gibi örnekleri vardır.
+- Pseudo elementi -> &::after veya &::before şeklinde kullanılabilinir.
 
-   - Algorithms & Data Structures
-     This is the most wanted skill set for programmers. Here are the subjects every programmer must be familiar with:
+- nth-child selecetor -> p:nth-child(1){...} veya p:first-child{...} çocuklardan 1.elementi alır.
 
-   - Algorithm Complexity:
-     Big-O notation and how to calculate algorithms complexity; knowing which algorithm is better based on their complexity, e.g. O(N) vs O(logN).
+- position: fixed; right 0px ; top: 0px ile sağ üste sabitleyebilirsin.
 
-   - Basic Data Structures & adapters: Array, Linked List, Stack, Queue.
-   - Sorting & Searching: Knowing various sorting algorithms helps you to identify the best possible implementation for your projects. For practice, try to implement insertion sort, selection sort or merge sort and spot the difference between linear search and binary search.
-   - Trees & Graphs: Trees and Graphs are everywhere, starting from “friends graph” in Facebook to “knowledge graph” in Google Search.
-   - Hashtables: Being one of the most efficient data structures in the world, hashtables are always a good choice. You should be able to implement a Hashtable and be familiar with techniques to solve collisions.
+- position: relative ise sadece bulunduğu yerden yani ekranda neredeyse ona göre left, right, top, bottom: 20px gibi örneklerle hareket etme kabiliyeti sağlar.
 
-2. Computer Organization & Operating Systems
+- z-index: değeri yükseldikçe daha görülür(default 0'dır).
 
-   - Bitwise operations
-   - How does the CPU execute machine code
-   - What’s the difference between static RAM and dynamic RAM
-   - What kind of OS kernel types exist
-   - What’s the difference between “mutex” and “semaphore”
-   - What is a deadlock and what is a livelock
+### - position: absoulte bulunduğu kapsayıcıya göre hereket eder ama kapsayıcısıda position: static dışında relative veya fixed olmalı ama zaten relative yapıyorum.
 
-3. Coding
+- float:left, float: right ile sağa ve sola konumlandırabilirsiniz.
+- eski bir yöntem <div> style="clear: both</div> ile sağındaki ve solundakileri temizler.
+- text-align ile center, right, left olarak konumlandırılır.
 
-   - You should have really good knowledge of at least one programming language. Knowing all the pros and cons, best practices of your favorite language will always help you write efficient, elegant and readable code. It is highly recommended to practice by solving challenging problems, such as (all the problems below could be found on SoloLearn):
+## Flexbox Ana Kapsayıcaya verilen özellikler
 
-   - The Josephus Problem
-   - Tower of Hanoi
-   - String Compression
-   - Balanced Parenthesis
-   - Twin Prime Numbers
+- ilk olarak kapsayıcının display: flex; dememiz gerekiyor.
 
-4. System Design
+- flex-direction: row(default) olarak gelir bu satır mu sütün mu olacağına karar verir. column kullanılırsa yukarıdan aşağıya doğru olur.
 
-   - Knowing Object-Oriented Programming is a must for a modern programmer.
-     System Design means thinking about the whole system, being able to design its architecture, dissect it into classes, define object interactions.
-     To be prepared try to answer the questions below:
+- justify-content ise yatayda nasıl konumlandırılacağını belirler.
 
-   - How would you design Google Search? What if there are millions of simultaneous requests per second?
+- align-items ise dikeyde konumlandırmaya yarar.(default olarak stretch gelir.)
 
-   - How would you implement Facebook’s friend search?
+- flex-wrap ile bir satırda yer kalmazsa elemanları aşağıya indirir(default olarak no-wrap vardır ve bu sağması için küçültür.)
 
-   - Why would you use a Relational Database Management System?
+## Flexbox itemlara verilen özellikler
 
-   - Why would you use a NoSQL DB?
-     It is highly recommended to know and use the correct design patterns. For example, you should know the difference between a Composite and a Decorator.
-     While junior developers are mostly required to have good problem solving skills and your first job won’t require knowing all the points listed above, this list will be a good help to plan your career
+- order ile öncelik, sıralama gibi kolaylıklar sağlar.
 
-<hr>
-<br>
+- align-self ile item'a özgü özellikler verilebilir.
 
-# 5 Things Better than a Computer Science Degree(Bilgisayar Bilimleri Lisansından daha iyi 5 Şey)
+- flex-grow ile alandaki alacağı uzunluğu oranlayabiliriz. Eğer sadece bir item'a flex-grow verilirse alanı doldurmaya çalışır. ayrıca flex:1 gibi yazılırsa de olur.
 
-- Yazılım hakkındaki blogları, github'ı ve insanları takip ederek gelişilebilir ama aktif olmak şartıyla.
-- Çözemediğin bir sorun olursa Stackoverflow'da ara en iyi çözümü bulursan oy vermeyi ihmal etme.
-- Stackoverflow'da sorunları çozerek puanını yüksek tut.
-- Blog yaz, hem öğrenmek hem de öğretmek için.
-- open source kominitesine dahil ol, oradan insanlar katkı yaparak kendini geliştirebilirsin.
-- Bir ürün ortaya çıkarmak, bu bir internet sitesi olabilir. Bunu yaparken biz ya isteyerek yada istemeyerek büyük bir bilgi ve deneyim(bir ürün oluşurken arkada olan bütün işleri, neler döndüğünü deneyimlersin.) sağlar.Bunlar dışında pazarlama konusunda da ufuk açar.
-- Akademik eğitimden çok projeler yapmak daha etkili bir yoldur.
-- CV'de yazılım hakkındaki platformların hesaplarının linki bırakılmalı örneğin (Github, Stackoverflow) gibi.
+- Responsive dizayn içn @medi(max-width: 768px){ body {...}} gibi kullanabiliriz. Yani max 768px ve altında ise içndeki kurallar geçerli olsun.
 
-<hr>
-<br>
+- Responsive tasarımlarda px değilde %'li değerler vermek daha mantıklı.Yani Responsive Units dediğimiz, em, rem, %, vw, vh gibi değerleri kullnmak bizim için daha kolay sürectir.
 
-# How to think like a programmer — lessons in problem solving(Bir programcı gibi düşünmek - problem çözmede dersler)
+- em parent elemanın font-size ile ilgiliydi
+- rem html'deki yani root'taki font-size göre çalışır.
+- % html'deki font-size eğer 16px ise 50% ise 8px olur.
+- vw, safyanın görenin kısmının genişliğine %'delik değerine tekabül eder
+- vh, safyanın görenin kısmının yüksekliğine %'delik değerine tekabül eder
 
-Yazılımda problem çözerken belli başlı kriterler vardır.
+## Grid layout Yapısı
 
-- İlk olarak problemi iyi bir anlamaktan geçiyor. Anladığını anlaman içinde sade bir şekilde anlatabiliyorsan anlamışsındır.**Programlama bir problemle karşılaştığın zaman daha önce çözdüğün problemi kullanarak problemler çözülür bu şekilde problem çoze çöze iyi bir yazılımcı olunur.**
-- hemen hareket etme, önce plan kur,( adımlarını bir şematize yani akış şeması yaparak plan kurmalısın).
-- Böl, büyük lokmayı bir an da yersen boğulursun.
-- Sıkışmayın, debug yap, sorunu yeniden değerlendir farklı yollara başvur eğer yoksa en baştan başla, sorunu internette ara ama sadece küçük sorunu büyük sorunu internette araştırma çünkü çabalamadan hiçbir şey öğrenilemez çabalamak gerekiyor.
-- Hemen uygula, kafandaki şeyi yap, bekleme.
-- Yani her çözümle gelişiriz. Sorunları çoze çöze gelişir ve sorunlara karşı olan bakış açımız gelişir. Bundan dolayı eğer bir sorun veya proje varsa ilk olarak sorunu iyi anlayın(istersen akış semaları kullan ) sonra sorunu ufak parçalara bölün kolay olanla başlayın. Son olarak tabi ki hatalar alacaksınız debug yapın olmuyorsa farklı yollara başvurun. Hiç olmuyorsa silin en baştan başlayın.
+display: grid;
+grid-template-columns: 110px 110px 110px;
+grid-template-rows: 110px 110px 110px;
+grid-template: 110px 110px 110px / 110px 110px 110px;
+grid-template: 1fr 1fr 1fr / 2fr 3fr 1fr;  ---> daha basit bir şekilde bolmelendirme yapılır
 
-<hr>
-<br>
+grid-row-start: 1;  ----> 1.satırdan başlayan yeri ilgili elemente koy
+grid-row-end: 1; -----------> 2.satrıdaki biten yere ilgili elementi yerleştir.
+grid-column-start: 1;  ----> 1.sütündan başlayan yeri ilgili elemente koy
+grid-column-end: 1; -----------> 2.sütüna kadar biten yere ilgili elementi yerleştir.
 
-tavsiye
-[Awesome CSS Learning ](https://github.com/micromata/awesome-css-learning#readme)
-[Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
-[normalize.css](https://github.com/necolas/normalize.css/blob/master/normalize.css)
-[Css-tricks](https://css-tricks.com/)
-[reset.css](https://meyerweb.com/eric/tools/css/reset/)
-[cdnjs.com](https://cdnjs.com/)
-[font-awesome](https://fontawesome.com/)
+Yukardakilerin kısa yolu
+grid-row : 1/ 2; ----> yazarak 1.'den 2'.ci satıra olan bölmeyi alırız.
+grid-column: 1 / 2; -------> yazarak 1.'den 2'.ci sütündaki  olan bölmeyi alırız.
 
-[frontendaily](https://www.youtube.com/playlist?list=PLfAfrKyDRWrGze_1T1bUU0qA9RknVKI5J)
 
-### Kaynaklar
+```javascript
 
-[1 Videoda HTML, CSS, Flexbox, Responsive Tasarım - Web Geliştirme Eğitimi(Yazılım Bilimi)](https://www.youtube.com/watch?v=y745R3Lv9WI)<br>
-[Non-Coding Activities That Boost Developer Skills(Makale Linki)](https://medium.com/swlh/non-coding-activities-that-boost-developer-skills-bcae28cb8847)
-[Warning: Your programming career](https://medium.com/sololearn/warning-your-programming-career-b9579b3a878b)<br>
-[5 Things Better than a Computer Science Degree](Açık kaynak kitaplık ol
+// Install Dependencies
+  npm install
+
+// Run scss compile
+  npm run scss
+
+```

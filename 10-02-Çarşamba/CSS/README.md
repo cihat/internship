@@ -119,3 +119,14 @@ grid-column-end: 1; -----------> 2.sütüna kadar biten yere ilgili elementi yer
 Yukardakilerin kısa yolu
 grid-row : 1/ 2; ----> yazarak 1.'den 2'.ci satıra olan bölmeyi alırız.
 grid-column: 1 / 2; -------> yazarak 1.'den 2'.ci sütündaki  olan bölmeyi alırız.
+
+
+```javascript
+
+// Install Dependencies
+  npm install
+
+// Run scss compile
+  npm run scss
+
+```

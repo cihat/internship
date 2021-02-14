@@ -18,7 +18,7 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 11. [Landing Page App](https://github.com/cihatdev/staj/tree/master/11-02-Perşembe)
 12. [Medipol Hospital Clone](https://github.com/cihatdev/staj/tree/master/12-02-Cuma)
 13. [Fashion Blog](https://github.com/cihatdev/staj/tree/master/13-02-Cumartesi)
-14. [#](https://github.com/cihatdev/staj/tree/master/14-02-Pazar)
+14. [Weekend Project](https://github.com/cihatdev/staj/tree/master/14-02-Pazar)
 15. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/15-02-Pazartesi)
 16. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/16-02-Salı)
 17. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/17-02-Çarşamba)
