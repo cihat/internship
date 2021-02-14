@@ -1,0 +1,106 @@
+.responsive-container {
+  .header {
+    width: 768px;
+    max-width: 768px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    margin: auto;
+
+    .container-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  .hero {
+    width: 768px;
+    max-height: 700px;
+    margin-bottom: 30px;
+    .rectangle {
+      left: 50px;
+      top: 59px;
+      margin-bottom: 30px;
+
+      h1 {
+        font-size: 30px;
+      }
+    }
+    .hero-image {
+      img {
+        width: 768px;
+        overflow-x: hidden;
+      }
+    }
+  }
+
+  main {
+    .container {
+      display: block;
+      width: 768px;
+    }
+
+    .posts {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .post {
+        margin: auto;
+        margin-bottom: 15px;
+        margin-right: 0px;
+        margin-left: 0px;
+      }
+
+      .other-post {
+        width: 768px;
+      }
+    }
+  }
+
+  .side-bar {
+    width: 260px;
+    margin: auto;
+  }
+
+  .pagination {
+    min-width: 509px;
+    margin: auto;
+  }
+
+  .widget-footer {
+    ul {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      li {
+        &:last-child {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+
+  footer {
+    width: 768px;
+    margin: auto;
+
+    img.hr {
+      width: 768px;
+    }
+    .company {
+      margin-bottom: 29px;
+      padding-bottom: 29px;
+    }
+  }
+
+  .pagination {
+    width: 768px;
+    margin: auto;
+  }
+  .widget-footer {
+    width: 768px;
+    margin: auto;
+  }
+}

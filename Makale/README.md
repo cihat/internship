@@ -134,22 +134,19 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 - Checkbox'lara :checked pseudo-elementi ile birbirinden güzel şekiller verilebilir.
 - Sitede gezirnirken safya geçişlerini veya scroll özelliğini daha etkin kullananılabilinir.
 - Animasyonlu arka plan yapılabilinir.
-- text'ler ile bir çok güzel tasarımlar yapılır.  
+- text'ler ile bir çok güzel tasarımlar yapılır.
 - Yani sonuç olarak hayal gücümü kullanarak saf CSS ile harika işler çıkarabiliriz .
-Bunlarından fikir olması açısından codepen.io sitesinden bulabiliriz.
+  Bunlarından fikir olması açısından codepen.io sitesinden bulabiliriz.
 
 <hr>
 <br>
 
-tavsiye
+### Tavsiye Siteler
 [Awesome CSS Learning ](https://github.com/micromata/awesome-css-learning#readme)
-[Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
-[normalize.css](https://github.com/necolas/normalize.css/blob/master/normalize.css)
 [Css-tricks](https://css-tricks.com/)
 [reset.css](https://meyerweb.com/eric/tools/css/reset/)
 [cdnjs.com](https://cdnjs.com/)
 [font-awesome](https://fontawesome.com/)
-
 [frontendaily](https://www.youtube.com/playlist?list=PLfAfrKyDRWrGze_1T1bUU0qA9RknVKI5J)
 
 ### Kaynaklar
@@ -157,6 +154,6 @@ tavsiye
 [1 Videoda HTML, CSS, Flexbox, Responsive Tasarım - Web Geliştirme Eğitimi(Yazılım Bilimi)](https://www.youtube.com/watch?v=y745R3Lv9WI)<br>
 [Non-Coding Activities That Boost Developer Skills(Makale Linki)](https://medium.com/swlh/non-coding-activities-that-boost-developer-skills-bcae28cb8847)
 [Warning: Your programming career](https://medium.com/sololearn/warning-your-programming-career-b9579b3a878b)<br>
-[5 Things Better than a Computer Science Degree](Açık kaynak kitaplık ol
-[How to think like a programmer — lessons in problem solving](https://medium.com/free-code-camp/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)
+[5 Things Better than a Computer Science Degree](https://medium.com/better-programming/5-things-better-than-computer-science-degree-f8acb8061c09)<br>
+[How to think like a programmer — lessons in problem solving](https://medium.com/free-code-camp/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)<br>
 [5 Amazing Things Pure CSS Can Do](https://medium.com/javascript-in-plain-english/5-amazing-things-pure-css-can-do-20b8fe3738b)

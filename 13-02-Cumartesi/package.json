@@ -1,0 +1,24 @@
+{
+  "name": "fashion-blog",
+  "version": "1.0.0",
+  "description": "```javascript",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "scripts": {
+    "scss": "node-sass --watch scss/ -o css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cihatdev/fashion-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cihatdev/fashion-blog/issues"
+  },
+  "homepage": "https://github.com/cihatdev/fashion-blog#readme"
+}

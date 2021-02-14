@@ -1,0 +1,63 @@
+.responsive-container .header {
+  width: 768px;
+  max-width: 768px;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  margin: auto; }
+  .responsive-container .header .container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+.responsive-container .hero {
+  width: 768px;
+  max-height: 700px;
+  margin-bottom: 30px; }
+  .responsive-container .hero .rectangle {
+    left: 50px;
+    top: 59px;
+    margin-bottom: 30px; }
+    .responsive-container .hero .rectangle h1 {
+      font-size: 30px; }
+  .responsive-container .hero .hero-image img {
+    width: 768px;
+    overflow-x: hidden; }
+
+.responsive-container main .container {
+  display: block;
+  width: 768px; }
+
+.responsive-container main .posts .post {
+  margin: auto;
+  margin-bottom: 15px; }
+  .responsive-container main .posts .post:nth-child(odd) {
+    margin-right: 15px; }
+
+.responsive-container main .posts .other-post {
+  width: 768px; }
+
+.responsive-container .side-bar {
+  width: 260px;
+  margin: auto; }
+
+.responsive-container .pagination {
+  min-width: 509px;
+  margin: auto; }
+
+.responsive-container .widget-footer ul {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+  .responsive-container .widget-footer ul li:last-child {
+    margin-right: 20px; }
+
+.responsive-container footer {
+  margin: auto;
+  width: 768px; }
+  .responsive-container footer img.hr {
+    width: 768px; }
+  .responsive-container footer .company {
+    margin-bottom: 29px;
+    padding-bottom: 29px; }
