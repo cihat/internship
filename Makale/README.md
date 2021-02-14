@@ -128,6 +128,19 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 <hr>
 <br>
 
+# 5 Amazing Things Pure CSS Can Do
+
+- Css ile JavaScript olmadan da harika işler çıkarabiliriz.Bunlar hem sıra dışı görsel işler hem de JavaScript kullanmadan fonksiyonel işlerdir.
+- Checkbox'lara :checked pseudo-elementi ile birbirinden güzel şekiller verilebilir.
+- Sitede gezirnirken safya geçişlerini veya scroll özelliğini daha etkin kullananılabilinir.
+- Animasyonlu arka plan yapılabilinir.
+- text'ler ile bir çok güzel tasarımlar yapılır.  
+- Yani sonuç olarak hayal gücümü kullanarak saf CSS ile harika işler çıkarabiliriz .
+Bunlarından fikir olması açısından codepen.io sitesinden bulabiliriz.
+
+<hr>
+<br>
+
 tavsiye
 [Awesome CSS Learning ](https://github.com/micromata/awesome-css-learning#readme)
 [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
@@ -145,3 +158,5 @@ tavsiye
 [Non-Coding Activities That Boost Developer Skills(Makale Linki)](https://medium.com/swlh/non-coding-activities-that-boost-developer-skills-bcae28cb8847)
 [Warning: Your programming career](https://medium.com/sololearn/warning-your-programming-career-b9579b3a878b)<br>
 [5 Things Better than a Computer Science Degree](Açık kaynak kitaplık ol
+[How to think like a programmer — lessons in problem solving](https://medium.com/free-code-camp/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)
+[5 Amazing Things Pure CSS Can Do](https://medium.com/javascript-in-plain-english/5-amazing-things-pure-css-can-do-20b8fe3738b)

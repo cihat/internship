@@ -102,3 +102,20 @@ div.box-2 {
 - % html'deki font-size eğer 16px ise 50% ise 8px olur.
 - vw, safyanın görenin kısmının genişliğine %'delik değerine tekabül eder
 - vh, safyanın görenin kısmının yüksekliğine %'delik değerine tekabül eder
+
+## Grid layout Yapısı
+
+display: grid;
+grid-template-columns: 110px 110px 110px;
+grid-template-rows: 110px 110px 110px;
+grid-template: 110px 110px 110px / 110px 110px 110px;
+grid-template: 1fr 1fr 1fr / 2fr 3fr 1fr;  ---> daha basit bir şekilde bolmelendirme yapılır
+
+grid-row-start: 1;  ----> 1.satırdan başlayan yeri ilgili elemente koy
+grid-row-end: 1; -----------> 2.satrıdaki biten yere ilgili elementi yerleştir.
+grid-column-start: 1;  ----> 1.sütündan başlayan yeri ilgili elemente koy
+grid-column-end: 1; -----------> 2.sütüna kadar biten yere ilgili elementi yerleştir.
+
+Yukardakilerin kısa yolu
+grid-row : 1/ 2; ----> yazarak 1.'den 2'.ci satıra olan bölmeyi alırız.
+grid-column: 1 / 2; -------> yazarak 1.'den 2'.ci sütündaki  olan bölmeyi alırız.
