@@ -1,0 +1,547 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+* {
+  text-decoration: none;
+  -webkit-overflow-scrolling: touch; }
+  *:focus {
+    outline: 0; }
+
+html {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  width: 100vw;
+  height: 100vh; }
+  html body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin: auto;
+    text-align: center; }
+
+header #navbar {
+  width: 1217px;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header #navbar .logo {
+    cursor: pointer; }
+    header #navbar .logo img {
+      width: 246px;
+      height: 41px; }
+  header #navbar .right-buttons ul {
+    display: flex; }
+    header #navbar .right-buttons ul li {
+      margin-left: 40px; }
+      header #navbar .right-buttons ul li a {
+        font-weight: 400;
+        color: rgba(31, 21, 52, 0.5); }
+        header #navbar .right-buttons ul li a:hover {
+          color: #1f1534;
+          font-weight: bold; }
+        header #navbar .right-buttons ul li a span.home {
+          font-weight: bold;
+          color: #1f1534; }
+
+.element-dot {
+  position: absolute;
+  top: 160px;
+  width: 131.58px;
+  height: 115px;
+  display: inline; }
+
+.section-illustration {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 190px;
+  align-items: center; }
+  .section-illustration .header-text {
+    display: flex;
+    flex-direction: column;
+    width: 434px;
+    height: 338px;
+    margin-right: 120px; }
+    .section-illustration .header-text .title {
+      width: 427px;
+      height: 112px;
+      margin-bottom: 24px;
+      text-align: left; }
+      .section-illustration .header-text .title h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 56px; }
+    .section-illustration .header-text .paragraf {
+      margin-bottom: 45px; }
+      .section-illustration .header-text .paragraf p {
+        width: 434px;
+        height: 96px;
+        color: #7d7987;
+        font-size: 21px;
+        line-height: 32px; }
+    .section-illustration .header-text .button button {
+      width: 200px;
+      height: 60px;
+      background-color: #458ff6;
+      color: #fff;
+      border-radius: 3rem;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 60px;
+      border: 0px;
+      cursor: pointer; }
+      .section-illustration .header-text .button button:hover {
+        background-color: #fff;
+        color: #458ff6;
+        border: 2px #458ff6 solid;
+        transition: 1s, color; }
+  .section-illustration .illustration {
+    width: 693px;
+    height: 598px;
+    margin-top: 14px; }
+
+.our-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px; }
+  .our-services h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 26px; }
+  .our-services .h-r img {
+    margin-bottom: 33px;
+    width: 56px;
+    height: 2px; }
+  .our-services .our-services-paragraf {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #7d7987;
+    width: 952px;
+    height: 60px; }
+
+.services-list {
+  margin: auto;
+  width: 1124px;
+  height: 745px;
+  margin-bottom: 69px; }
+  .services-list .background-photo {
+    position: absolute;
+    z-index: -1;
+    top: 950px;
+    left: 0px; }
+  .services-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+    .services-list ul li {
+      width: 350px;
+      height: 354px;
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      margin-bottom: 37px;
+      margin-right: 36px;
+      border-radius: 10px; }
+      .services-list ul li:nth-child(3) {
+        margin-right: 0; }
+      .services-list ul li:last-child {
+        margin-right: 0; }
+      .services-list ul li .icon {
+        width: 92px;
+        height: 90px;
+        margin: 54px 221px 23px 37px; }
+      .services-list ul li .title {
+        width: 196px;
+        height: 56px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 56px;
+        color: #000;
+        margin: 0 151px 1px 39px;
+        text-align: left; }
+      .services-list ul li .description {
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 28px;
+        color: #7d7987;
+        padding: 1px 45px 47px 39px;
+        text-align: left; }
+
+.button-learn-more {
+  text-align: center; }
+  .button-learn-more button.learn-more {
+    width: 200px;
+    height: 60px;
+    color: #458ff6;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    border-radius: 50px;
+    border: 1px #458ff6 solid;
+    margin-bottom: 220px;
+    cursor: pointer; }
+    .button-learn-more button.learn-more:hover {
+      background-color: #458ff6;
+      color: #fff;
+      transition: 1s, color, backgroun-color; }
+
+.leading-healthcare-providers {
+  width: 1273px;
+  height: 477px;
+  margin: auto auto 229px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .leading-healthcare-providers .medipol-illustration-sec02-1 {
+    width: 650px;
+    height: 477px;
+    margin-right: 137px; }
+  .leading-healthcare-providers .healthcare-text {
+    position: relative;
+    width: 486px;
+    height: 398px;
+    display: flex;
+    flex-direction: column; }
+    .leading-healthcare-providers .healthcare-text .healthcare-title {
+      display: flex;
+      justify-content: flex-start; }
+      .leading-healthcare-providers .healthcare-text .healthcare-title h1 {
+        text-align: left;
+        align-items: right;
+        margin-left: 0;
+        margin-bottom: 26px;
+        width: 481px;
+        height: 112px;
+        font-weight: 700;
+        line-height: 56px;
+        font-size: 36px;
+        color: #000; }
+    .leading-healthcare-providers .healthcare-text .text {
+      width: 450px;
+      height: 120px; }
+      .leading-healthcare-providers .healthcare-text .text p {
+        text-align: left;
+        margin-bottom: 37px;
+        color: #7d7987;
+        font-size: 18px;
+        line-height: 30px; }
+    .leading-healthcare-providers .healthcare-text .button-learn-more #healthcare-button {
+      margin-bottom: 0px;
+      width: 200px;
+      height: 60px;
+      color: #458ff6;
+      background-color: #fff;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      cursor: pointer; }
+      .leading-healthcare-providers .healthcare-text .button-learn-more #healthcare-button:hover {
+        background-color: #458ff6;
+        color: #fff;
+        transition: 1s, color, backgroun-color; }
+
+.trafalgar-illustration-sec03-1 {
+  width: 1165x;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto 251px auto;
+  text-align: center; }
+  .trafalgar-illustration-sec03-1 .healthcare-text {
+    margin-right: 71px;
+    width: 486px;
+    height: 398px;
+    display: flex;
+    flex-direction: column; }
+    .trafalgar-illustration-sec03-1 .healthcare-text .healthcare-title {
+      display: flex;
+      justify-content: flex-start; }
+      .trafalgar-illustration-sec03-1 .healthcare-text .healthcare-title h1 {
+        text-align: left;
+        align-items: right;
+        margin-left: 0;
+        margin-bottom: 26px;
+        width: 481px;
+        height: 112px;
+        font-weight: 700;
+        line-height: 56px;
+        font-size: 36px;
+        color: #000; }
+    .trafalgar-illustration-sec03-1 .healthcare-text .h-r-2 {
+      margin-bottom: 31px;
+      text-align: left; }
+    .trafalgar-illustration-sec03-1 .healthcare-text .text {
+      width: 450px;
+      height: 120px; }
+      .trafalgar-illustration-sec03-1 .healthcare-text .text p {
+        text-align: left;
+        margin-bottom: 37px;
+        color: #7d7987;
+        font-size: 18px;
+        line-height: 30px; }
+    .trafalgar-illustration-sec03-1 .healthcare-text .button-learn-more {
+      text-align: left;
+      margin-top: 40px; }
+      .trafalgar-illustration-sec03-1 .healthcare-text .button-learn-more #healthcare-button {
+        margin-bottom: 0px;
+        width: 200px;
+        height: 60px;
+        color: #458ff6;
+        background-color: #fff;
+        bottom: 0px;
+        left: 0px;
+        cursor: pointer; }
+        .trafalgar-illustration-sec03-1 .healthcare-text .button-learn-more #healthcare-button:hover {
+          background-color: #458ff6;
+          color: #fff;
+          transition: 1s, color, backgroun-color; }
+        .trafalgar-illustration-sec03-1 .healthcare-text .button-learn-more #healthcare-button span {
+          margin-left: 14px; }
+          .trafalgar-illustration-sec03-1 .healthcare-text .button-learn-more #healthcare-button span img {
+            color: #fff; }
+
+.account-testimonials {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 1120px;
+  height: 425px;
+  margin: auto;
+  text-align: center;
+  z-index: 0;
+  margin-bottom: 42px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px; }
+  .account-testimonials span.element-dot-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1; }
+  .account-testimonials span.element-dot-2 {
+    position: absolute;
+    bottom: 39px;
+    right: 1040px;
+    z-index: -1; }
+  .account-testimonials h1 {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+    color: white;
+    max-width: 522px;
+    height: 48px;
+    margin: 64px 297px 25px 301px; }
+  .account-testimonials .account-infos {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .account-testimonials .account-infos .account-info-left {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .account-testimonials .account-infos .account-info-left .account-name-rank {
+        margin-left: 29px;
+        display: flex;
+        flex-direction: column;
+        text-align: left; }
+        .account-testimonials .account-infos .account-info-left .account-name-rank .name {
+          font-size: 22px;
+          line-height: 48px;
+          font-weight: bold;
+          color: #fff; }
+        .account-testimonials .account-infos .account-info-left .account-name-rank .rank {
+          font-size: 18px;
+          line-height: 48px;
+          color: #fff; }
+    .account-testimonials .account-infos .account-info-right .account-comment {
+      width: 420px;
+      height: 120px;
+      margin-left: 110px;
+      color: #fff;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: left; }
+
+.arrow-nav {
+  width: 336px;
+  height: 20px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 216px; }
+  .arrow-nav button {
+    font-style: none;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    cursor: pointer; }
+    .arrow-nav button div img {
+      margin-right: 18px; }
+    .arrow-nav button div:last-child img {
+      margin-right: 0; }
+    .arrow-nav button:hover {
+      opacity: 0.8; }
+
+.our-lates-article {
+  margin: 191px auto 129px auto;
+  width: 1220px;
+  height: 810px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; }
+  .our-lates-article .background-photo2 img {
+    position: absolute;
+    z-index: -1;
+    right: 0; }
+  .our-lates-article .lates-article h1 {
+    margin-bottom: 26px;
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 700; }
+  .our-lates-article .h-r {
+    margin-bottom: 79px; }
+  .our-lates-article .articles ul {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-bottom: 69px; }
+    .our-lates-article .articles ul li {
+      margin-right: 34px;
+      width: 350px;
+      height: 512px;
+      flex-direction: column;
+      border-radius: 18px;
+      background-color: #fff; }
+      .our-lates-article .articles ul li .article-image img {
+        width: 350px;
+        height: 240px;
+        margin-bottom: 24px;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px; }
+      .our-lates-article .articles ul li .article-title h1 {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 32px;
+        text-align: left;
+        padding: 0px 66px 12px 33px; }
+      .our-lates-article .articles ul li .article-description p {
+        font-size: 1rem;
+        line-height: 28px;
+        font-weight: 300;
+        color: #7d7987;
+        margin: 0px 51px 25px 33px;
+        text-align: left; }
+      .our-lates-article .articles ul li:nth-last-child() {
+        margin-right: 0; }
+      .our-lates-article .articles ul li .read-more-button {
+        margin: 0px 51px 35px 30px; }
+        .our-lates-article .articles ul li .read-more-button button {
+          background-color: inherit;
+          border: none;
+          display: flex;
+          cursor: pointer;
+          justify-content: center;
+          align-items: center; }
+          .our-lates-article .articles ul li .read-more-button button p {
+            color: #4089ed;
+            font-size: 17px;
+            line-height: 28px;
+            font-weight: 600;
+            margin-right: 15px; }
+          .our-lates-article .articles ul li .read-more-button button img {
+            width: 14.14px;
+            height: 9px; }
+  .our-lates-article .view-all-button button.view-all {
+    width: 200px;
+    height: 60px;
+    color: #458ff6;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    border-radius: 60px;
+    border: 2px #458ff6 solid; }
+    .our-lates-article .view-all-button button.view-all:hover {
+      background-color: #458ff6;
+      color: #fff;
+      border: 2px #fff solid;
+      transition: 1s, color; }
+
+footer {
+  width: 100%;
+  height: 432px;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  footer .medipol-hospital {
+    width: 391px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    margin: 118px 145px 113px 190px;
+    align-items: flex-start; }
+    footer .medipol-hospital .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 17px; }
+      footer .medipol-hospital .title .icon img {
+        margin-right: 12px;
+        width: 41px;
+        height: 41px; }
+      footer .medipol-hospital .title h1 {
+        color: #fff;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: bold; }
+    footer .medipol-hospital .description p {
+      font-size: 18px;
+      line-height: 28px;
+      color: #fff;
+      margin-bottom: 31px;
+      text-align: left; }
+    footer .medipol-hospital .info {
+      width: 391px;
+      height: 28px;
+      margin: 0 0px; }
+      footer .medipol-hospital .info p {
+        color: #fff;
+        text-align: left; }
+  footer .company-info,
+  footer .region,
+  footer .help {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    align-items: flex-start; }
+    footer .company-info .title,
+    footer .region .title,
+    footer .help .title {
+      font-weight: bold;
+      line-height: 60px;
+      font-size: 20px;
+      color: #fff;
+      padding-left: 0; }
+    footer .company-info ul li a,
+    footer .region ul li a,
+    footer .help ul li a {
+      right: 0;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 38px;
+      color: #fff;
+      float: left;
+      border: none;
+      cursor: pointer; }
