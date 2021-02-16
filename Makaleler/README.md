@@ -141,7 +141,45 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 <hr>
 <br>
 
+# How to Become a Great Software Developer [with Actionable Tips]
+
+## Nasıl daha iyi bir developer olunur
+
+- İyi bir mentor aramalı. İlgili alanda iyi birisi iyi bir yol gösterici olabilir. Deneyimlerinden çıkardıklarını uygulayabilinir.
+- İletişim çok önemli. Yani kendini iyi ifade etmeli ve iyi bir dinleyici olunmalı.
+- Google'u etkili bir şekilde kullanmalı. Bir çok aracı araştırarak niçin ve nasıl kullanıldığını öğrenilebilir.
+- Hergün kod yazmalı. Pratikler yapmalı bu yol gösterir. Düşünmeyi ve karar vermeyi sağlar.
+- Pratik çok önemli her gün pratik yapmalı.
+  - FreeCodeCamp'taki bedava dersler ve Microsoft'un Web-Dev-For-Beginner adlı bir reposu var bir çeşit yol haritası olabilir.
+- Hatalardan korkma ve bu hataların üzerine yürü yani hatalardan ders çıkar ve fikirlere açık ve öğrenmeye istekli olunmalı.
+- Farklı projeler geliştirin ve başkaların çözdüğü farklı cevapları anlamalı çünkü farklı yollar öğrenilebilinir veya başkaların hatasından ders alınabilinir.
+  Kendini sürekli bir şeyler öğrenecekmişsin gibi her zaman çalış çünkü yazılımda bir noktada bıraktıktan sonra geri geldiğinde herşey olduğu gibi kalmaz. Hep an bir değişim ve gelişim vardır.
+- Sektöre yön verenleri takip et çünkü bunların yeni çıkardıkları tool'larını kullandığında neden, niçin, hangi soruna karşılık ilgili tool'u kullandığını öğrenir ve daha etkili bir şekilde çalışırız.
+- Open Source'a katkıda bulun çünkü birçok developer ile çalışır ve birçok feedback(geri dönüş) alırsın ve bir kominiteye dahil olmuş olursun.
+- Öğrendiklerini başkalarına anlat. Güzel bir öğrenme yöntemidir.
+- Soru sormayı bil(kibarca), eğer bilmiyorsan da utanma.
+
+[40+ JavaScript Projects For Your Portfolio [With Videos!]](https://thesmartcoder.dev/9-awesome-projects-you-can-build-with-vanilla-javascript/)
+[Github - microsoft-Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
+
+<hr>
+<br>
+
+
+# Layout in CSS
+## CSS'de düzesn
+
+- Componentler yeniden kullanılabilirler(reusable). Bir sayfada istediğin konuma yerleştirebilinir.
+- margin, padding 
+- Global değişkenler kullan eğer dosyanın içinde üç ve üzerinde kullanılıyorsa bir renk o rengin kodunu bir değişkene tanımla. Ve en üste bunları tanımla.
+- Konumlandırma elemanının konumu, elemanın çocuklarının konumu ve elemanların container'daki konumu vardır.
+- 
+
+<hr>
+<br>
+
 ### Tavsiye Siteler
+
 [Awesome CSS Learning ](https://github.com/micromata/awesome-css-learning#readme)
 [Css-tricks](https://css-tricks.com/)
 [reset.css](https://meyerweb.com/eric/tools/css/reset/)
@@ -152,8 +190,10 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 ### Kaynaklar
 
 [1 Videoda HTML, CSS, Flexbox, Responsive Tasarım - Web Geliştirme Eğitimi(Yazılım Bilimi)](https://www.youtube.com/watch?v=y745R3Lv9WI)<br>
-[Non-Coding Activities That Boost Developer Skills(Makale Linki)](https://medium.com/swlh/non-coding-activities-that-boost-developer-skills-bcae28cb8847)
+[Non-Coding Activities That Boost Developer Skills(Makale Linki)](https://medium.com/swlh/non-coding-activities-that-boost-developer-skills-bcae28cb8847)<br>
 [Warning: Your programming career](https://medium.com/sololearn/warning-your-programming-career-b9579b3a878b)<br>
 [5 Things Better than a Computer Science Degree](https://medium.com/better-programming/5-things-better-than-computer-science-degree-f8acb8061c09)<br>
 [How to think like a programmer — lessons in problem solving](https://medium.com/free-code-camp/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)<br>
-[5 Amazing Things Pure CSS Can Do](https://medium.com/javascript-in-plain-english/5-amazing-things-pure-css-can-do-20b8fe3738b)
+[5 Amazing Things Pure CSS Can Do](https://medium.com/javascript-in-plain-english/5-amazing-things-pure-css-can-do-20b8fe3738b)<br>
+[How to Become a Great Software Developer [with Actionable Tips]](https://www.freecodecamp.org/news/how-to-become-a-great-software-developer/)<br>
+[Layout in CSS](https://medium.com/crowdbotics/layout-in-css-634c3ca3dcff)<br>
