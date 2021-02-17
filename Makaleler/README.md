@@ -165,15 +165,27 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 <hr>
 <br>
 
-
 # Layout in CSS
+
 ## CSS'de düzesn
 
 - Componentler yeniden kullanılabilirler(reusable). Bir sayfada istediğin konuma yerleştirebilinir.
-- margin, padding 
+- margin, padding
 - Global değişkenler kullan eğer dosyanın içinde üç ve üzerinde kullanılıyorsa bir renk o rengin kodunu bir değişkene tanımla. Ve en üste bunları tanımla.
 - Konumlandırma elemanının konumu, elemanın çocuklarının konumu ve elemanların container'daki konumu vardır.
-- 
+-
+
+<hr>
+<br>
+
+# 21 Predictions about the Software Development Trends in 2021
+
+## 2021 Yılında Yazılım Geliştirme Trendlerine İlişkin 21 Öngörü
+
+- Cloud teknolojisi pandemide her zamankinden daha güçlendi. Bulut teknolojileri alanında gelişmeye bak ilerde çok populer olacak bir alandır.
+- Merkezi olmayan altyapı(Edge Computing) üstel olarak gelişecek, CDN(Content Delivery Network). Amazon, Google, Microsoft gibi firmalar ile operatör şirketleri(Telecom Companies, Data Center Providers, Network Providers) arasında son zamanlardaki bağlantılı cihazların artması ve gelişmesiyle Edge Computing alanında bir rekabet oluşacaktır.
+- Multi Cloud alanı 
+- Kuantum hesaplamaları gelişecek 
 
 <hr>
 <br>
@@ -212,3 +224,4 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 [5 Amazing Things Pure CSS Can Do](https://medium.com/javascript-in-plain-english/5-amazing-things-pure-css-can-do-20b8fe3738b)<br>
 [How to Become a Great Software Developer [with Actionable Tips]](https://www.freecodecamp.org/news/how-to-become-a-great-software-developer/)<br>
 [Layout in CSS](https://medium.com/crowdbotics/layout-in-css-634c3ca3dcff)<br>
+[21 Predictions about the Software Development Trends in 2021](https://towardsdatascience.com/21-predictions-about-the-software-development-trends-in-2021-600bfa048be)<br>
