@@ -178,6 +178,21 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 <hr>
 <br>
 
+# 21 Predictions about the Software Development Trends in 2021
+
+## 2021 Yılında Yazılım Geliştirme Trendlerine İlişkin 21 Öngörü
+
+- Cloud teknolojisi pandemide her zamankinden daha güçlendi. Bulut teknolojileri alanında gelişmeye bak ilerde çok populer olacak bir alandır.
+- Merkezi olmayan altyapı(Edge Computing) üstel olarak gelişecek, CDN(Content Delivery Network). Amazon, Google, Microsoft gibi firmalar ile operatör şirketleri(Telecom Companies, Data Center Providers, Network Providers) arasında son zamanlardaki bağlantılı cihazların artması ve gelişmesiyle Edge Computing alanında bir rekabet oluşacaktır.
+- Multi Cloud alanı 
+- Kuantum hesaplamaları gelişecek 
+
+
+
+
+<hr>
+<br>
+
 ### Tavsiye Siteler
 
 [Awesome CSS Learning ](https://github.com/micromata/awesome-css-learning#readme)
