@@ -17,7 +17,13 @@ Big Data(Büyük Veri)
 - Big data ile şirketler veya kişiler birçok veriye ulaşabilir. Bu veriler ile hemen hemen herşeyi yapabilirler. Örneğin bir ürünü satırmaya çalışma, oy vermek kararını değiştirm gibi bir çok sayısız alanda Big data vardır.
 - Big data alanında, Big data mühendisliği, Big data mimarlığı, Big data analistiği, veritabanı müh, veri ambarı müh, big data araştırmacılığı gibi bir çok iş alanları vardır. Bu iş alanları ise geleceğin iş alanları olarak görülüyor.
 
-##
+## [Big Data, Yapay Zeka ve Turing Testi – Aslında Çok Basit (Bölüm #5)](https://www.youtube.com/watch?v=y7tZC-07O6g)
+
+- Turgin testi instanları robotlardan ayıran bir test.
+- zeki = intelligent, bilgiyi toplayabilme yeteneği = intelligence, natural ingeeligence(doğal zeka) insan beyni olarak tanımlayabilinir, artificial intelligence ise yapay zeka denilen şey. Bilgiyi yapay olarak toplayan ve işleyen bir mekanizma. Yazılan geliştirilen bazı algoritmaların yazılmış, uygulanmış halleri olarak bazı programlar yapay zekayı oluşturuyorlar. Yapay zeka özetle yapay yöntemlerle verileri toplayan ve bu verileri işleyen mekanizmanın genel adıdır.
+- Veri kaynaklarını insanlar üretir , örnek sosyal medyadaki hareketlerin başka bir örnek sensörler gibi bir çok alanda veri toplayan cihazlar mevcut.
+- Big data, bir programın bir kerede üzerinde çalıştığı bilgisayarın belleğine sığdıramadığı yani bir kerede işleyemediği data miktarına big data diyoruz.
+- Konuyla alakalı tavsiye konu Akıldışı ama öngörülebilir / Dan Arialy
 
 ##
 

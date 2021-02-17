@@ -21,7 +21,7 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 14. [Weekend Project - #16](https://github.com/cihatdev/staj/tree/master/14-02-Pazar)
 15. [House Sale Project](https://github.com/cihatdev/staj/tree/master/15-02-Pazartesi)
 16. [Capital of Country](https://github.com/cihatdev/staj/tree/master/16-02-Salı)
-17. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/17-02-Çarşamba)
+17. [MAQs Project](https://github.com/cihatdev/staj/tree/master/17-02-Çarşamba)
 18. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/18-02-Perşembe)
 19. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/19-02-Cuma)
 20. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/20-02-Cumartesi)
