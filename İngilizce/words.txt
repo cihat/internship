@@ -18,26 +18,26 @@ admit = kabul etmek
 adult = yetişkin
 affect = etkilemek
 after = sonra
-again
-against
-age
-agency
-agent
-ago
-agree
-agreement
-ahead
-air
-all
-allow
-almost
-alone
-along
-already
-also
-although
-always
-American
+again = tekrar
+against = karşısında/karşı
+age = yaş
+agency = 
+agent = ajan
+ago = önce
+agree = katılmak
+agreement = anlaşma
+ahead = önde
+air = hava
+all = tüm/bütün
+allow = izin vermek
+almost = neredeyse
+alone = yalnız
+along = boyunca
+already = zaten
+also = ayrıca/-da,-de
+although = ...olmasına rağmen
+always = her zaman/daima
+American = Amerikan
 among
 amount
 analysis
