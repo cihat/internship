@@ -38,26 +38,26 @@ also = ayrıca/-da,-de
 although = ...olmasına rağmen
 always = her zaman/daima
 American = Amerikan
-among
-amount
-analysis
-and
-animal
-another
-answer
-any
-anyone
-anything
-appear
-apply
-approach
-area
-argue
-arm
-around
-arrive
-art
-article
+among = arasında
+amount = miktar
+analysis = analiz
+and = ve
+animal = hayvan
+another = başka
+answer = 
+any = 
+anyone = 
+anything = 
+appear = 
+apply = 
+approach = 
+area = 
+argue = 
+arm = 
+around = 
+arrive = 
+art = 
+article = 
 artist
 as
 ask

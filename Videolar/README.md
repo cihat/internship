@@ -25,7 +25,8 @@ Big Data(Büyük Veri)
 - Big data, bir programın bir kerede üzerinde çalıştığı bilgisayarın belleğine sığdıramadığı yani bir kerede işleyemediği data miktarına big data diyoruz.
 - Konuyla alakalı tavsiye konu Akıldışı ama öngörülebilir / Dan Arialy
 
-##
+## [Steve Jobs olmak; Wozniak ve Garajda Şirket Kurma Meselesi– Aslında Çok Basit (Bölüm #6)](https://www.youtube.com/watch?v=_ao5CA3H094)
+- 
 
 ##
 
@@ -49,4 +50,4 @@ Big Data(Büyük Veri)
 
 ##
 
-##
+## [Why Code Evolve from Procedural to Object-Oriented to Functional Programming](https://levelup.gitconnected.com/why-code-evolve-from-procedural-to-object-oriented-to-functional-programming-13a88292307e)

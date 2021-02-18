@@ -184,8 +184,8 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 
 - Cloud teknolojisi pandemide her zamankinden daha güçlendi. Bulut teknolojileri alanında gelişmeye bak ilerde çok populer olacak bir alandır.
 - Merkezi olmayan altyapı(Edge Computing) üstel olarak gelişecek, CDN(Content Delivery Network). Amazon, Google, Microsoft gibi firmalar ile operatör şirketleri(Telecom Companies, Data Center Providers, Network Providers) arasında son zamanlardaki bağlantılı cihazların artması ve gelişmesiyle Edge Computing alanında bir rekabet oluşacaktır.
-- Multi Cloud alanı 
-- Kuantum hesaplamaları gelişecek 
+- Multi Cloud alanı
+- Kuantum hesaplamaları gelişecek
 
 <hr>
 <br>
@@ -196,11 +196,60 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 
 - Cloud teknolojisi pandemide her zamankinden daha güçlendi. Bulut teknolojileri alanında gelişmeye bak ilerde çok populer olacak bir alandır.
 - Merkezi olmayan altyapı(Edge Computing) üstel olarak gelişecek, CDN(Content Delivery Network). Amazon, Google, Microsoft gibi firmalar ile operatör şirketleri(Telecom Companies, Data Center Providers, Network Providers) arasında son zamanlardaki bağlantılı cihazların artması ve gelişmesiyle Edge Computing alanında bir rekabet oluşacaktır.
-- Multi Cloud alanı 
-- Kuantum hesaplamaları gelişecek 
+- Multi Cloud alanı
+- Kuantum hesaplamaları gelişecek
 
+<hr>
+<br>
 
+# Software Developers: Adapt or You’ll Be Replaced
 
+## Yazılım Geliştiriciler: Uyum Sağlayın veya Değiştirileceksiniz
+
+- Yazılım sürekli gelişen bir alandır.
+- Zamanla kod yazmak daha effektif hale getirildi. Nesne Yönelimli Programalama(OOP) ve İşlevsel Programlama(Function Programming) ile daha öz kod yazarak daha çok iş yapmak istenmiştir. Zamandan ve güçten tasarruf için.
+- Yazılım alanında genç geliştiricileri deneyimli geliştiricilderden hem iyi hem de kotü ayrı bir konumdadır.
+- Yazımlımda 5 yıl önceki teknolojiler sanki bir tarih dersinde anlatılanlar gibi eskiyip gittiler.
+- Yeni yazılımcılar eski yazılımcılara nazaran yeni toolları kullanarak daha iyi riski tespiti etme, hataları ayıklamada vb. birçok konuda iş çıkarabilirler.
+- Gelecek senelerde değişikliklere hazır ol. Yazılımın tanımı çalşma prensipleri, parametreleri çok değişecektir. Buna hazırlıklı olmak gerekir.
+
+<hr>
+<br>
+
+# Don’t Just Write Code, Solve Problems
+
+## Sadece Kod Yazmayın, Sorunları Çözün(with George Polya)
+
+- “Sorunları çözmek, diyelim ki yüzmek gibi pratik bir beceridir. Herhangi bir pratik beceriyi taklit ederek ve pratik yaparak kazanırız. Yüzmeye çalışırken, başlarını suyun üzerinde tutmak için başkalarının elleriyle ve ayaklarıyla yaptıklarını taklit ediyorsunuz ve sonunda yüzmeyi pratik yaparak yüzmeyi öğreniyorsunuz. Problemleri çözmeye çalışırken, diğer insanların problemleri çözerken yaptıklarını gözlemlemeli ve taklit etmelisiniz ve sonunda problemleri yaparak çözmeyi öğrenirsiniz. " - George Polya, Nasıl Çözülür?
+- İlk olarak sorunu iyi bir şekilde anlamamız gerekiyor. Bu anladıklarımız üzerine bir plan kuruyoruz yapa bir grafik, şekil, flowchart gibi örneklerle bir taslak, bir strateji geliştiriyoruz.
+- Daha sonra bu yaptığımız planı uygulamaya döküyoruz. Tabi bu kısımda hatalar olabilir bundan dolayı sabırlı olmak gerekiyor bu adımda.
+- Son olarak geri dönüp tekrar gözden geçirmek gerekiyor(code review, debug)
+
+1.  Sorunu Anlamak
+    “Anlamadığınız bir soruyu cevaplamak aptallıktır. İstemediğin bir amaç için çalışmak üzücü. " - George Polya
+    Bir sorunu çozmek için anlamadan hemen sorunu çozmeye çalışırsak buyuk bir hata yapmış oluruz. Sorunu iyi anlayıp, planlayıp kolları sıvamak gerekiyor. Eğer bir sorunu basitce bir cümlede anlatamıyorsan o sorunu iyi anlamamışsın demektir. Sorun çozerken birine anlatmak da iyidir. Sorunu anlamaya çalışırken ayrıntılara girerek nasıl daha kısa yoldan çözüleceğini de düşünmek gerekiyor. Sorunun sınırlarını belirlemek gerekiyor.
+
+    - Yazdığınız bir fonksiyonun ilk satırının üstünde bir yorum olabilir. Tasarım belgenizin üstünde bir madde işareti listesi olabilir. Bir çözüm bulmaya çalışırken onları odakta tutmak önemlidir.
+    - Başta planlama zamanında iyi bir şekilde harcanan zaman ilerde takıldığında zamandakileri daha azaltmak için daha verimli zaman harcamak gerekiyor ilk başta.
+    - Planlama sürecinde bir deftere karamalar yaparsak bile faydası olacaktır. Bu yüzden masanın üzerinde bir karalama defteri olmalı.
+
+2.  Bir Plan Oluşturmak
+
+    - Sorunu anlamaktan bir plan tasarlamaya giden yol uzun ve dolambaçlı olabilir. Aslında, bir sorunun çözümündeki temel başarı, bir plan fikrini tasarlamaktır.
+    - Başlangıçta kodu önemsemeyin. Önce sorunu kağıt üzerinde çözün. Kodu yazmak kafamızda her zaman daha kolay görünür ve çalıştırmaya çalıştığınızda çok daha karmaşık hale gelir. İkisini de aynı anda yapmayın. İlk önce sorunu çözün. Not defterinizde veya sözde kodda bir örnek "çalıştırın". Ardından, makine için uygulayın.
+    - Bir sorunu çozme yaklaşımlarından biride eğer o sorunla daha önceden de karşılaşmışsanız karşılaşılan problemin cözümünü hatırlamak faydalıdır.
+    - Sorunu başka açılardan bakmak da önemlidir.
+
+3.  Planın Uygulanması
+
+    - “Bir plan yapmak, çözüm fikrini tasarlamak kolay değil. Başarılı olmak çok uzun sürer; önceden edinilmiş bilgi, iyi zihinsel alışkanlıklar, amaca yoğunlaşma ve bir şey daha: iyi şanslar. Planı gerçekleştirmek çok daha kolay; ihtiyaç duyulan şey esas olarak sabırdır. " - George Polya
+    - Polyanın demesinin karşılığı ilk olarak düşün sonra kodla ve sabırlı ol.
+
+4.  Arkaya Bakmak
+
+    - Yazdığımız kodların çalışanlarının daha iyi çalışması yani daha performanslı olmasını sağlamak, daha okunaklı, daha anlaşılır kod için tekrar elden geçirilmesi iyidir bu işlemede refactoring denir.
+
+    - George Polya, How to Solve It okumalısın.
 
 <hr>
 <br>
@@ -225,3 +274,5 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 [How to Become a Great Software Developer [with Actionable Tips]](https://www.freecodecamp.org/news/how-to-become-a-great-software-developer/)<br>
 [Layout in CSS](https://medium.com/crowdbotics/layout-in-css-634c3ca3dcff)<br>
 [21 Predictions about the Software Development Trends in 2021](https://towardsdatascience.com/21-predictions-about-the-software-development-trends-in-2021-600bfa048be)<br>
+[Software Developers: Adapt or You’ll Be Replaced](https://medium.com/better-programming/software-developers-adapt-or-youll-be-replaced-efaa8c5b4d5)<br>
+[Don’t Just Write Code, Solve Problems](https://medium.com/better-programming/dont-just-write-code-solve-problems-b5c4ed3f9d0d)

@@ -22,7 +22,7 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 15. [House Sale Project](https://github.com/cihatdev/staj/tree/master/15-02-Pazartesi)
 16. [Capital of Country](https://github.com/cihatdev/staj/tree/master/16-02-Salı)
 17. [MAQs Project](https://github.com/cihatdev/staj/tree/master/17-02-Çarşamba)
-18. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/18-02-Perşembe)
+18. [Python Syntax](https://github.com/cihatdev/staj/tree/master/18-02-Perşembe)
 19. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/19-02-Cuma)
 20. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/20-02-Cumartesi)
 21. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/21-02-Pazar)
@@ -44,3 +44,6 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 [Awesome](https://github.com/sindresorhus/awesome)<br>
 [JavaScript Algorithms](https://github.com/trekhleb/javascript-algorithms/blob/master/README.tr-TR.md)<br>
 [Node Best Practices](https://github.com/goldbergyoni/nodebestpractices)<br>
+
+Müsait saatleri: sabah 9 - 10, aksam 17 - 18;
+zoom'da aktif ise arayabilirsiniz.

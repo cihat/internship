@@ -1,0 +1,63 @@
+.container-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .container-project header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .container-project header .icon {
+      margin-bottom: 1rem; }
+      .container-project header .icon img {
+        width: 100px; }
+    .container-project header .navbar ul {
+      display: flex;
+      flex-direction: column; }
+      .container-project header .navbar ul li {
+        flex: 1;
+        margin: 0.5rem 1rem; }
+        .container-project header .navbar ul li:last-child {
+          margin-bottom: 2rem; }
+    .container-project header .log-in {
+      display: flex;
+      flex-direction: column; }
+  .container-project .slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .container-project .slider .right-photo .bg-photo-1,
+    .container-project .slider .right-photo .bg-photo-2,
+    .container-project .slider .right-photo .bg-photo-3,
+    .container-project .slider .right-photo .bg-photo-4,
+    .container-project .slider .right-photo .bg-photo-5,
+    .container-project .slider .right-photo .bg-photo-6 {
+      display: none; }
+    .container-project .slider .right-photo .main-photo {
+      width: 85vw;
+      left: 0px;
+      display: none; }
+  .container-project .message-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2.5rem; }
+    .container-project .message-content .rigth-photo {
+      margin-bottom: 1rem; }
+      .container-project .message-content .rigth-photo .photo-2 {
+        display: none; }
+      .container-project .message-content .rigth-photo .photo-1 {
+        width: auto;
+        width: 90%;
+        left: 0; }
+    .container-project .message-content .left-text {
+      margin: auto; }
+  .container-project .upcoming .posts {
+    display: flex;
+    flex-direction: column; }
+    .container-project .upcoming .posts .post {
+      margin-bottom: 1.5rem;
+      justify-content: center;
+      align-items: center; }
+      .container-project .upcoming .posts .post h3 {
+        text-align: center; }
