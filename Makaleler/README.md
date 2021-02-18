@@ -174,6 +174,9 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 - Global değişkenler kullan eğer dosyanın içinde üç ve üzerinde kullanılıyorsa bir renk o rengin kodunu bir değişkene tanımla. Ve en üste bunları tanımla.
 - Konumlandırma elemanının konumu, elemanın çocuklarının konumu ve elemanların container'daki konumu vardır.
 -
+-
+-
+-
 
 <hr>
 <br>
@@ -186,18 +189,10 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 - Merkezi olmayan altyapı(Edge Computing) üstel olarak gelişecek, CDN(Content Delivery Network). Amazon, Google, Microsoft gibi firmalar ile operatör şirketleri(Telecom Companies, Data Center Providers, Network Providers) arasında son zamanlardaki bağlantılı cihazların artması ve gelişmesiyle Edge Computing alanında bir rekabet oluşacaktır.
 - Multi Cloud alanı
 - Kuantum hesaplamaları gelişecek
-
-<hr>
-<br>
-
-# 21 Predictions about the Software Development Trends in 2021
-
-## 2021 Yılında Yazılım Geliştirme Trendlerine İlişkin 21 Öngörü
-
-- Cloud teknolojisi pandemide her zamankinden daha güçlendi. Bulut teknolojileri alanında gelişmeye bak ilerde çok populer olacak bir alandır.
-- Merkezi olmayan altyapı(Edge Computing) üstel olarak gelişecek, CDN(Content Delivery Network). Amazon, Google, Microsoft gibi firmalar ile operatör şirketleri(Telecom Companies, Data Center Providers, Network Providers) arasında son zamanlardaki bağlantılı cihazların artması ve gelişmesiyle Edge Computing alanında bir rekabet oluşacaktır.
-- Multi Cloud alanı
-- Kuantum hesaplamaları gelişecek
+-
+-
+-
+-
 
 <hr>
 <br>
