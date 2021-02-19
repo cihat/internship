@@ -249,6 +249,34 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 <hr>
 <br>
 
+# Facebook is on the decline for Gen Z and younger Millennials, but why?
+
+## Facebook, Gen Z ve daha genç Y kuşağı için düşüşte, ama neden?
+
+- Facebook günümezde sadece arkadaşlar ile sohbet etmekten çok birçok alanda özellikler ekledi. Ama bunun yanında 25 yaş altı genç insanları(özellikle 12-17 yaş arası) ciddi anlamda kendinden uzaklaştırır durumda.
+- Diğer sosyal platformlar Facebook'un sunduğu birçok olanığı sunmuyor ama facebook'un kaybettiği genç insanların büyük çoğunluğu bu diğer platformlarda. Bunun sebepleri;
+  - Online zorbalık; İnsanların çoğu Facebook'ta kendini güvende hissedemiyor. Bunlar kişilerin bilgilerinin kötüye kullanıldığı düşünceleridir. Facebook ceosu Mark Zuckerberg birçok kere mahkemelerde yargılanması. Facebook hiç şeffaf davranmıyor, içerikleri izleyen personel sayısını bile açıklamıyor Bu siber zorbalık sadece gençleri değil yetişkinleri de tedirgin ediyor.
+  - Yalan haberler ve Küfürler; Facebook'ta son zamanda siyasi propaganda alanına dönüştü. Hatta eski Amerikadaki seçimlerinde Trump'ın başarısının arkasında Facebook'un büyük gücü vardır. Bazı araştırmalara göre Facebook' kullanıcılarnın büyük bir kısmı facebook'tan haber almak için giriyor ama ne yazıkki bu haberlerinin doğrululuk oranları çok düşük ve bu haberleri tüketen kişilerni eğitim seviyeleri düşük olarak tespit edilmiştir. Facebook ise haberlerin %99'unu gerçek haberlerden oluştuğunu iddia ediyor.
+  - Reklam İçerikleri: Facebook kullanıcılarını ailesi ve arkadaşlarıyla dana anlamalı etkileşime geçilmesi için marka ve reklamlarının içeriklerini ve miktarının sınırlanamyı duyurmuş ama bu geç alınmış bir karar olabilir. Bu arada Facebook'a giren insanların %29'u reklam ve satın alabilecği ürünleri bulmak içni girdiğini saptamaıştır. Facebook daha içerik alma kararı ile algoritmalarında değiştirerek genç kuşağı bünyesinde tutabileceğini hiç sanmıyorum. Eğer büyük bir değişiklik yapmaz ise genç kuşak Facebook'a girmeyecek bile.
+
+<hr>
+<br>
+
+# Facebook Is Dead (It Just Doesn’t Know It Yet)
+
+## Facebook öldü (Henüz Bilmiyor)
+
+Genç(14-16 yaşındaki insanlar) insanların facebook'u kullanmamasının nedenleri ve Megalitik sosyal medya tekeli, önümüzdeki yıllarda potansiyel olarak aşılmaz beş zorlukla karşı karşıya.
+
+1. 18 yaş altı tiktok ve instagrama taşındı. Nedenleri Facebook'tan neden gençlerin uzaklaşmasını konu alan makalediki bütün konular yüzünden bunlar Güvenli bir ortamın olması, kendilerini izleyen bir tarafın olmasını istememeleri, Siber zorbalık ve reklamlar. Bu sayılanların hepsi Facebook'ta var ve gençler Facebook'u saydıklarımdan dolayı terk etmişlerdir.
+2. Y kuşağı bu reklamları engellemek için reklam engelliyicileri kuracaklar. Scroll yapma bağımlıkları içim bunu engelleyen toolları kullanmaya başlayacaklar.
+3. Gerçekler asla sansürlenmemelidir, gerçekler özgürlüğü getirir. Sosyal platformlarda, yalan haberler ile algıları çok rahatça istismar edilebilir. Aşırı sağ ve aşırı sol insalar Facebook'taki yalan haberler ile çileden çıkabilir.
+4. Pazarlamacılar ve girişimciler için sadece bir platformun olması iyi değildir bir çok platformun olmasu daha fazla çeşitlilik ve farklı kitleler demektir. Bir alan bir şirketin tek elinde olması pazarlama ve girişim için sıkıntılı bir durumdur.
+5. Kullanıcılar için Facebook güçlendirilmiş gizlilik standartları, çok daha az bağımlılık yapan algoritmalar, yabancı trollerden yenilikçi koruma ve hatta belki de reklam geliri paylaşımı dahil olmak üzere özellikler getirilirse daha çok kullanılacağı öngörülebilir.
+6. Genel insanlık için demokratik, verilerin iyi korunuyor olması, bir şirketin tek elinde olmaması, gerçeklerin sansürsüz bir şekilde ifade edilmesi gibi birçok konuyu iyileştirmeler yapılırsa insanlar tekrar Facebook veya Facebook gibi popülerliğini kaybetmiş veya kaybetmeye yüz tutmuş sirketler büyüyebilirler.
+
+<hr>
+<br>
 ### Tavsiye Siteler
 
 [Awesome CSS Learning ](https://github.com/micromata/awesome-css-learning#readme)
@@ -270,4 +298,6 @@ Yazılımda problem çözerken belli başlı kriterler vardır.
 [Layout in CSS](https://medium.com/crowdbotics/layout-in-css-634c3ca3dcff)<br>
 [21 Predictions about the Software Development Trends in 2021](https://towardsdatascience.com/21-predictions-about-the-software-development-trends-in-2021-600bfa048be)<br>
 [Software Developers: Adapt or You’ll Be Replaced](https://medium.com/better-programming/software-developers-adapt-or-youll-be-replaced-efaa8c5b4d5)<br>
-[Don’t Just Write Code, Solve Problems](https://medium.com/better-programming/dont-just-write-code-solve-problems-b5c4ed3f9d0d)
+[Don’t Just Write Code, Solve Problems](https://medium.com/better-programming/dont-just-write-code-solve-problems-b5c4ed3f9d0d)<br>
+[Facebook is on the decline for Gen Z and younger Millennials, but why?](https://www.smartinsights.com/social-media-marketing/facebook-marketing/is-facebook-on-the-decline-for-gen-z-and-younger-millennials/)<br>
+[Facebook Is Dead (It Just Doesn’t Know It Yet)](https://medium.com/better-marketing/facebook-is-dead-it-just-doesnt-know-it-yet-614e723e9f72)
