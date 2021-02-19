@@ -1,0 +1,101 @@
+html {
+  font-size: 12px; }
+
+.container-project header nav {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .container-project header nav .project-logo {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 16px; }
+  .container-project header nav .navbar {
+    margin-right: 16px; }
+    .container-project header nav .navbar ul {
+      margin: auto; }
+
+.container-project header .description p {
+  margin-top: 40px; }
+
+.container-project header .search-bar {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 73px;
+  background-color: inherit; }
+  .container-project header .search-bar ul .box-1 {
+    display: none; }
+  .container-project header .search-bar ul .box-2 {
+    display: none; }
+  .container-project header .search-bar ul .box-3 {
+    display: none; }
+
+.container-project .posts {
+  display: flex;
+  flex-direction: column; }
+
+.container-project .company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.container-project .phone {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  .container-project .phone .container {
+    padding-left: auto;
+    padding-right: auto;
+    padding: inherit; }
+
+.container-project .photos-sec .photos ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .container-project .photos-sec .photos ul li {
+    margin-right: auto;
+    margin-left: auto; }
+
+.container-project .more-ideas .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .container-project .more-ideas .container .left-text {
+    margin-bottom: 54px; }
+
+.container-project .section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.container-project footer .container .top {
+  text-align: center;
+  margin: auto; }
+  .container-project footer .container .top ul {
+    display: flex;
+    flex-direction: column; }
+
+.container-project footer .container .serving {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+  .container-project footer .container .serving .countries .country {
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .container-project footer .container .serving .countries .country .country-city ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .container-project footer .container .serving .countries .country .country-city ul li {
+        margin: auto; }
+
+.container-project footer .container .bottom ul {
+  display: flex;
+  flex-direction: column; }
