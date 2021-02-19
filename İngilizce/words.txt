@@ -51,33 +51,33 @@ anything = herhangi bir şey/bir şey
 appear = görünmek
 apply = uygulamak
 approach = yaklaşım/yaklaşım
-area = 
-argue = 
-arm = 
-around = 
-arrive = 
-art = 
-article = 
-artist
-as
-ask
-assume
-at
-attack
-attention
-attorney
-audience
-author
-authority
-available
-avoid
-away
-baby
-back
-bad
-bag
-ball
-bank
+area = alan
+argue = tartışmak
+arm = kol
+around = etrafında
+arrive = varmak
+art = sanat
+article = makale
+artist = sanatçı
+as = gibi/olarak
+ask = sormak
+assume = üstlenmek
+at = -de
+attack = saldırı
+attention = dikkat
+attorney = avukat
+audience = seyirci
+author = yazar
+authority = otorite
+available = mevcut
+avoid = önlemek
+away = uzak
+baby = bebek
+back = geri
+bad = kötü
+bag = çanta
+ball = top
+bank = banka
 bar
 base
 be
