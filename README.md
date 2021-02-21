@@ -6,8 +6,8 @@
 
 Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzlu](https://github.com/hayatbayramolsa)'nun verdiği konuları araştırarak self-learn yaparak sektörde olan teknolojileri, temel bilgileri kendimiz araştırıp öğrenerek devam etmektedir. Stajın ilk günleri temel bilgileri öğrenmek ve anlamak odaklıdır.Daha sonra ileri konuları araştırıp öğreneceğiz.
 
-0. [Projeler](https://github.com/cihatdev/staj/tree/master/Projeler)
-1. [Öğrenilmesi Gereken Konular](https://github.com/cihatdev/staj/tree/master/01-02-Pazartesi-%F0%9F%94%A5)
+0. [Projeler](https://github.com/cihatdev/staj/tree/master/00-Projeler-%F0%9F%94%A5)
+1. [Öğrenilmesi Gereken Konular](https://github.com/cihatdev/staj/tree/master/01-02-Pazartesi)
 2. [İnternet Nasıl Çalışır(How to work the internet ?)](https://github.com/cihatdev/staj/tree/master/02-02-Sal%C4%B1)
 3. [http, https, www, teknolojileri nelerdir ?](https://github.com/cihatdev/staj/tree/master/03-02-%C3%87ar%C5%9Famba)
 4. [TCP/IP((Transport Control Protocol/Internet Protocol))](https://github.com/cihatdev/staj/tree/master/04-02-Per%C5%9Fembe)
