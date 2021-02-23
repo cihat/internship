@@ -29,7 +29,7 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 20. [Python Examples](https://github.com/cihatdev/staj/tree/master/20-02-Cumartesi)
 21. [Basic HTTP Server with Python](https://github.com/cihatdev/staj/tree/master/21-02-Pazar)
 22. [Flutter](https://github.com/cihatdev/staj/tree/master/22-02-Pazartesi)
-23. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/23-02-Salı)
+23. [Flutter Widgets](https://github.com/cihatdev/staj/tree/master/23-02-Salı)
 24. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/24-02-Çarşamba)
 25. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/25-02-Perşembe)
 26. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/26-02-Cuma)
