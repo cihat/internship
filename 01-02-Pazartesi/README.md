@@ -30,11 +30,11 @@
 
 - ## Linux/Unix Nedir, Nasıl Çalışır ?
 
-- ##
+- ## Component Mimarisi(neler component olur, nasıl olur (hem frontend hemde backend'e))
 
-- ##
+- ## Google Clusure Map
 
-- ##
+- ## One of component'lar(sadece bir kere kullanılan componentleri)
 
 - ##
 

@@ -116,12 +116,20 @@
 
 # How to think like a programmer — lessons in problem solving(Bir programcı gibi düşünmek - problem çözmede dersler)
 
-Yazılımda problem çözerken belli başlı kriterler vardır.
+Problem çözerken sistematik ve belli başlı kurallara uyarak adım adım parça parça çözülmeli. Problem çözmek işverenler için en önemli kriterlerden birisidir.
+Problem Çözme Adımları
 
-- İlk olarak problemi iyi bir anlamaktan geçiyor. Anladığını anlaman içinde sade bir şekilde anlatabiliyorsan anlamışsındır.**Programlama bir problemle karşılaştığın zaman daha önce çözdüğün problemi kullanarak problemler çözülür bu şekilde problem çoze çöze iyi bir yazılımcı olunur.**
-- hemen hareket etme, önce plan kur,( adımlarını bir şematize yani akış şeması yaparak plan kurmalısın).
-- Böl, büyük lokmayı bir an da yersen boğulursun.
-- Sıkışmayın, debug yap, sorunu yeniden değerlendir farklı yollara başvur eğer yoksa en baştan başla, sorunu internette ara ama sadece küçük sorunu büyük sorunu internette araştırma çünkü çabalamadan hiçbir şey öğrenilemez çabalamak gerekiyor.
+1. Anlamak:
+   Yazılımda problem çözerken belli başlı kriterler vardır. İlk olarak problemi iyi bir anlamaktan geçiyor. Anladığını anlaman içinde sade bir şekilde anlatabiliyorsan anlamışsındır.**Programlama bir problemle karşılaştığın zaman daha önce çözdüğün problemi kullanarak problemler çözülür bu şekilde problem çoze çöze iyi bir yazılımcı olunur.** Bir diyagram cizmeniz veya başka bir insana bundan bahsetmemiz gerekir. (Lastik ördek)
+
+2. Planlamak:
+   hemen hareket etme, önce plan kur,( adımlarını bir şematize yani akış şeması yaparak plan kurmalısın). Böl, büyük lokmayı bir an da yersen boğulursun. Sıkışmayın, debug yap, sorunu yeniden değerlendir farklı yollara başvur eğer yoksa en baştan başla, sorunu internette ara ama sadece küçük sorunu büyük sorunu internette araştırma çünkü çabalamadan hiçbir şey öğrenilemez çabalamak gerekiyor. Tam adımları yazamazsanız hiçbir şey size yardımcı olamaz. İyi bir plan elde etmek için şu soruyu cevaplayın: "X girişi verildiğinde, Y çıkışını döndürmek için gereken adımlar nelerdir?".
+3. Böl
+   Bu, en önemli adımdır. Tek bir büyük sorunu çozmeye çalışma, alt problemlere bolün. Bu alt problemlerin çözümü çok daha kolaydır. Ardından her alt problemi teker teker çoz sonra bunaları birleştir.
+4. Rahat olun !
+   Hata yapalım diye başlamamazlık etmeyin, eğer bu adımlardan sonra hata yaparsanızda büyük ihtimalle yapıcaksınız da ama sorun değil debug, refactoring ile tekrar yaparak çozeme ulaşabilirsiniz. Eğer çozume ulaşamıyorsak tekrar silin evet herşeyi silin tekrar yazın.
+
+- Problemleri problem çoze çoze daha iyi problem çozucu olursunuz.
 - Hemen uygula, kafandaki şeyi yap, bekleme.
 - Yani her çözümle gelişiriz. Sorunları çoze çöze gelişir ve sorunlara karşı olan bakış açımız gelişir. Bundan dolayı eğer bir sorun veya proje varsa ilk olarak sorunu iyi anlayın(istersen akış semaları kullan ) sonra sorunu ufak parçalara bölün kolay olanla başlayın. Son olarak tabi ki hatalar alacaksınız debug yapın olmuyorsa farklı yollara başvurun. Hiç olmuyorsa silin en baştan başlayın.
 
