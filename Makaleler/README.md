@@ -285,6 +285,40 @@ Genç(14-16 yaşındaki insanlar) insanların facebook'u kullanmamasının neden
 
 <hr>
 <br>
+
+# [Top Node.js Trends That Will Dominate In 2021](https://js.plainenglish.io/top-node-js-trends-that-will-dominate-in-2021-73dbc40e9c26)
+
+Korona ile birlikte 2021'de işletmelerin internete açılması çok ve sıradan bir durum olmaya başladı. Bu yuzden web alanında kafa karışıklıkları oluşmaya başladı.
+İnsanların hangi popüler teknolojileri kullanmak ve komplex görevleri yerine getirmek kısmında kafası karışmaya başladı. Ama büyük şirketler ve startuplar NodeJs kullanmaya başladılar. Nodejs bu kadar iyi olmasının yaninda insanlar hala nodejs'i tam olarak bilmiyorlar.
+
+- Nodejs Nedir ?
+  Nodejs, Chromedaki v8 enginenındak çalışan JavaScript'in web browserlarının dışında çalışan js'dir. Kaynaklı, cross-platform, ve backend'e çalışır.
+  Node.Js, 2009 yılında Ryan Dhal tarafından oluşturuldu. Ona göre, yazılım birden fazla görevi yerine getirebilmelidir. Ve çeşitli eşzamanlı bağlantıları yönetmenin doğru yolu, bir tek iş parçacığına, bir olay döngüsüne ve engellemeyen I / O'lara sahip olmaktı. Tüm bu faktörleri göz önünde bulundurarak Node.js geliştirilmiştir.
+- İstatistiklere bakıldığında birçok şirket Nodejs kullanmaya geçmiş ve gözle görürlür bir şekilde hızlanma ve iyileştirmeler görmüşlerdir sistemlerinde.
+
+- Nodejs ile 2021 ile Serverless mimari ile sunucu bakımı artık sorun olmayacak. Ve Geliştirilmiş kod kalitesi, Zamandan ve emekten tasarruf edin,
+  Daha düşük proje maliyeti, Geliştirilmiş esneklik, Yeniden kullanılabilir kod modülleri gibi konularda bizleri rahatlatacaktır.
+
+- Node.js, uygulama geliştirme şirketinin hızlı, ölçeklenebilir ve esnek uygulamalar oluşturmasına olanak tanıyan, engellemesiz bir I/O modeli sunar . Bu, diğer görevi rahatsız etmeden aynı anda çoklu görev işlemlerini yürüttüğü anlamına gelir.
+
+- Kuşkusuz, 2021 tamamen trend olmaya devam edecek ve grafiklerin tepesinde olmaya devam edecek gerçek zamanlı uygulamalarla ilgili. Canlı sohbetler, sosyal medya entegrasyonu, oyun, reklam sunucuları, borsa yazılımı ve daha fazlasını içeren uygulamalarda gerekli olan en önemli özellik hız olduğundan ve Node.js, gerçek zamanlı uygulamaların ekosistemine mükemmel bir şekilde uyar.
+
+  - Node.js ile oluşturulabilecek gerçek zamanlı uygulama örneklerinden bazıları şunlardır:
+    - VOIP (İnternet Protokolü Üzerinden Ses) Uygulaması
+    - Çevrimiçi Oyun Uygulaması
+    - Anında Mesajlaşma uygulamaları
+    - Bir borsa gibi e-ticaret işlemleri
+    - Belge paylaşım uygulaması
+    - Video konferans uygulaması
+
+- GraphQL: RESTful API'ye Mükemmel Bir Alternatif çünkü istediğiniz veriyi bir istemci sunucudan ihtiyaç duyduğu verileri talep edebilir ve sunucu, sorguya bir JSON yanıtı gönderir. GraphQL'siz kullanımlar ise bir çok veriyi düzensiz bir şekilde ve istenilmeyen verilerin getirilmesiyle birlikte yavaşlamalar neden olabilir. GraphQL kullanmak tercih meselesidir. (İlk olarak, REST API'lerini kullanan uygulamalar uç noktaları çağırır. Bu uç noktadaki verilerin tamamı JSON biçiminde döndürülür.
+  Bu, doğrudan bir uygulama ölçeklenebilirliği ve performans sorunlarına neden olan aşırı getirmenin yanı sıra yetersiz getirmeye neden olur. İşte bu noktada, sorguları, şemaları ve çözümleyicileriyle GraphQL, geliştiricilerin kendi özel veri gereksinimlerini karşılayan API çağrıları tasarlamasına izin verir. Bu şekilde GraphQL, web uygulaması geliştirme hizmetleriyle ilgili en yaygın aşırı getirme ve yetersiz getirme sorunlarını çözer.)
+
+- Nodejs IoT cihazlarında kullanması olumlu şekilde etki edecektir.
+- microservices ile daha rahat bakım yapılabilinecektir.
+<hr>
+<br>
+
 ### Tavsiye Siteler
 
 [Awesome CSS Learning ](https://github.com/micromata/awesome-css-learning#readme)
@@ -308,4 +342,5 @@ Genç(14-16 yaşındaki insanlar) insanların facebook'u kullanmamasının neden
 [Software Developers: Adapt or You’ll Be Replaced](https://medium.com/better-programming/software-developers-adapt-or-youll-be-replaced-efaa8c5b4d5)<br>
 [Don’t Just Write Code, Solve Problems](https://medium.com/better-programming/dont-just-write-code-solve-problems-b5c4ed3f9d0d)<br>
 [Facebook is on the decline for Gen Z and younger Millennials, but why?](https://www.smartinsights.com/social-media-marketing/facebook-marketing/is-facebook-on-the-decline-for-gen-z-and-younger-millennials/)<br>
-[Facebook Is Dead (It Just Doesn’t Know It Yet)](https://medium.com/better-marketing/facebook-is-dead-it-just-doesnt-know-it-yet-614e723e9f72)
+[Facebook Is Dead (It Just Doesn’t Know It Yet)](https://medium.com/better-marketing/facebook-is-dead-it-just-doesnt-know-it-yet-614e723e9f72)<br>
+[Top Node.js Trends That Will Dominate In 2021](https://js.plainenglish.io/top-node-js-trends-that-will-dominate-in-2021-73dbc40e9c26)<br>
