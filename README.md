@@ -33,7 +33,7 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 24. [NodeJs](https://github.com/cihatdev/staj/tree/master/24-02-Carsamba)
 25. [Capitals of Countries](https://github.com/cihatdev/staj/tree/master/25-02-Persembe)
 26. [Basic HTTP Server with NodeJs](https://github.com/cihatdev/staj/tree/master/26-02-Cuma)
-27. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/27-02-Cumartesi)
+27. [Researching Technologies in Backend/Frontend Roadmap](https://github.com/cihatdev/staj/tree/master/27-02-Cumartesi)
 28. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/28-02-Pazar)
 29. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/29-02-Pazartesi)
 30. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/30-02-Sali)

@@ -12,6 +12,22 @@
 - POP‘u (Point of Presence) - ISP head end, CMTS (Cable Modern Termination System)
   Bir Point of Presence ( PoP ), iletişim kuran varlıklar arasında yapay bir sınır belirleme noktası veya arayüz noktasıdır. Yaygın bir örnek, kullanıcıların İnternet servis sağlayıcıları (ISS) ile İnternet'e bağlanmalarına olanak tanıyan yerel erişim noktası olan bir ISP varlık noktasıdır . [1] Bir PoP, tipik olarak sunucuları , yönlendiricileri , ağ anahtarlarını , çoklayıcıları ve diğer ağ arabirim ekipmanlarını barındırır ve genellikle bir veri merkezinde bulunur .
 
+- HTTP NEDİR ?
+  (Hyper Text Transfer Protocol) web sayfalarının görüntülenmesini sağlayan protokoldür. HTTP, kullanıcının bilgisayarı ve sunucu(server) arasındaki veri alışverişinin kurallarını belirler. Client ve server arasında bilgi alış-verisi olur yani birbirleriyle konuşurlar, bu konuşma olayının belli kriterleri ve paradigmaları vardır işte buna HTTP
+  denir.
+
+- Browsers and how they work ?
+  As a client/server model, the browser is the client run on a computer that contacts the Web server and requests information. The Web server sends the information back to the Web browser which displays the results on the computer or other Internet-enabled device that supports a browser.
+
+- DNS and how it works ?
+  The Domain Name System (DNS) is a central part of the internet, providing a way to match names (a website you’re seeking) to numbers (the address for the website). Anything connected to the internet - laptops, tablets, mobile phones, websites - has an Internet Protocol (IP) address made up of numbers. Your favorite website might have an IP address like 64.202.189.170, but this is obviously not easy to remember. However a domain name such as bestdomainnameever.com is something people can recognize and remember. DNS syncs up domain names with IP addresses enabling humans to use memorable domain names while computers on the internet can use IP addresses.
+
+- What is Domain Name ?
+  A domain name is an identification string that defines a realm of administrative autonomy, authority or control within the Internet. Domain names are used in various networking contexts and for application-specific naming and addressing purposes.
+
+- What is hosting ?
+  Bir barındırma sağlayıcısı, bir web sitesinin dosyalarını depolaması için bir web sunucusunda yer ayırdığında, bir web sitesini barındırıyor demektir. Web barındırma, bir web sitesini oluşturan dosyaları (kod, resimler, vb.) Çevrimiçi görüntülemeye uygun hale getirir. Şimdiye kadar ziyaret ettiğiniz her web sitesi bir sunucuda barındırılır.
+
 - Routers and Routing Tables
 
 - National and regional networks using Exchange Points | BGP (Border Gateway Protocol)
