@@ -264,7 +264,8 @@
     General topics that you should learn and core about for the sustainability of the product.
 
     - Building with Observability in mind
-    Metrics loggin and other observable items that could help you in debugging and solving the issue when things go wrong
+    Metrics loggin and other observable items that could help you in debugging
+     and solving the issue when things go wrong
 
     - Migration Strategies
 
@@ -378,7 +379,8 @@
 
 ### 10. CSS Architecture
 
-    With modern frameworks and CSS-in-JS you don't have to worry about these anymore but still it would be a good idea to get familiarized with BEM atleast.
+    With modern frameworks and CSS-in-JS you don't have to worry about these anymore
+     but still it would be a good idea to get familiarized with BEM atleast.
 
     - BEM
 
@@ -388,7 +390,8 @@
 
 ### 11. CSS Preprocessors
 
-    With how the modern frameworks there has been more push towards CSS-in-JS so you may not need these but still a good idea to familiarize yourself.
+    With how the modern frameworks there has been more push towards CSS-in-JS
+    so you may not need these but still a good idea to familiarize yourself.
 
     - Sass
 
@@ -465,7 +468,8 @@
       - Bulma
 
     - Testing your Apps
-    Learn the difference between Until, Integration and Functional tests and learn how to write them with the tools listed on the left.
+    Learn the difference between Until, Integration and Functional tests
+    and learn how to write them with the tools listed on the left.
       - Mocha
       - Chai
       - Ava
