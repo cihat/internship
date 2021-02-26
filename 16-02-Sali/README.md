@@ -1,5 +1,9 @@
 # Capitals of Countries
 
+## [Live Demo](https://cihatdev.github.io/capitals-of-countries/)
+
+<br>
+
 ```javascript
 // install dependencies
 npm install

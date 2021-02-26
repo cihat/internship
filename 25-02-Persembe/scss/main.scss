@@ -1,0 +1,153 @@
+// Font Google
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap");
+// Font Awesome
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  text-decoration: none;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Mulish", sans-serif;
+  &:focus {
+    outline: 0;
+  }
+}
+
+body {
+  background: url(https://user-images.githubusercontent.com/57585087/109042491-4f97ce00-76e1-11eb-82af-a9926eb08535.png)
+    no-repeat;
+  background-size: cover;
+}
+
+.container-project {
+  max-width: calc(100vw);
+  height: calc(100vh);
+  padding: 1.5rem;
+  display: flex;
+  text-align: center;
+  margin: auto;
+
+  .info {
+    background-color: rgba(#fff, 0.8);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 1rem;
+    // border: 1px solid #000;
+
+    .container {
+      max-height: calc(90vh);
+      height: calc(75vh);
+      max-width: calc(90vw);
+      display: flex;
+      justify-content: space-between;
+
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      margin: 1rem auto 1rem;
+
+      h1 {
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .input {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+
+        label {
+          margin-bottom: 0.5rem;
+          font-size: 1rem;
+          letter-spacing: 0.1rem;
+          font-weight: 500;
+          cursor: pointer;
+        }
+
+        span {
+          margin-bottom: 1rem;
+          font-size: 1rem;
+          letter-spacing: 0.05rem;
+        }
+
+        input {
+          width: 19rem;
+          height: 3rem;
+          padding-left: 1rem;
+          border-radius: 4rem;
+          margin-bottom: 1.5rem;
+          font-size: 1.4rem;
+          border: 1px solid #000;
+        }
+
+        button {
+          width: 10rem;
+          font-size: 2rem;
+          margin-bottom: 0.5rem;
+          cursor: pointer;
+          padding: 0.9rem;
+          border-radius: 4rem;
+          color: white;
+          background-color: #28a745;
+          &:hover {
+            border: 1px solid #000;
+            color: black;
+            background-color: white;
+          }
+        }
+      }
+      .answer {
+        // border: 1px dashed #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        padding: 1rem;
+
+        h1 {
+          margin: 0 auto 1rem auto;
+          padding-top: 1rem;
+          text-transform: uppercase;
+        }
+
+        .answer-container {
+          max-height: 300px;
+          max-width: 300px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+
+          h1 {
+            a {
+              font-size: 3.5rem;
+              letter-spacing: 0.3rem;
+              color: #000;
+            }
+          }
+        }
+      }
+
+      .author {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        a {
+          font-size: 1.5rem;
+          color: #000;
+        }
+      }
+    }
+  }
+
+  #map {
+    flex-grow: 10;
+  }
+}

@@ -1,0 +1,21 @@
+html {
+  font-size: 8px;
+}
+
+.container-project {
+  display: flex;
+  flex-direction: column;
+
+  .info {
+    flex: 1;
+    .container {
+      max-height: calc(30vh);
+      height: calc(50vh);
+      max-width: calc(90vw);
+    }
+  }
+
+  #map {
+    flex: 2;
+  }
+}
