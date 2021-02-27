@@ -319,6 +319,52 @@ Korona ile birlikte 2021'de işletmelerin internete açılması çok ve sıradan
 <hr>
 <br>
 
+# [Ultimate Web Developer Roadmap for 2021](https://javascript.plainenglish.io/ultimate-web-developer-roadmap-for-2021-6758edd0bd3f)
+
+## 2021 için Ultimate Web Developer Yol Haritası
+
+- Internet Nasıl Çalışır ? Internetin nasıl çalıştığını konu başlıklarının temel bilgilerine vakıf olmak yeterlidir, aksi halde yüzlerce satır kod yazarsınız ama neden yazdığınızı bilmeden.
+
+  - Http nedir, niçin kullanılır, Https neden var, farklarını nedir ?
+    HTTP ile server ve client arasında veri alışverişini sağlayan yaygın olarak kullanılan protokolün adıdır. HTTP ile sorgular yaparken 3.taraf kotü niyetli hackerlar müdahale edebilirlerdi, bunun için HTTPS geldi. Buda SSL(Secure Socket Layer) ile daha güvenli bir ortam sağladı.
+  - DNS: DNS: Web geliştiricileri arasında DNS, internetin en az anlaşılan kavramlarından biridir, DNS, Web Geliştiricileri için anlaşılması oldukça önemlidir, çünkü domain name'inizi (alan adınızı) (yourwebsite.com) barındırılan web sitenize bağlayan yapıştırıcıdır. İnternette ve Alan Adı Hizmeti anlamına gelir .
+    Web adresiniz üzerinden internette gezinen kullanıcıların, web sitenizi barındıran sunucunun IP Adresine yönlendirilebilmesinden bahsedebiliriz.
+  - Hosting: web sitenizin tüm içeriğinin dünyanın her yerinden herkesin erişebilmesi için bir sunucuda barındırılması gereken bir alan sağlama sürecidir. Birkaç adımda bir web sitesini barındırabileceğiniz çok sayıda platform olduğundan, bugünlerde barındırma kavramlarına derinlemesine dalmanıza gerek yok.
+  - Browsers: Bir web geliştiricisi olarak, tarayıcıların bir web uygulamasıyla nasıl çalıştığını bilmelisiniz, iyi bir tarayıcı bilgisine sahip olmak, uygulamalarınızı optimize etmek için daha fazla yolun kilidini açar, bu da çeşitli tarayıcılardaki kullanıcıların mümkün olan en iyi şeye sahip olabilmesi için daha güvenilir uygulamalarla sonuçlanır. Sonuçlar.
+  - Domain Name: Web sitenize bir web adresi diyebilirsiniz, böylece bir kullanıcı tarayıcılarına bu adresi her girdiğinde web sitenize yönlendirilecektir. Etki Alanı Adlarının nasıl çalıştığına dair daha fazla kavram okumak istiyorsanız, işte bunun için harika bir makale
+
+- Basic Tools
+  - Terminal:
+  - Desing Tools
+  - Figma&Adobe XD
+  - Text Editor
+- HTML
+  - Form & Validations
+  - Semantic HTML
+  - Best Practices
+- CSS
+  - CSS Grid
+  - Flexbox
+  - Custom Properties
+- Databases
+  - Relational Databases VS Non-Relational Databases
+    - MySQL
+    - PostgreSQL
+  - Non-Relational Databases
+    - MongoDB
+    - AWS- Easy to scale
+    - Firebase- A great choice for small projects
+- APIs
+  -Authentication
+- Deployment
+  - Serverless: AWS Lambda, Netlify
+- Virtualization
+  Using Virtualization you can create powerful IT services that require traditional connections to hardware, which allows you to use a physical machine at its full capacity by distributing its capability to many users.
+  You can use Kubernetes and Docker, the basic difference between these are is that Kubernetes run across clusters while Docker runs on a single node. Most of the developers prefer using both of them together to build better infrastructure
+
+<hr>
+<br>
+
 ### Tavsiye Siteler
 
 [Awesome CSS Learning ](https://github.com/micromata/awesome-css-learning#readme)
@@ -344,3 +390,4 @@ Korona ile birlikte 2021'de işletmelerin internete açılması çok ve sıradan
 [Facebook is on the decline for Gen Z and younger Millennials, but why?](https://www.smartinsights.com/social-media-marketing/facebook-marketing/is-facebook-on-the-decline-for-gen-z-and-younger-millennials/)<br>
 [Facebook Is Dead (It Just Doesn’t Know It Yet)](https://medium.com/better-marketing/facebook-is-dead-it-just-doesnt-know-it-yet-614e723e9f72)<br>
 [Top Node.js Trends That Will Dominate In 2021](https://js.plainenglish.io/top-node-js-trends-that-will-dominate-in-2021-73dbc40e9c26)<br>
+[Ultimate Web Developer Roadmap for 2021](https://javascript.plainenglish.io/ultimate-web-developer-roadmap-for-2021-6758edd0bd3f)<br>
