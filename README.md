@@ -38,6 +38,11 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 29. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/29-02-Pazartesi)
 30. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/30-02-Sali)
 31. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/31-02-Carsamba)
+32. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/31-02-Persembe)
+33. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/31-02-Cuma)
+34. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/31-02-Cumartesi)
+35. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/31-02-Pazar)
+36. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/31-02-Pazartesi)
 
 <hr>
 <br>
