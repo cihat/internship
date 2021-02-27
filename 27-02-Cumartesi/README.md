@@ -14,8 +14,10 @@
         yani isteklerin alıcı tarafından, genellikle Web tarayıcısı tarafından başlatıldığı anlamına gelir.
 
     - Browsers and how they work ?
-        Bir client(istemci) / server(sunucu) modeli olarak tarayıcı, Web sunucusuyla iletişim kuran ve bilgi isteyen bir bilgisayarda çalışan istemcidir.
-        Web sunucusu bilgileri, sonuçları bilgisayarda veya tarayıcıyı destekleyen diğer İnternet etkin cihazlarda görüntüleyen Web tarayıcısına geri gönderir.
+        Bir client(istemci) / server(sunucu) modeli olarak tarayıcı, Web sunucusuyla iletişim kuran
+        ve bilgi isteyen bir bilgisayarda çalışan istemcidir.
+        Web sunucusu bilgileri, sonuçları bilgisayarda veya tarayıcıyı destekleyen diğer
+        ternet etkin cihazlarda görüntüleyen Web tarayıcısına geri gönderir.
 
     - DNS and how it works ?
         Domain Name Server(Alan Adı Sistemi) (DNS), internetin merkezi bir parçasıdır ve isimleri (aradığınız bir web sitesi)
@@ -28,16 +30,19 @@
         Etki alanı adları, çeşitli ağ bağlamlarında ve uygulamaya özel adlandırma ve adresleme amaçları için kullanılır.
 
     - What is hosting ?
-        Web hosting(barındırma) tanımı. Bir hosting provider(barındırma sağlayıcısı), bir web sitesinin dosyalarını depolaması için bir web sunucusunda yer ayırdığında,
+        Web hosting(barındırma) tanımı. Bir hosting provider(barındırma sağlayıcısı),
+        bir web sitesinin dosyalarını depolaması için bir web sunucusunda yer ayırdığında,
         bir web sitesini barındırıyor demektir. ...
-        Bir sunucuda bir web sitesine ayrılan alan miktarı barındırma türüne bağlıdır. Ana barındırma türleri paylaşımlı, adanmış, VPS ve bayidir.
+        Bir sunucuda bir web sitesine ayrılan alan miktarı barındırma türüne bağlıdır.
+        Ana barındırma türleri paylaşımlı, adanmış, VPS ve bayidir.
 
 ### 2. Basic Frontend Knowledge
 
     - HTML
         HTML, Hyper Text Markup Language(Hiper Metin Biçimlendirme Dili) anlamına gelir.
         HTML, Web sayfaları oluşturmak için standart markup language(biçimlendirme dilidir).
-        HTML, bir Web sayfasının yapısını tanımlar. HTML bir dizi öğeden oluşur. HTML öğeleri, tarayıcıya içeriğin nasıl görüntüleneceğini söyler.
+        HTML, bir Web sayfasının yapısını tanımlar. HTML bir dizi öğeden oluşur. HTML öğeleri,
+        tarayıcıya içeriğin nasıl görüntüleneceğini söyler.
 
     - CSS
         CSS, Cascading Style Sheets(Basamaklı Stil Şablonu) anlamına gelir. CSS, HTML öğelerinin ekranda,
@@ -55,7 +60,8 @@
 
     - Terminal Usage
         Bir terminal kullanmak, bir dizinde gezinmek veya bir dosyayı kopyalamak gibi şeyler yapmak için
-        bilgisayarımıza basit metin komutları göndermemize ve daha birçok karmaşık otomasyon ve programlama becerisinin temelini oluşturmamıza olanak tanır.
+        bilgisayarımıza basit metin komutları göndermemize ve daha birçok karmaşık otomasyon
+        ve programlama becerisinin temelini oluşturmamıza olanak tanır.
 
     - How OSs work in General
         Operating System(İşletim Sistemi) (OS), bir bilgisayar kullanıcısı ile bilgisayar donanımı arasındaki bir arayüzdür.
@@ -133,7 +139,8 @@
 
         Ruby, zengin tarihi boyunca son kullanıcılar ve şirketler için yazılım geliştirmek, işletme, bilim,
         mühendislik, teknoloji ve ticaret gibi çeşitli alanlara hizmet vermek için kullanılmıştır.
-        Temel olarak, insanlar, uygulaması hızlı dijital çözümlere ihtiyaç duyan geliştiricileri veya offshore Ruby geliştirme projelerini işe alır.
+        Temel olarak, insanlar, uygulaması hızlı dijital çözümlere ihtiyaç duyan geliştiricileri
+        veya offshore Ruby geliştirme projelerini işe alır.
 
     - Python
         Birçok Bilim alanlarında kullanılan sade öğrenmesi kolay, konuşma dili gibi bir dildir.
@@ -223,7 +230,43 @@
     Birçok ilişkisel veritabanı sistemi, veritabanını sorgulamak ve sürdürmek için SQL (Structured Query Language)
     (Yapılandırılmış Sorgu Dili) kullanma seçeneğine sahiptir.
 
+    İlişkisel veritabanı, birbiriyle ilişkili veri noktalarını depolayan ve bunlara erişim sağlayan bir veritabanı türüdür.
+    İlişkisel veritabanları, verileri tablolarla temsil etmenin sezgisel, kolay anlaşılır bir yolu olan ilişkisel modeli temel alır.
+    İlişkisel veritabanında, tablodaki her satır, anahtar adı verilen benzersiz kimliğe sahip bir kayıttır.
+    Tablonun sütunlarında verilerin öznitelikleri bulunur ve her kayıt genellikle her öznitelik için bir değer taşır.
+    Bu da veri noktaları arasında ilişki kurmayı kolaylaştırır.
+
+    İlişkisel Model
+    Veritabanlarının ilk yıllarında, her uygulama yazılımı kendi benzersiz yapısında veri depolardı.
+    Geliştiriciler, bu verileri kullanmak için uygulama yazılımları oluşturmak istediklerinde ihtiyaç duydukları verileri
+    bulmak için söz konusu veri yapıları hakkında çok şey bilmek zorundaydılar. Bu veri yapıları verimsiz,
+    bakımı zor ve iyi uygulama yazılımı performansı sağlamak için optimize etmesi zor yapılardı.
+    İlişkisel veritabanı modeli çoklu rastgele veri yapıları problemini çözmek için tasarlandı.
+    İlişkisel model, tüm uygulama yazılımlarının kullanabileceği verileri temsil etmek ve sorgulamak için standart bir yol sağladı.
+    Geliştiriciler, en baştan itibaren ilişkisel veritabanı modelinin temel gücünün, yapılandırılmış bilgileri depolamak ve
+    bunlara erişmek için sezgisel, verimli ve esnek bir yol olan tabloları kullanmakta olduğunu fark etti.
+
+    Zamanla, geliştiriciler bir veritabanında veri yazmak ve sorgulamak için yapılandırılmış sorgu dilini (SQL)
+    kullanmaya başladıkça ilişkisel modelin bir diğer gücü ortaya çıktı. SQL uzun yıllardır veritabanı sorgulama dili
+    olarak yaygın şekilde kullanılmaktadır. İlişkisel cebire dayanan SQL, tüm veritabanı sorgularının performansını
+    iyileştirmeyi kolaylaştıran, dâhilî tutarlılığa sahip bir matematik dili sağlar. Buna karşılık, diğer yaklaşımlar
+    tekil sorgular tanımlamalıdır.
+
+
     - PostgreSQL
+        PostgreSQL, güçlü özellikler ve avantajlara sahip, açık kaynaklı ve tamamen ücretsiz nesne
+        ilişkisel veri tabanı sistemidir. SQL dilinin güvenlik, depolanabilirlik ve ölçeklendirilebilme
+        özelliklerinden faydalanan PostgreSQL, birçok alanda veri tabanı yöneticisi olarak da kullanılmaktadır.
+
+        Bir çok işletim sisteminde kullanılabilinir. PostgreSQL’i rakipleri karşısında en güçlü kılan özelliği transaction,
+        subselect, trigger, view, foreign key referential integrity ve sophisticated locking gibi (user-defined types),
+        rules, inheritance ve lock cakışmalarını düşürmek için multi-version uyumluluk özelliklerine sahip olmasıdır.
+        Performans açısından ise PostgreSQL diğer ticari veya açık kaynak kodlu veri tabanlarıyla kıyaslandığında başarılı
+        metrik elde etmektedir. Kimi veri tabanı sistemleri karşısında bazı açılardan hızlıyken bazı açıdan ise yavaştır.
+        PostgreSQL, MySQL ve aynı klasmandaki veri tabanlarıyla kıyaslandığında INSERT/UPDATE işlemlerinde, transaction
+        bazlı çalıştığından ötürü daha yavaştır. Fakat yukarıda belirtmiş olduğumuz özelliklerin bir çoğu MySQL ve klasmanındaki
+        veri tabanlarında bulunmamaktadır. Bazı açılardan PostgreSQL, MySQL ve klasmanındaki veri tabanlarının gerisinde kalmasına
+        rağmen özellikler, güvenilirlik ve esneklik adına kayda değer avantajlara sahiptir.
 
     - MySQL
 
