@@ -365,6 +365,77 @@ Korona ile birlikte 2021'de işletmelerin internete açılması çok ve sıradan
 <hr>
 <br>
 
+# The Node.js Developer Roadmap for 2021
+
+## 2021 için Node.js Geliştirici Yol Haritası
+
+- Temel JavaScript bilinmeli, yani js'in temelleri ve asenkron programlama yapılacaktır ve bunun için timer, promises, closures, the event loop, async programming and callbacks
+- Node.js temelleri, event emitters: bir eylemin tamamlandığını bildirmek için bir mesaj göndererek olayları tetikleyen nesnelerdir.
+  - Callbacks: Bunlar, bir görev tamamlandığında çağrılan ve kodun geri kalanının bu arada çalışmasına izin verirken her türlü engellemeyi önleyen işlevlerdir. Node.js'de pek çok eşzamansız görevle çalışmamız gerektiğinden, sorunsuz ve daha hızlı uygulamalar yapmak için onlara her yerde ihtiyacımız var. Örneğin,
+  - Buffers: Node.js'de Buffer adlı bir sınıf, ham ikili verileri işlemek için tasarlanmıştır. V8 dışında tahsis edilen bazı ham belleğe karşılık gelirler . Tamponlar, özellikle ikili veriler için bir dizi yönteme sahip yeniden boyutlandırılamayan bir tamsayı dizisidir. Örneğin, arabellekteki tamsayılar, 0 ile 255 dahil sınırlı değerlere sahip bir baytı temsil eder ; eğer console.log () 'u bir Buffer örneğini yazdırmak için kullanırsanız, onaltılık bir değerler zinciri alınır.
+  - Module System: Node.js ekosisteminin bir parçası olarak, sadece Node.js tarafından sağlanan Modülleri kullanarak karmaşık işlevselliği uygulamak için Modülü kullanacaksınız, bunlar Düğüm aracılığıyla herkesin yeniden kullanabileceği tüm organize ve karmaşık özellikleri içeren JavaScript dosyalarıdır.
+- Development Skills
+  - Version Control Systems(Git, Github)
+  - HTTP/HTTPS protocols
+  - Request mthods: GET, POST, PUT, PATCH, DELETE, OPTİONS
+- Web Frameworks
+  - Express.js, Meteor.js, Sails.js, Koa.js, Nest.js: bunlar js frameworkleridir ve herbirinin belirli görevleri vardır. İşleri kolaylaştırmak için çıkmışılardır.
+- Database Management
+  - SQL Server: A relational database management system developed by Microsoft, it supports ANSI SQL (a standard SQL language). However, SQL comes with its own implementations.
+  - MySQL: Another great database management system that allows you to mage relational databases. Open-source backend software developed by Oracle, also with MySQL we get the flexibility of choices as we can change the source code according to the needs. MySQL is a pretty easy alternative as compared to Oracle Database & Microsoft SQL server.
+  - PostgreSQL: Developed by a worldwide team of developers as it is open source. It runs on all major operating systems including Linux, UNIX & Windows. PostgreSQL supports a large part of the SQL standard while offering some great features such as Complex SQL queries, Foreign Keys, Trigger, Transactions, Multiversion concurrency control (MVCC), Streatimg Repllicartons, etc.
+    - MariaDB: An improved version of MySQL that comes which various inbuilt powerful features, security, and performance improvements that you will not find in MySQL. There are several reasons why you should opt for MariaDB instead of MySQL for large-scale applications. For example, MariaDB has a larger connection pool supporting up to 200,000+ connections whereas MySQL has a smaller connection pool. In short, MariaDB is faster than MySQL.
+- Cloud Database Services
+
+  - Azure CosmosDB: A database service that is globally distributed, you can manage your data remotely, using cloud databases gave you many advantages as scaling and managing big applications becomes a bit easy with the tool that you can use to scale and distribute, all provided by Microsoft Azure. Also, it supports multiple data models using one backend, which means it can be used for the document, key-value, relational & graph models. As it doesn’t rely on any schemas you can call it a NoSQL database, but it does support query language with ACID transaction support.
+  - Amazon DynamoDB: As far as my knowledge Amazon DynamoDB is a great alternative if you already have some experience with SQL, it is a fully managed NoSQL database service providing faster and predictable performance with awesome scalability. You can create databases tables that can store and retrieve any amount of data and serve any level of request traffic
+  - 2. NoSQL Databases
+  - MongoDB: A document-oriented NoSQL database specifically used for high volume data storage, as we have tables and rows in other relational databases, MongoDB uses collections and documents. A document consists of key-value pairs that are just basic unit of data in MongoDB & collection contains sets of documents and function which is the equivalent of relational databases tables
+  - Redis: Using Redis we can work with databases, caching, and message broking. It uses data structures like strings, hashes, lists, sets, bitmaps, hyperloglogs & geospatial indexes to store data in the form of key-value pairs. If you are confused about where we use Redix, here is an example of that.
+  - Apache Cassandra
+    A highly scalable with high-performance and distributed database designed to handle a large amount of data across many servers, with no single point of failure. Created at Facebook it differs from other relational database management systems. The distributed design is based on Amazon’s DynamoDB and the data model on Google’s BigTable.
+    LiteDB: A very lightweight & fast .NET NoSQL embedded database,with serverless document store. You can use LiteDB in small Desktop applications and small web applications that use one database per account store for per user.
+
+- Search Engines
+  Note: If you are thinking why do we need a search engine, then here is an example, we use Google as a search engine, but that’s itself a whole web based application. Solr and ElasticSearch are backend frameworks and if any type of data set is provided it creates an index on top of that while making that data available for search on a server. You can maintain a website with million of users with Solr as the search engine.
+
+  - ElasticSearch: A search and analytics engine built on Apache Lucene and developed in Java. Using ElasticSearch you can store, and analyze huge volumes of data in real-time. As it searches the index instead of searching the text, great search performance is also achieved in ElasticSearch. At its core, it uses structure-based documents instead of tables and schemas that come with extensive REST APIs for storing and searching data. You can think of ElasticSearch as a server that processes JSON requests and giving you back JSON data.
+  - Solr:It provides pretty advanced real-time searching capabilities such as field search, boolean queries, phase queries, fuzzy queries, spell check, auto-complete, and many more.
+
+- Caching
+
+- Caching is simply the process of storing copies of files in cache memory so that they are accessible for faster network responses by reducing network calls.
+
+  - Memory Cache: This technique is also commonly called caching as most of the time, the caching is associated with the memory in servers. In this technique, a portion of the server’s memory is used as a cache where we store all the data that is required to reduce network calls in our applications. In Node.js we have node-cache and memory-cache as some great libraries to handle memory cache in a Node server.
+  - Distributed Cache: In this caching technique we combine the memory of multiple networks into a single memory data store which we later use as the final data cache to prove fast access to the data. This technique is especially used in a high volume of data and a huge number of network calls at the same time allows incremental expansion and scaling by adding more server memory to the cluster. Redis is one of the most known things when it comes to Distributed caching, but you can go beyond that by learning Memcached.
+
+- Template Engines - Using template engines we can use static template files in our application, while at the runtime this template engine replaces the variables in a template file with actual values and then transforms the template into an HTML file sent to the client. Listed below are some of the popular template engines.
+  Mustache.js
+  Handlebars
+  EJS
+
+- Real-Time Communication
+
+  - Socket.io: There is a lot when it comes to understanding real-time communication in Socket.IO if you are just getting started as a backend developer, the main logic behind real-time communication stands between the client and the server. It allows the flow of bi-directional data between the client & server, you can think of bi-directional data flow as the synchronous flow of data between two terminals to achieve the real-time communication behavior, these types of behavior are enabled when the client has Socket.IO in the browser along with the server integrated with Socket.IO package. And the data can be sent in the form of JSON requests.
+
+- API Clients
+
+  - REST: Before REST, APIs were developed around a remote procedure call (RPC) and the APIs looked like some locally executed code. Many technologies tried to solve this problem using-like stacks to hide the root problem and after that REST was introduced to build web-based APIs in a better way. In REST the architecture is styled with simple HTTP calls to communicate instead of complex options like COBRA, COM+, RPC. In REST the calls are messages based and rely on the HTTP standards to describe these messages. In the Node.js ecosystem, you can go for the node-rest-client and Axios, both serve pretty good service for faster web applications.
+  - GraphQL: A great alternative to REST, GraphQL uses the APIs that prioritize giving clients exactly the data they request. A flexible and developer-friendly alternative, as you can deploy it even in an IDE known as GraphiQL. You also get the advantages to add or deprecate fields without impacting existing queries and build APIs with whatever method is preferred.
+
+- Testing
+  Jest: A very popular testing framework known for its simplicity and developed by Facebook. Among all the testing frameworks Jest has the best documentation with parallel testing support, which means that you can run each test in their own process to maximize performance.
+  Mocha: It serves the old standards of Unit Testing frameworks for Node applications and supports async operations like callbacks, promises with highly extensible and customizable assertions.
+  Chai: It can be used alongside Mocha and can be used as a TDD/BDD assertion library for Node.js that can be paired with any testing framework based on JavaScript.
+
+- Some Good To Know Libraries For Node.js
+  - Async.js
+  - PM2
+  - Commander.js
+  - Nodemailer
+  <hr>
+  <br>
+
 ### Tavsiye Siteler
 
 [Awesome CSS Learning ](https://github.com/micromata/awesome-css-learning#readme)
