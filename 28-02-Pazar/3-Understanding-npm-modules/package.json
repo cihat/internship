@@ -1,0 +1,23 @@
+{
+  "name": "3-understanding-npm-modules",
+  "version": "1.0.0",
+  "description": "this is lesson of nodejs about npm moudles",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "js",
+    "lesson",
+    "udemy"
+  ],
+  "author": "Cihat Salık",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
