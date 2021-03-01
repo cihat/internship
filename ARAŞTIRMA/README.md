@@ -349,7 +349,12 @@
 [This article about this lesson](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6#:~:text=Sharding%20is%20a%20method%20of,dataset%20and%20handle%20additional%20requests.&text=Moreover%2C%20many%20sharding%20strategies%20allow%20additional%20machines%20to%20be%20added.)
 
     - CAP Theorem
-        The CAP theorem applies a similar type of logic to distributed systems—namely, that a distributed system can deliver only two of three desired characteristics: consistency, availability, and partition tolerance (the ‘C,’ ‘A’ and ‘P’ in CAP).
+        The CAP theorem applies a similar type of logic to distributed systems—namely, that a distributed system can deliver only two of three desired characteristics: consistency(tutarlılık), availability(kullanılabilirlik), and partition tolerance(bölme toleransı) (the ‘C,’ ‘A’ and ‘P’ in CAP).
+        Tutarlılık Tutarlılık, hangi düğüme bağlanırsa bağlansın, tüm istemcilerin aynı verileri aynı anda görmesi anlamına gelir. Bunun olması için, veri bir düğüme her yazıldığında, yazma "başarılı" olarak kabul edilmeden önce sistemdeki diğer tüm düğümlere anında iletilmeli veya kopyalanmalıdır.
+
+        Kullanılabilirlik Kullanılabilirlik, veri talebinde bulunan herhangi bir müşterinin, bir veya daha fazla düğüm çalışmıyor olsa bile yanıt alması anlamına gelir. Bunu belirtmenin başka bir yolu - dağıtılmış sistemdeki tüm çalışan düğümler, istisnasız herhangi bir istek için geçerli bir yanıt döndürür.
+
+        Bölme toleransı Bölüm, dağıtılmış bir sistemdeki bir iletişim kesintisidir - iki düğüm arasında kaybolan veya geçici olarak geciken bir bağlantı. Bölme toleransı, sistemdeki düğümler arasında herhangi bir sayıda iletişim arızasına rağmen kümenin çalışmaya devam etmesi gerektiği anlamına gelir.
 
 ### &: 10. NoSQL Databases
 
