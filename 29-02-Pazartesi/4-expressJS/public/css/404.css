@@ -1,0 +1,27 @@
+body {
+  background-color: red;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 0;
+  font-size: 8rem;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 2rem;
+  font-size: 2rem;
+  color: black;
+  
+}

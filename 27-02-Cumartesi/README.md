@@ -335,8 +335,10 @@
         ORM fonksiyonunu yanlış şekilde kullanırsak aslında bir SQL sorgusu ile yapabileceğimiz bir sorguyu, sorgumuzdan kaç adet satır döndüyse (yani N adet) o kadar fazla SQL sorgusu ile yapıyoruz.
 
     - Database Normalization
+        Veri fazlalığını azaltmak ve veri bütünlüğünü iyileştirmek için bir veri tabanını, genllikle relational database'ler, bir dizi normal biçime(normal forms) göre yapılandırma sürecidir. Ve bunların sırası vardır. 
 
     - Indexes and how they work
+        Indexes(İndeksleme), bir dizi kaydı birden çok alanda sıralamanın bir yoludur. Bir tablodaki bir alanda bir indeks oluşturmak, alan değerini tutan başka bir veri yapısı ve bunun ilişkili olduğu kayda bir işaretçi oluşturur. Bu indeks yapısı daha sonra sıralanır ve bunun üzerinde İkili Aramaların gerçekleştirilmesine izin verir.
 
     - Data Replication
 
