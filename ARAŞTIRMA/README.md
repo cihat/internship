@@ -385,10 +385,15 @@
 [must reading this article very important about this subject](https://www.codecademy.com/articles/what-is-rest)
 
     - JSON APIs
+    JSON API, ilgili veri kaynaklarının getirilmesi ve işlenmesi için istemci tarafından oluşturulacak isteklerin nasıl yapılması gerektiğini, ve sunucunun bu isteklere hangi şekilde yanıt vermesi gerektiğini belirler. JSON API, istemciler ve sunucular arasındaki istek sayısının ve giden/gelen veri boyutunun azaltılması için tasarlanmıştır. JSON API, oluşturulacak veri değiş-tokuşu için JSON API medya türünün (application/vnd.api+json) kullanımını gerektirir.
 
     - SOAP
+    SOAP, bilgisayar ağlarında web hizmetlerinin uygulanmasında yapılandırılmış bilgi alışverişi için bir mesajlaşma protokolü belirtimidir. Amacı, genişletilebilirlik, tarafsızlık, ayrıntı ve bağımsızlık sağlamaktır.
+    SOAP is an acronym for Simple Object Access Protocol. It is an XML-based messaging protocol for exchanging information among computers. SOAP is an application of the XML specification.
+
 
     - HATEOAS
+    Hypermedia as the Engine of Application State (HATEOAS), REST uygulama mimarisinin onu diğer ağ uygulama mimarilerinden ayıran bir bileşenidir. HATEOAS ile bir istemci, uygulama sunucuları hiper medya aracılığıyla dinamik olarak bilgi sağlayan bir ağ uygulamasıyla etkileşime girer.
 
     - Open API Spec and Swagger
 
@@ -802,3 +807,15 @@
     - Proton Native
 
 ### 23. Web Assembly
+
+There are five layers of software:
+
+🌍 Hosting - where data is stored.
+
+📦 Database - how data is stored.
+
+🤔 Logic - how data is processed.
+
+🔁 API - how data is fetched.
+
+🖥 UI - how data is presented.
