@@ -394,6 +394,7 @@
 
     - HATEOAS
     Hypermedia as the Engine of Application State (HATEOAS), REST uygulama mimarisinin onu diğer ağ uygulama mimarilerinden ayıran bir bileşenidir. HATEOAS ile bir istemci, uygulama sunucuları hiper medya aracılığıyla dinamik olarak bilgi sağlayan bir ağ uygulamasıyla etkileşime girer.
+    HATEOAS'ın en önemli tek nedeni loose coupling(gevşek bağlantıdır). Bir REST hizmetinin tüketicisinin tüm kaynak URL'lerini sabit kodlaması gerekiyorsa, hizmet uygulamanızla sıkı bir şekilde birleştirilir. Bunun yerine, URL'leri döndürürseniz, eylemler için kullanabilir, sonra gevşek bir şekilde bağlanır. Yanıttan belirtildiği ve kullanıldığı için URI yapısına sıkı bir bağımlılık yoktur.
 
     - Open API Spec and Swagger
 
@@ -543,6 +544,14 @@
       - Monitoring
       - Telemetry
 
+<hr>
+<br>
+<hr>
+<br>
+<hr>
+<br>
+<hr>
+<br>
 <hr>
 <br>
 
