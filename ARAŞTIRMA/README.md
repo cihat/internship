@@ -359,17 +359,30 @@
 ### &: 10. NoSQL Databases
 
      - MongoDB
+        In the simplest definition, MongoDB is an open source NoSQL (Not only SQL) database application. MongoDB, developed by MongoDB Inc. using C++ programming language in 2009, is a document-based and scalable application. Due to its fast and open source code, MongoDB has gained popularity all over the world, which is more preferred in structures where traditional relational databases cannot catch up and remain cumbersome. As GTech, we have answered some questions about the MongoDB database application and usage areas in our article. It has a scalable structure. Supports range queries, field regular definition searches. It can index any field in the document in Binary BsON format. It can create multiple copies of the original data and thus prevent data loss. It allows data to be processed collectively as well as collecting data. Driver support is available for most of the current programming languages
+        MongoDB is widely used across various web applications as the primary data store. One of the most popular web development stacks, the MEAN stack employs MongoDB as the data store (MEAN stands for MongoDB, ExpressJS, AngularJS, and NodeJS).
+
+        MongoDB is a NoSQL database and as a result, it is not ACID compliant (Atomicity, Consistency, Isolation, Durability). As a result, in the applications where ACID compliance (for example, applications that require database-level transactions) is required, MongoDB cannot be used. For instance, one might not want to use MongoDB when designing a core-banking system for a bank.
 
      - RethinkDB
+        RethinkDB, JSON'u uygulamalarınıza real-time(gerçek zamanlı) olarak aktarır. Uygulamanız veri için anket yaptığında, veriler yavaş, ölçeklenemez ve bakımı zahmetli hale gelir. RethinkDB, gerçek zamanlı uygulamalar oluşturmayı önemli ölçüde kolaylaştıran açık kaynaklı, ölçeklenebilir veritabanıdır.
+
 
      - CouchDB
+        CouchDB uses the semi-structured JSON format for storing data, as well as a RESTful HTTP API. Queries to a CouchDB database are made via this API using HTTP or JavaScript.
+        CouchDB and MongoDB differ in their approach to the CAP theorem: CouchDB prefers availability and partition tolerance, while MongoDB prefers consistency and partition tolerance. The right choice here will depend on your database needs and use cases.
 
      - DynameDB
+        Amazonundur. Amazon DynamoDB, anahtar-değer ve belge veri yapılarını destekleyen ve Amazon.com tarafından Amazon Web Hizmetleri portföyünün bir parçası olarak sunulan, tamamen yönetilen, tescilli bir NoSQL veritabanı hizmetidir. DynamoDB, benzer bir veri modelini Dynamo'ya sunar ve adını Dynamo'dan alır, ancak farklı bir temel uygulamaya sahiptir.
 
 ### 11. Learn about APIs
 
-    - REST
+    - REST(REpresentational State Transfer)
     Read Roy Fielding's Paper
+    Temsili durum aktarımı, Web hizmetlerini kullanan etkileşimli uygulamaların bir yazılım mimarisi için fiili bir standarttır. Bu standardı izleyen bir Web hizmetine RESTful denir. Genellikle RESTful sistemleri olarak adlandırılan REST uyumlu sistemler, durumsuz olmaları ve istemci ile sunucunun concerns'leri birbirinden ayırmasıyla karakterize edilir.
+    - Statelessness REST paradigm'larını takip eden sistemler durumsuzdur. Yani sunucunun istemcinin hangi durumda olduğu hakkında hiçbir şey bilmesine gerek yoktur ve bunun tersi de geçerlidir. Bu şekilde, hem sunucu hem de istemci alınan herhangi bir mesajı, önceki mesajları görmeden bile anlayabilir.
+
+[must reading this article very important about this subject](https://www.codecademy.com/articles/what-is-rest)
 
     - JSON APIs
 

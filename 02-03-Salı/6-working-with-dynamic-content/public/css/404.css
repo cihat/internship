@@ -1,0 +1,19 @@
+html {
+  background-color: red;
+}
+
+body {
+  height: calc(100vh - 100px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 8rem;
+}

@@ -429,12 +429,40 @@ Korona ile birlikte 2021'de işletmelerin internete açılması çok ve sıradan
   Chai: It can be used alongside Mocha and can be used as a TDD/BDD assertion library for Node.js that can be paired with any testing framework based on JavaScript.
 
 - Some Good To Know Libraries For Node.js
+
   - Async.js
   - PM2
   - Commander.js
   - Nodemailer
   <hr>
   <br>
+
+  # [Beginners guide to Cloud Computing](https://medium.com/faun/beginners-guide-to-cloud-computing-97848db4c351)
+
+  ## Başlangıç Cloud Computing(Bulut Bilişim) Kılavuzu
+
+  - Efsaneyi Çözmek: Önce bir cloud'un(bulutun) ne olduğunu bilmek gerek. Temelde bulut computing, internet üzerinden depolamaya ve bilgisayar kaynaklarına(cpu, ram gibi bir bilgisayar gibi kullanmak) erişmektir.
+  - Nasıl bize yardımcu oluyor ? Artık birçok işte bilgisayara, depolamaya ihtiyac var. Bu ihtiyacıda data centerlarla giderirdik önceden ama simdi şirketler artık kendi yapılarının ürine kendi data centerlanını yapmaya başladı. Tabi bu maliyetlidir ama dışarıdan alınan hizmetlere nazaran daha uygundur. Tabi birçok olumlu yanları vardır. Cloud computing'in birçok faydası vardır, bunlar talepleri karşılar(şirketler istediği anda sadece internetin olması şartı ile fiziksel bir bilgisayara ve sanal bir depolama alanına belli bir ücret karşılığında sahip olabilir), Yüksek kullanılabilirlik(), Scalability & Elasticity
+    (Ölçeklenebilirlik ve Esneklik: Eğer cloud'daki projeniz büyürse çok kolay bir şekilde makine ekleyebilinir cloud ile), Redundancy & Disaster Recovery(Yedeklilik ve Olağanüstü Durum Kurtarma: Eğer projenizi kullanan kitlenin konumları farklı bir yerde ise veya acil bir durumda farklı bir bir bolgede host edilecekse veya projeyi farklı bir noktaya taşımak istersek bunu cloud ile çok kolay bir şekilde yapabiliriz ), Daha iyi kaynak maliyetleri(bazı durumlarda eğer ne kadar çok kullandıysanız o kadar odeme gibi faydaları vardır).
+  - Cloud'un Temel 3 tane Teklifi(Kullanım Paketi) vardır
+
+    - IaaS — Infrastructure as a Service: Bulunan makinanın çalışma zamanı, işletim sistemi, gerekli paketlerin kurulumu gibi yani platformun çalıması gibi olayların cloud'un sorumluluğundadır.
+    - PaaS — Platform as a Service: Bu paket ile siz sadece projenizi yazıp deploy etmeniz gerekiyor geri kalan herşeyi cloud şirketinin sorumluluğundadır.
+    - SaaS — Software as a Service: Müşterilerine yazılım desteği sunar.
+
+    ![](https://miro.medium.com/max/1800/1*RHntBcOFgc5MNSzm9Z7HrQ.png)
+
+    <hr>
+    <br>
+
+  # [What is Cloud Computing ?](https://medium.com/future-vision/what-is-cloud-computing-713bd6c3b105)
+
+  ## Cloud Computing Nedir ?
+
+  - Cloud 3 şeyden oluşur. Bunlardan biri depolama sistemi, bunada server denir. Eskiden fotograf makineleri için kullandığımız hafıza kartları gibi aynı mantık ama arada bir kablo yok. Server denen bi şey var ve oradan verileri alıyor veya veriyoruz. Bir şirket kendi server'ını kurmaya karkarsa çok maliyetli ve bakımı çok zor olur .
+
+    <hr>
+    <br>
 
 ### Tavsiye Siteler
 
