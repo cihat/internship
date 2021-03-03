@@ -1,6 +1,6 @@
 # Makalelerden Çıkardıklarım
 
-## Non-Coding Activities That Boost Developer Skills
+## [Non-Coding Activities That Boost Developer Skills(Makale Linki)](https://medium.com/swlh/non-coding-activities-that-boost-developer-skills-bcae28cb8847)
 
 - Sürekli kod yazmayın, ara verin kendiniz için. Büyük resmi görmeye çalışın. Eğer gecelere kadar kod yazıyorsanız bir sorun var demektir. Hem de büyük bir sorun var demektir projenin mirmarisi hakkında zayıf kararlar verebilecek kadar. Ne kadar çok kodlarsanız o kadar iyi değildir.Demek istediğim iyi veya kötü kod yazmak önemli değil. Önemli olan iyi veya kötü yazdığınız kod üzerinde düşünmek, zaman geçirmek, anlamak ve özümsemektir.
 
@@ -33,7 +33,7 @@
 <br>
 <hr>
 
-## Warning: Your programming career
+## [Warning: Your programming career](https://medium.com/sololearn/warning-your-programming-career-b9579b3a878b)
 
 - Bir front-end developer https protocolu, api'yi, JSON'ın ne olduğu bilmelidir.
 
@@ -100,7 +100,9 @@
 <hr>
 <br>
 
-# 5 Things Better than a Computer Science Degree(Bilgisayar Bilimleri Lisansından daha iyi 5 Şey)
+## [5 Things Better than a Computer Science Degree](https://medium.com/better-programming/5-things-better-than-computer-science-degree-f8acb8061c09)
+
+### (Bilgisayar Bilimleri Lisansından daha iyi 5 Şey)
 
 - Yazılım hakkındaki blogları, github'ı ve insanları takip ederek gelişilebilir ama aktif olmak şartıyla.
 - Çözemediğin bir sorun olursa Stackoverflow'da ara en iyi çözümü bulursan oy vermeyi ihmal etme.
@@ -114,7 +116,7 @@
 <hr>
 <br>
 
-# How to think like a programmer — lessons in problem solving(Bir programcı gibi düşünmek - problem çözmede dersler)
+## [How to think like a programmer — lessons in problem solving](https://medium.com/free-code-camp/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)
 
 Problem çözerken sistematik ve belli başlı kurallara uyarak adım adım parça parça çözülmeli. Problem çözmek işverenler için en önemli kriterlerden birisidir.
 Problem Çözme Adımları
@@ -136,7 +138,7 @@ Problem Çözme Adımları
 <hr>
 <br>
 
-# 5 Amazing Things Pure CSS Can Do
+## [5 Amazing Things Pure CSS Can Do](https://medium.com/javascript-in-plain-english/5-amazing-things-pure-css-can-do-20b8fe3738b)
 
 - Css ile JavaScript olmadan da harika işler çıkarabiliriz.Bunlar hem sıra dışı görsel işler hem de JavaScript kullanmadan fonksiyonel işlerdir.
 - Checkbox'lara :checked pseudo-elementi ile birbirinden güzel şekiller verilebilir.
@@ -149,9 +151,9 @@ Problem Çözme Adımları
 <hr>
 <br>
 
-# How to Become a Great Software Developer [with Actionable Tips]
+## [How to Become a Great Software Developer [with Actionable Tips]](https://www.freecodecamp.org/news/how-to-become-a-great-software-developer/)
 
-## Nasıl daha iyi bir developer olunur
+### Nasıl daha iyi bir developer olunur
 
 - İyi bir mentor aramalı. İlgili alanda iyi birisi iyi bir yol gösterici olabilir. Deneyimlerinden çıkardıklarını uygulayabilinir.
 - İletişim çok önemli. Yani kendini iyi ifade etmeli ve iyi bir dinleyici olunmalı.
@@ -173,9 +175,9 @@ Problem Çözme Adımları
 <hr>
 <br>
 
-# Layout in CSS
+## [Layout in CSS](https://medium.com/crowdbotics/layout-in-css-634c3ca3dcff)<br>
 
-## CSS'de düzesn
+### CSS'de düzesn
 
 - Componentler yeniden kullanılabilirler(reusable). Bir sayfada istediğin konuma yerleştirebilinir.
 - margin, padding
@@ -189,9 +191,9 @@ Problem Çözme Adımları
 <hr>
 <br>
 
-# 21 Predictions about the Software Development Trends in 2021
+## [21 Predictions about the Software Development Trends in 2021](https://towardsdatascience.com/21-predictions-about-the-software-development-trends-in-2021-600bfa048be)
 
-## 2021 Yılında Yazılım Geliştirme Trendlerine İlişkin 21 Öngörü
+### 2021 Yılında Yazılım Geliştirme Trendlerine İlişkin 21 Öngörü
 
 - Cloud teknolojisi pandemide her zamankinden daha güçlendi. Bulut teknolojileri alanında gelişmeye bak ilerde çok populer olacak bir alandır.
 - Merkezi olmayan altyapı(Edge Computing) üstel olarak gelişecek, CDN(Content Delivery Network). Amazon, Google, Microsoft gibi firmalar ile operatör şirketleri(Telecom Companies, Data Center Providers, Network Providers) arasında son zamanlardaki bağlantılı cihazların artması ve gelişmesiyle Edge Computing alanında bir rekabet oluşacaktır.
@@ -205,9 +207,9 @@ Problem Çözme Adımları
 <hr>
 <br>
 
-# Software Developers: Adapt or You’ll Be Replaced
+## [Software Developers: Adapt or You’ll Be Replaced](https://medium.com/better-programming/software-developers-adapt-or-youll-be-replaced-efaa8c5b4d5)
 
-## Yazılım Geliştiriciler: Uyum Sağlayın veya Değiştirileceksiniz
+### Yazılım Geliştiriciler: Uyum Sağlayın veya Değiştirileceksiniz
 
 - Yazılım sürekli gelişen bir alandır.
 - Zamanla kod yazmak daha effektif hale getirildi. Nesne Yönelimli Programalama(OOP) ve İşlevsel Programlama(Function Programming) ile daha öz kod yazarak daha çok iş yapmak istenmiştir. Zamandan ve güçten tasarruf için.
@@ -219,9 +221,9 @@ Problem Çözme Adımları
 <hr>
 <br>
 
-# Don’t Just Write Code, Solve Problems
+## [Don’t Just Write Code, Solve Problems](https://medium.com/better-programming/dont-just-write-code-solve-problems-b5c4ed3f9d0d)
 
-## Sadece Kod Yazmayın, Sorunları Çözün(with George Polya)
+### Sadece Kod Yazmayın, Sorunları Çözün(with George Polya)
 
 - “Sorunları çözmek, diyelim ki yüzmek gibi pratik bir beceridir. Herhangi bir pratik beceriyi taklit ederek ve pratik yaparak kazanırız. Yüzmeye çalışırken, başlarını suyun üzerinde tutmak için başkalarının elleriyle ve ayaklarıyla yaptıklarını taklit ediyorsunuz ve sonunda yüzmeyi pratik yaparak yüzmeyi öğreniyorsunuz. Problemleri çözmeye çalışırken, diğer insanların problemleri çözerken yaptıklarını gözlemlemeli ve taklit etmelisiniz ve sonunda problemleri yaparak çözmeyi öğrenirsiniz. " - George Polya, Nasıl Çözülür?
 - İlk olarak sorunu iyi bir şekilde anlamamız gerekiyor. Bu anladıklarımız üzerine bir plan kuruyoruz yapa bir grafik, şekil, flowchart gibi örneklerle bir taslak, bir strateji geliştiriyoruz.
@@ -257,9 +259,9 @@ Problem Çözme Adımları
 <hr>
 <br>
 
-# Facebook is on the decline for Gen Z and younger Millennials, but why?
+## [Facebook is on the decline for Gen Z and younger Millennials, but why?](https://www.smartinsights.com/social-media-marketing/facebook-marketing/is-facebook-on-the-decline-for-gen-z-and-younger-millennials/)
 
-## Facebook, Gen Z ve daha genç Y kuşağı için düşüşte, ama neden?
+### Facebook, Gen Z ve daha genç Y kuşağı için düşüşte, ama neden?
 
 - Facebook günümezde sadece arkadaşlar ile sohbet etmekten çok birçok alanda özellikler ekledi. Ama bunun yanında 25 yaş altı genç insanları(özellikle 12-17 yaş arası) ciddi anlamda kendinden uzaklaştırır durumda.
 - Diğer sosyal platformlar Facebook'un sunduğu birçok olanığı sunmuyor ama facebook'un kaybettiği genç insanların büyük çoğunluğu bu diğer platformlarda. Bunun sebepleri;
@@ -270,9 +272,9 @@ Problem Çözme Adımları
 <hr>
 <br>
 
-# Facebook Is Dead (It Just Doesn’t Know It Yet)
+## [Facebook Is Dead (It Just Doesn’t Know It Yet)](https://medium.com/better-marketing/facebook-is-dead-it-just-doesnt-know-it-yet-614e723e9f72)
 
-## Facebook öldü (Henüz Bilmiyor)
+### Facebook öldü (Henüz Bilmiyor)
 
 Genç(14-16 yaşındaki insanlar) insanların facebook'u kullanmamasının nedenleri ve Megalitik sosyal medya tekeli, önümüzdeki yıllarda potansiyel olarak aşılmaz beş zorlukla karşı karşıya.
 
@@ -461,8 +463,30 @@ Korona ile birlikte 2021'de işletmelerin internete açılması çok ve sıradan
 
   - Cloud 3 şeyden oluşur. Bunlardan biri depolama sistemi, bunada server denir. Eskiden fotograf makineleri için kullandığımız hafıza kartları gibi aynı mantık ama arada bir kablo yok. Server denen bi şey var ve oradan verileri alıyor veya veriyoruz. Bir şirket kendi server'ını kurmaya karkarsa çok maliyetli ve bakımı çok zor olur .
 
-    <hr>
-    <br>
+<hr>
+<br>
+
+## [Blockchain Technology Explained](https://medium.com/swlh/a-simple-guide-to-blockchain-technology-4589971e6d03)
+
+Blockchain aslında özünde kayıtları tutma aracıdır. Blockchain teknolojisi distributed ledger technology(DLT)'dir.
+TL: DR - bir blok zinciri, eşler arası bir bilgisayar ağı tarafından yönetilen ve sahip olunan işlemlerin dijital bir defteridir.
+Blockchain'deki block bir kayıt defteri gibi düşünülebilinir, bitconin blokchain'in de 1mb kadar bilgi tutabilir.
+Yaptığı işlemleri karma ama bağlı bir şekilde yapar.Mevcut ve geçmiş işlemlerden bilgileri içerecek şekilde oluşturulur. Bu, karma sırasının değiştirilemediği bir zincir etkisi yaratır. Sonuç olarak, işlemler eklendikten sonra değişmez. Yani blockchain'de önce tüm işlemlerin doğrulanması gerekir.
+Merkezi değildir, yayılmış bir yapısı vardır.
+Şeffaf bir yapısı vardır. Bu, herbir katılımcının(node, duğumun) arasında blok zincirinde depolanır.
+Değişmez: Saklanan veriler değiştirilemez bir yapısı vardır.
+Güvenli: Dağılmış yapısı nedeniyle blok zincirini değiştirmek veya yok etmek zordur.
+
+Bitcoin'in Çıkış Amacı: Bir ödeme yapmak için 3.(bankalar) bir tarafın girmesine gerek kalmadan tarafların kendi araların ödeme yapabilmesidir. Bunuda birbirine bağlı kronolojik kalıcı olan bir zincire bağlı blokların kullanımıyla yani blockchain ile yapılıyor.
+
+<hr>
+<br>
+
+## [A Technical Introduction to Blockchain](https://betterprogramming.pub/a-technical-introduction-to-blockchain-22ab05308151)
+
+
+<hr>
+<br>
 
 ### Tavsiye Siteler
 

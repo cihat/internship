@@ -397,55 +397,129 @@
     HATEOAS'ın en önemli tek nedeni loose coupling(gevşek bağlantıdır). Bir REST hizmetinin tüketicisinin tüm kaynak URL'lerini sabit kodlaması gerekiyorsa, hizmet uygulamanızla sıkı bir şekilde birleştirilir. Bunun yerine, URL'leri döndürürseniz, eylemler için kullanabilir, sonra gevşek bir şekilde bağlanır. Yanıttan belirtildiği ve kullanıldığı için URI yapısına sıkı bir bağımlılık yoktur.
 
     - Open API Spec and Swagger
+        Orijinal olarak Swagger Spesifikasyonu olarak bilinen OpenAPI Spesifikasyonu, RESTful web servislerini tanımlamak, üretmek, tüketmek ve görselleştirmek için makine tarafından okunabilir arayüz dosyalarına yönelik bir spesifikasyondur. OpenAPI Spesifikasyonu (OAS), RESTful API'lere standart, dilden bağımsız bir arayüz tanımlar; bu, hem insanların hem de bilgisayarların, kaynak koda, belgelere veya ağ trafiği incelemesine erişim olmadan hizmetin yeteneklerini keşfetmesine ve anlamasına olanak tanır. Doğru bir şekilde tanımlandığında, bir tüketici minimum miktarda uygulama mantığıyla uzak hizmeti anlayabilir ve etkileşime girebilir.
 
     - Authentication
-        - Cookie Based
-        - OAuth
-        - Basic Authentication
-        - Token Authentication
-        - JWT
-        - OpenID
-        - SAML
+    Kimlik doğrulama, bir bilgisayar sistemi kullanıcısının kimliği gibi bir iddiayı kanıtlama eylemidir. Tanımlamanın aksine, bir kişinin veya şeyin kimliğini belirtme eylemi, kimlik doğrulama, bu kimliği doğrulama sürecidir.
+    - Cookie Based
+    Cookie-based trageting(Çerez Tabanlı Hedefleme), web tarayıcısı davranışlarına göre küçük hedef kitle gruplarını hedeflemek için veri parçalarını veya "çerezleri" kullanır. Çerez tabanlı Hedefleme, şirketlerin, kullanıcının şirketin web sitesine ilgi gösterdiğini belirttikten sonra kullanıcının göz atma deneyimi boyunca reklam görüntülemesine olanak tanır.
+    - OAuth
+    OAuth, İnternet kullanıcılarının web sitelerine veya uygulamalara diğer web sitelerindeki bilgilerine erişim izni vermeleri için ancak parolaları vermeden erişim yetkilendirmesi için açık bir standarttır.
+    - Basic Authentication
+    Bir HTTP işlemi bağlamında, temel erişim kimlik doğrulaması, bir HTTP kullanıcı aracısının bir istekte bulunurken bir kullanıcı adı ve parola sağlama yöntemidir.
+    - Token Authentication
+    Bilgisayar sistemlerinde, bir erişim belirteci, bir oturum açma oturumu için güvenlik kimlik bilgilerini içerir ve kullanıcıyı, kullanıcının gruplarını, kullanıcının ayrıcalıklarını ve bazı durumlarda belirli bir uygulamayı tanımlar. Tipik olarak, normal parola yerine erişim belirtecini girmesi istenebilir.
+    - JWT
+    JSON Web Token, yükü bir takım iddiaları öne süren JSON'u tutan isteğe bağlı imza ve / veya isteğe bağlı şifreleme ile veri oluşturmak için İnternet tarafından önerilen bir standarttır. Belirteçler ya özel bir sır ya da genel / özel bir anahtar kullanılarak imzalanır.
+    - OpenID
+    OpenID, açık standart ve merkezi olmayan bir kimlik doğrulama protokolüdür. Kâr amacı gütmeyen OpenID Foundation tarafından tanıtılan bu uygulama, kullanıcıların üçüncü taraf bir hizmet kullanarak işbirliği yapan siteler tarafından kimliklerinin doğrulanmasına olanak tanır
+    - SAML
+    Security Assertion Markup Language, taraflar arasında, özellikle bir kimlik sağlayıcı ile bir hizmet sağlayıcı arasında kimlik doğrulama ve yetkilendirme verilerinin değiş tokuşu için açık bir standarttır. SAML, güvenlik iddiaları için XML tabanlı bir biçimlendirme dilidir.
 
 ### 12. Caching
 
-    - CDN
+    In computing(Bilgi işlemde) önbellek, verileri depolayan bir donanım veya yazılım bileşenidir, böylece bu verilere yönelik gelecekteki talepler daha hızlı karşılanabilir; bir önbellekte depolanan veriler, daha önceki bir hesaplamanın sonucu veya başka bir yerde depolanan verilerin bir kopyası olabilir.
+    Bilgi işlemde, önbellek, bir veri alt kümesini depolayan yüksek hızlı bir veri depolama katmanıdır ve bu katmandır, tipik olarak doğası gereği geçici bir durumdur, böylece bu verilere yönelik gelecekteki istekler, verilerin birincil depolama konumuna erişilerek mümkün olandan daha hızlı bir şekilde sunulur. Önbelleğe alma, önceden alınmış veya hesaplanmış verileri verimli bir şekilde yeniden kullanmanızı sağlar.
+
+    - CDN(Content delivery network)
+    Bir içerik dağıtım ağı veya içerik dağıtım ağı, coğrafi olarak dağıtılmış bir proxy sunucuları ve bunların veri merkezleri ağıdır. Amaç, hizmeti son kullanıcılara göre mekansal olarak dağıtarak yüksek kullanılabilirlik ve performans sağlamaktır.
+    A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.
+    A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos. The popularity of CDN services continues to grow, and today the majority of web traffic is served through CDNs, including traffic from major sites like Facebook, Netflix, and Amazon.
+
+![](https://www.cloudflare.com/img/learning/cdn/what-is-a-cdn/what-is-a-cdn.png)
 
     - Server Side
+    Server-side refers to operations that are performed by the server in a client–server relationship in a computer network.(Sunucu tarafı, bir bilgisayar ağındaki bir istemci-sunucu ilişkisi içinde sunucu tarafından gerçekleştirilen işlemleri ifade eder.)
+    Server Side Rendering:
+    Sunucu tarafı işleme (SSR), web sayfalarını bir sunucuda işleme ve tarayıcıda görüntülemek yerine tarayıcıya (istemci tarafı) geçirme işlemidir. SSR, istemciye tamamen işlenmiş bir sayfa gönderir; müşterinin JavaScript paketi devreye girer ve SPA çerçevesinin çalışmasını sağlar.
       - Redis
+      Redis, verileri bellekte anahtar-değer çiftleri olarak depolayan açık kaynaklı bir NoSQL veritabanıdır. Özellikle, bu veriler sabit sürücülere yazılmak yerine RAM'de (Random Access Memory) saklanır.
       - Memcached
+      Memcached, genel amaçlı dağıtılmış bir bellek önbelleğe alma sistemidir. Genellikle, harici bir veri kaynağının okunması gereken sayıyı azaltmak için verileri ve nesneleri RAM'de önbelleğe alarak dinamik veritabanı odaklı web sitelerini hızlandırmak için kullanılır. Memcached, Revize BSD lisansı altında lisanslanan ücretsiz ve açık kaynaklı bir yazılımdır.
+
+      server-side programlama server’da çalıştırılan bütün uygulamalara verilen genel bir addır. Asıl işi, dinamik olarak içerikleri üretmek ve client‘ın istediklerini göndermektir. Çoğu web sitesi statik bir yapıda olmadığı için, database’den gelecek verilerle işlem yaparlar ve bu verileri; örneğin bir siteye giriş yapmak istediğinizde kullanıcı adınızı ve şifrenizi yazıp giriş yapmak istediğiniz de, kullandığınız client yani browser’ınız, server’a istek yollar ve server tarafındaki uygulama sizin bilgilerinizi database’de karşılaştırma yaparak client‘a cevap verir.
+      SEO kayginiz yoksa SSR kullanmaniza gerek olmayabilir, SSR’in ortaya cikisindaki en buyuk itme motivasyonu SEO’dur.
+
+![](https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/94ac796d-f3fd-4984-8d62-5e3ca2134f13/ssg-ssr-08-ssr.png)
 
     - Client Side
+    İstemci tarafı, bir bilgisayar ağındaki istemci-sunucu ilişkisi içinde istemci tarafından gerçekleştirilen işlemleri ifade eder.
+
+![](https://miro.medium.com/max/1800/1*cRftPL0mxSxiVSg-E0P7IA.png)
+
+![](https://experienceleague.adobe.com/docs/audience-manager-learn/assets/client-side_vs_server-side_aam_implementation.png?lang=en)
 
 ### 13. Web Security Knowledge
 
     - Hashing Algorithms
+    Hashing Algorithms (Karma algoritmalar), belirli bir girdiden sabit uzunlukta bir sonuç (hash(karma) veya hash value(karma değer)) üreten işlevlerdir. Karma değer, orijinal verilerin bir özetidir. Örneğin, artık içeriğini okuyamayacağınız bir noktaya kadar buruşturduğunuz bir kağıt belge düşünün.
       - MD5 and why not to use it
+      MD5(Message Digest Algorithm)(İleti Özeti Algoritması) veya MD5, bir şifreleme hash function'udur(karma işlevidir). Karma hale getirilmiş herhangi bir mesajın veya dosyanın bütünlüğünü doğrulamak için oluşturulan Mesaj Özeti Algoritması ailesinin bir parçasıdır. MD5 birkaç durumda hala kullanılmaktadır; ancak MD5 güvenli değildir ve herhangi bir uygulamada kullanılmamalıdır.
       - SHA Family
+      ABD Federal Bilgi İşleme Standardı olarak yayınlanan bir kriptografik hash fonksiyonları ailesidir
       - scrypt
+      Kriptografide, şifreleme, çevrimiçi yedekleme hizmeti için oluşturulan şifre tabanlı bir anahtar türetme işlevidir. Algoritma, büyük miktarlarda bellek gerektirerek büyük ölçekli özel donanım saldırıları gerçekleştirmeyi maliyetli hale getirmek için özel olarak tasarlanmıştır.
       - bcrypt
+      bcrypt, Blowfish şifresine dayalı olarak tasarlanan ve 1999'da USENIX'te sunulan bir şifre karma işlevidir. ... bcrypt işlevi, OpenBSD ve bazı Linux dağıtımları dahil olmak üzere diğer sistemler için varsayılan şifre karma algoritmasıdır. SUSE Linux.
+
+![](https://blog.jscrambler.com/content/images/2020/06/jscrambler-blog-hashing-algorithm-example.png)
 
     - HTTPS
+    Hypertext Transfer Protocol Secure, HTTP( Hypertext Transfer Protocol) bir uzantısıdır. Bir bilgisayar ağı üzerinden güvenli iletişim için kullanılır ve İnternette yaygın olarak kullanılır. HTTPS'de iletişim protokolü, Taşıma Katmanı Güvenliği veya daha önce Güvenli Yuva Katmanı kullanılarak şifrelenir.
 
-    - CORS
+    - CORS(Cross-origin resource sharin)
+    Cross-origin resource sharing(Kaynaklar arası kaynak paylaşımı), bir web sayfasındaki kısıtlı kaynakların, ilk kaynağın sunulduğu alanın dışındaki başka bir alandan talep edilmesine izin veren bir mekanizmadır. Bir web sayfası, çapraz kaynaklı görüntüleri, stil sayfalarını, komut dosyalarını, iframe'leri ve videoları serbestçe gömebilir.
 
-    - SSL/TLS
+    - SSL/TLS(Transport Layer Security)
+
+    Transport Layer Security ve artık kullanımdan kaldırılmış öncülü olan Secure Socket Layer, bir bilgisayar ağı üzerinden iletişim güvenliği sağlamak için tasarlanmış kriptografik protokollerdir
+    SSL, Secure Sockets Layer'ın kısaltmasıdır ve kısaca, bir internet bağlantısını güvende tutmak ve iki sistem arasında gönderilen hassas verileri korumak, suçluların potansiyel kişisel ayrıntılar da dahil olmak üzere aktarılan herhangi bir bilgiyi okumasını ve değiştirmesini engelleyen standart teknolojidir. İki sistem bir sunucu ve bir istemci (örneğin, bir alışveriş sitesi ve tarayıcı) veya sunucudan sunucuya (örneğin, kişisel tanımlanabilir bilgiler veya maaş bordrosu bilgileri içeren bir uygulama) olabilir.
+    TLS(Transport Layer Security):
+    TLS (Transport Layer Security), SSL'nin yalnızca güncellenmiş, daha güvenli bir sürümüdür. Daha yaygın olarak kullanılan bir terim olduğu için hala güvenlik sertifikalarımıza SSL olarak atıfta bulunuyoruz, ancak DigiCert'ten SSL satın aldığınızda, aslında ECC, RSA veya DSA şifreleme seçeneğiyle en güncel TLS sertifikalarını satın alıyorsunuz.
 
     - OWASP Security Risks
 
+<ol>
+<li><a href="/www-project-top-ten/2017/A1_2017-Injection"><strong>Injection</strong></a>. Injection flaws, such as SQL, NoSQL, OS, and LDAP injection, occur when untrusted data is sent to an interpreter as part of a command or query. The attacker’s hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorization.</li>
+<li><a href="/www-project-top-ten/2017/A2_2017-Broken_Authentication"><strong>Broken Authentication</strong></a>. Application functions related to authentication and session management are often implemented incorrectly, allowing attackers to compromise passwords, keys, or session tokens, or to exploit other implementation flaws to assume other users’ identities temporarily or permanently.</li>
+<li><a href="/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure"><strong>Sensitive Data Exposure</strong></a>. Many web applications and APIs do not properly protect sensitive data, such as financial, healthcare, and PII. Attackers may steal or modify such weakly protected data to conduct credit card fraud, identity theft, or other crimes. Sensitive data may be compromised without extra protection, such as encryption at rest or in transit, and requires special precautions when exchanged with the browser.</li>
+<li><a href="/www-project-top-ten/2017/A4_2017-XML_External_Entities_(XXE)"><strong>XML External Entities (XXE)</strong></a>. Many older or poorly configured XML processors evaluate external entity references within XML documents. External entities can be used to disclose internal files using the file URI handler, internal file shares, internal port scanning, remote code execution, and denial of service attacks.</li>
+<li><a href="/www-project-top-ten/2017/A5_2017-Broken_Access_Control"><strong>Broken Access Control</strong></a>. Restrictions on what authenticated users are allowed to do are often not properly enforced. Attackers can exploit these flaws to access unauthorized functionality and/or data, such as access other users’ accounts, view sensitive files, modify other users’ data, change access rights, etc.</li>
+<li><a href="/www-project-top-ten/2017/A6_2017-Security_Misconfiguration"><strong>Security Misconfiguration</strong></a>. Security misconfiguration is the most commonly seen issue. This is commonly a result of insecure default configurations, incomplete or ad hoc configurations, open cloud storage, misconfigured HTTP headers, and verbose error messages containing sensitive information. Not only must all operating systems, frameworks, libraries, and applications be securely configured, but they must be patched/upgraded in a timely fashion.</li>
+<li><a href="/www-project-top-ten/2017/A7_2017-Cross-Site_Scripting_(XSS)"><strong>Cross-Site Scripting (XSS)</strong></a>. XSS flaws occur whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user-supplied data using a browser API that can create HTML or JavaScript. XSS allows attackers to execute scripts in the victim’s browser which can hijack user sessions, deface web sites, or redirect the user to malicious sites.</li>
+<li><a href="/www-project-top-ten/2017/A8_2017-Insecure_Deserialization"><strong>Insecure Deserialization</strong></a>. Insecure deserialization often leads to remote code execution. Even if deserialization flaws do not result in remote code execution, they can be used to perform attacks, including replay attacks, injection attacks, and privilege escalation attacks.</li>
+<li><a href="/www-project-top-ten/2017/A9_2017-Using_Components_with_Known_Vulnerabilities"><strong>Using Components with Known Vulnerabilities</strong></a>. Components, such as libraries, frameworks, and other software modules, run with the same privileges as the application. If a vulnerable component is exploited, such an attack can facilitate serious data loss or server takeover. Applications and APIs using components with known vulnerabilities may undermine application defenses and enable various attacks and impacts.</li>
+<li><a href="/www-project-top-ten/2017/A10_2017-Insufficient_Logging%2526Monitoring"><strong>Insufficient Logging &amp; Monitoring</strong></a>. Insufficient logging and monitoring, coupled with missing or ineffective integration with incident response, allows attackers to further attack systems, maintain persistence, pivot to more systems, and tamper, extract, or destroy data. Most breach studies show time to detect a breach is over 200 days, typically detected by external parties rather than internal processes or monitoring.</li>
+</ol>
+
     - Content Policy
+    Content Security Policy(İçerik Güvenliği Politikası), güvenilir web sayfası bağlamında kötü amaçlı içeriğin yürütülmesinden kaynaklanan siteler arası komut dosyası, tıklama hırsızlığı ve diğer kod yerleştirme saldırılarını önlemek için tanıtılan bir bilgisayar güvenlik standardıdır.
 
 ### 14. Testing
 
+![](https://softwaretestingfundamentals.com/wp-content/uploads/2011/02/unit-testing.jpg)
+
     - Integration Testing
+    Integration Testin(Entegrasyon testi), yazılım testinde bireysel yazılım modüllerinin bir araya getirildiği ve grup olarak test edildiği aşamadır. Entegrasyon testi, bir sistemin veya bileşenin belirtilen fonksiyonel gereksinimlere uygunluğunu değerlendirmek için yapılır. Unit Testing(Birim testinden) sonra ve validation testing(doğrulama testinden) önce gerçekleşir
 
     - Unit Testing
+    Bilgisayar programlamasında, Unit Testin(birim testi), ayrı ayrı kaynak kodu birimlerinin (bir veya daha fazla bilgisayar programı modülünün yanı sıra ilişkili kontrol verileri, kullanım prosedürleri ve işletim prosedürleri ile birlikte) kullanıma uygun olup olmadıklarını belirlemek için test edildiği bir yazılım test yöntemidir. .
 
     - Functional Testing
+    Functional Testing(Fonksiyonel test), bir kalite güvence süreci ve test senaryolarını test edilen yazılım bileşeninin özelliklerine dayandıran bir tür kara kutu testidir. Fonksiyonlar, girdi besleyerek ve çıktıyı inceleyerek test edilir ve dahili program yapısı nadiren dikkate alınır.
+
+![](https://www.globalapptesting.com/hubfs/Screenshot%202019-11-13%20at%2012.46.42.png)
 
 ### 15. CI / CD
 
-      CI/CD
+    CI/CD:
+    Yazılım mühendisliğinde, CI / CD veya CICD genellikle sürekli entegrasyon ve sürekli teslimat veya sürekli dağıtım uygulamalarının birleşik uygulamalarını ifade eder. CI / CD, uygulamaların oluşturulması, test edilmesi ve konuşlandırılmasında otomasyonu güçlendirerek geliştirme ve operasyon faaliyetleri ile ekipler arasındaki boşlukları kapatır.
+
+![](https://stackify.com/wp-content/uploads/2019/04/big-Feature-Image-on-What-Is-CI_CD-1280x720.jpg)
+
+      CI / CD ardışık düzeni, kod değişikliklerini daha sık ve güvenilir bir şekilde sunmak için ekiplerin uygulayabileceği en iyi uygulamalardan biridir
+      Continuous Integration(Sürekli İntegrasyon)
+      CI'nin teknik amacı, uygulamaları oluşturmak, paketlemek ve test etmek için tutarlı ve otomatik bir yol oluşturmaktır. Entegrasyon sürecinde tutarlılık sağlandığında, ekiplerin kod değişikliklerini daha sık gerçekleştirme olasılığı daha yüksektir ve bu da daha iyi işbirliği ve yazılım kalitesine yol açar.
 
 ### 16. Design and Development Principles
 
