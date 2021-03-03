@@ -36,11 +36,11 @@
 
 - ## One of component'lar(sadece bir kere kullanılan componentleri)
 
-- ##
+- ## Cloud
 
-- ##
+- ## OOP
 
-- ##
+- ## Callback in JS
 
 - ##
 

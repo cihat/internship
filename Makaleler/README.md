@@ -515,3 +515,7 @@ Blok zinciri, bloklar olarak da adlandırılan , her türden veri içerebilen ve
 [Facebook Is Dead (It Just Doesn’t Know It Yet)](https://medium.com/better-marketing/facebook-is-dead-it-just-doesnt-know-it-yet-614e723e9f72)<br>
 [Top Node.js Trends That Will Dominate In 2021](https://js.plainenglish.io/top-node-js-trends-that-will-dominate-in-2021-73dbc40e9c26)<br>
 [Ultimate Web Developer Roadmap for 2021](https://javascript.plainenglish.io/ultimate-web-developer-roadmap-for-2021-6758edd0bd3f)<br>
+
+<hr>
+
+[JavaScript: What the heck is a Callback?](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced)
