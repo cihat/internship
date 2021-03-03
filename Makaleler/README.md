@@ -484,6 +484,7 @@ Bitcoin'in Çıkış Amacı: Bir ödeme yapmak için 3.(bankalar) bir tarafın g
 
 ## [A Technical Introduction to Blockchain](https://betterprogramming.pub/a-technical-introduction-to-blockchain-22ab05308151)
 
+Blok zinciri, bloklar olarak da adlandırılan , her türden veri içerebilen ve kriptografik referanslar aracılığıyla bağlanan bir kayıt listesi ile tanımlanabilen merkezi olmayan bir veri yapısıdır .
 
 <hr>
 <br>
