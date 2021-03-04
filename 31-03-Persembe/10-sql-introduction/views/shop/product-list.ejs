@@ -27,12 +27,12 @@
                   </p>
                 </div>
                 <div class="card__actions">
-                  <a href="/admin/edit-product/<%= product.id %>?edit=true" class="btn">Edit</a>
-                  <form action="/admin/delete-product" method="POST">
-                    <input type="hidden" value="<%= product.id %>" name="productId">
-                    <button class="btn" type="submit">Delete</button>
-                  </form>
-
+                  <a href="/products/<%= product.id %>" class="btn">Details</a>
+                  <!-- <form action="/cart" method="POST">
+                    <button class="btn" type="submit">Add to Cart</button>
+                    <input type="hidden" name="productId" value="<%= product.id %>">
+                  </form> -->
+                  <%- include('../includes/add-to-cart.ejs', {product: product}) %>
                 </div>
               </article>
               <% } %>

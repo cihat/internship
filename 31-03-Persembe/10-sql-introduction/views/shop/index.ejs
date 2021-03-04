@@ -19,20 +19,18 @@
                   <img src="<%= product.imageUrl %>" alt="<%= product.title %>">
                 </div>
                 <div class="card__content">
-                  <h2 class="product__price">$
-                    <%= product.price %>
+                  <h2 class="product__price">$<%= product.price %>
                   </h2>
                   <p class="product__description">
                     <%= product.description %>
                   </p>
                 </div>
                 <div class="card__actions">
-                  <a href="/admin/edit-product/<%= product.id %>?edit=true" class="btn">Edit</a>
-                  <form action="/admin/delete-product" method="POST">
-                    <input type="hidden" value="<%= product.id %>" name="productId">
-                    <button class="btn" type="submit">Delete</button>
-                  </form>
-
+                  <!-- <form action="/cart" method="POST">
+                    <button class="btn" type="submit">Add to Cart</button>
+                    <input type="hidden" name="productId" value="<%= product.id %>">
+                  </form> -->
+                  <%- include('../includes/add-to-cart.ejs', {product: product}) %>
                 </div>
               </article>
               <% } %>
