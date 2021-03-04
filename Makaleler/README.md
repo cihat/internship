@@ -489,6 +489,24 @@ Blok zinciri, bloklar olarak da adlandırılan , her türden veri içerebilen ve
 <hr>
 <br>
 
+## [What is Artificial Intelligence?](https://medium.datadriveninvestor.com/what-is-artificial-intelligence-eeb863bf3fee)
+Yapay zeka makinatinın düşünebilme kabiliyetidir. iki tür yapay zeka türü vardır. Bunlar General AI, Narrow AI. Deep Learning(derin öğrenme), Machine Learning(makine öğrenmesini) başarır. Machine Learning, artificial interlligence'ı başarır.
+Machine Learning: Büyük miktarda veriyi + hızlı, yinelemeli işleme ve akıllı algoritmaları birleştirerek çalışır ve yazılımın verilerdeki desenlerden veya özelliklerden otomatik olarak öğrenmesini sağlar. Makinaya insanlar gibi öğrenme becerisi sağlamak. 
+Deep Learning: Makina öğrenmesini yapmak için bir methotdur. İnsan beynindeki nöronlar gibi çalışma mantığı vardır.  Derin Öğrenmenin Makine Öğrenmesini gerçekleştirmek için insan vücudundaki nöronları ve sinir sistemlerini taklit etmesidir.
+Deep Learning --> Machine Learning --> Artificial Intelligence
+![](https://miro.medium.com/max/1800/0*uIV3e8nsVQSi3zAL)
+
+
+<hr>
+<br>
+
+## [What Is Machine Learning & Deep Learning?](https://medium.com/@harish_6956/what-is-machine-learning-deep-learning-7788604004da)
+![](https://miro.medium.com/max/1800/1*-oVnNlSFTUxvpJ42VIVpRw.jpeg)
+Deep Learning --> Machine Learning --> Artificial Intelligence
+
+<hr>
+<br>
+
 ### Tavsiye Siteler
 
 [Awesome CSS Learning ](https://github.com/micromata/awesome-css-learning#readme)

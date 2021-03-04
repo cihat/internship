@@ -524,30 +524,57 @@
 ### 16. Design and Development Principles
 
     - SOLID
+    Nesne yönelimli bilgisayar programlamada SOLID, yazılım tasarımlarını daha anlaşılır, esnek ve sürdürülebilir hale getirmeyi amaçlayan beş tasarım ilkesinin anımsatıcı bir kısaltmasıdır.
+    S - Single-responsiblity Principle
+        Bir sınıfın değişmesi için bir ve yalnızca bir nedeni olmalıdır, yani bir sınıfın yalnızca bir işi olmalıdır.
+    O - Open-closed Principle
+        Objects(Nesneler) veya entities extension(genişletme) için açık olmalı ancak modification(değişiklik) için kapalı olmalıdır.
+    L - Liskov Substitution Principle
+        Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T.
+    I - Interface Segregation Principle
+        Bir client(müşteri) asla kullanmadığı bir interface(arayüzü) uygulamaya zorlanmamalı veya client(istemciler) kullanmadıkları yöntemlere bağımlı olmaya zorlanmamalıdır.
+    D - Dependency Inversion Principle
+        Entities must depend on abstractions, not on concretions. It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
 
     - KISS
+    KISS ilkesi, çoğu sistemin karmaşık hale getirilmek yerine basit tutulduklarında en iyi şekilde çalıştığını belirtir; bu nedenle, tasarımda basitlik temel bir hedef olmalı ve gereksiz karmaşıklıktan kaçınılmalıdır.
 
     - YAGNI
-
+    "You aren't gonna need it" Buna ihtiyacınız olmayacak", bir programcının gerekli görülene kadar işlevsellik eklememesi gerektiğini belirten aşırı programlama ilkesidir.  "Always implement things when you actually need them, never when you just foresee that you need them."
     - DRY
+    Don't repeat yourself
+    Don't repeat yourself is a principle of software development aimed at reducing repetition of software patterns, replacing it with abstractions or using data normalization to avoid redundancy.
 
-    - GOF Design Patterns
+    - GOF(Gang of Four Design Patterns) Design Patterns
+    GoF is actually a commonly used acronym that stand for Gang of Four. The Gang of Four refers to the four authors of the popular book on design patterns called “Design Patterns: Elements of Reusable Object-Oriented Software”. ... Often, GoF is just used to refer to the book itself, and not the actual authors of the book.
 
     - Domain Driven Design
+    Domain Driven Design(Etki alanına dayalı) tasarım (DDD), yazılım kodunun yapısı ve dilinin (sınıf adları, sınıf yöntemleri, sınıf değişkenleri) iş etki alanıyla eşleşmesi gereken kavramdır. Örneğin, bir yazılım kredi başvurularını işlerse, LoanApplication ve Customer gibi sınıflara ve AcceptOffer ve Withdraw gibi method'lara sahip olabilir.
 
     - Test Driven Development
+    Test-driven development(Test odaklı geliştirme), yazılım gereksinimlerinin, yazılım tam olarak geliştirilmeden önce test senaryolarına dönüştürülmesine ve yazılımı tüm test durumlarına karşı tekrar tekrar test ederek tüm yazılım gelişimini izlemeye dayanan bir yazılım geliştirme sürecidir.
 
 ### &:17. Architectural Patterns
 
     - Monolithis Apps
+    Yazılım mühendisliğinde, Monolithis bir uygulama, kullanıcı arayüzü ve veri erişim kodunun tek bir platformdan tek bir programda birleştirildiği tek katmanlı bir yazılım uygulamasını tanımlar. Monolithis bir uygulama bağımsızdır ve diğer bilgi işlem uygulamalarından bağımsızdır
 
     - Microservices
+    service-oriented architecture structural style'ın(stilin) bir çeşidi olan mikro hizmet mimarisi, collection of loosely coupled services(bir uygulamayı gevşek bağlı hizmetlerin) bir koleksiyonu olarak düzenler. Bir mikro hizmet mimarisinde hizmetler ince tanelidir ve protokoller hafiftir.
 
-    - SOA
+![](https://microservices.io/i/Microservice_Architecture.png)
+
+    - SOA(Service-oriented architecture)
+    Service-oriented architecture(Hizmet odaklı mimari), hizmetlerin diğer bileşenlere bir ağ üzerinden bir iletişim protokolü aracılığıyla uygulama bileşenleri tarafından sağlandığı bir yazılım tasarımı tarzıdır.
 
     - CQRS and Event Sourcing
+    CQRS, bir uygulamayı dahili olarak iki bölüme ayırmayı içerir(okuma-yazma gibi).
+    CQRS, uygulamanın mevcut eylemlerini komutlar ve sorgularla ayırmanıza ve bunları gevşek bir şekilde birleştirmenize olanak tanır. Bu, okuma ile yazmayı ayırmak gibi olabilir. Sorgu tarafını, ihtiyaç duyduğunuzda kullanıcıların bilgilerine erişmek olarak açıklayabiliriz. Tek bir sorumluluk olarak, yalnızca kullanıcının bilgilerine erişirsiniz. Komut tarafını kullanıcı oluşturma, güncelleme veya silme olarak açıklayabiliriz. Çünkü istenen şey artık kullanıcının bilgisi değil, kullanıcıya değişiklik yapmaktır. CQRS ile bunları ayırabilir ve uygulamanın durumlarını daha düzenli hale getirebiliriz.
+
+    Event Sourcing: Event sourcing refers to a collection of patterns based on persisting the full history of a domain as a sequence of “events”, rather than persisting just the current state.
 
     - Serverless
+    Serverless computing is a cloud(AWS, Azure, or Google Cloud) computing execution model(Sunucusuz bilgi işlem), bulut sağlayıcısının makine kaynaklarını talep üzerine tahsis ettiği ve müşterileri adına sunucularla ilgilenen bir bulut bilişim yürütme modelidir.
 
 ### 18. Search Engines
 
