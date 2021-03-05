@@ -578,15 +578,25 @@
 
 ### 18. Search Engines
 
+    Bir arama motoru, web aramalarını gerçekleştirmek için tasarlanmış bir yazılım sistemidir; bu, bir metinsel web arama sorgusunda belirtilen belirli bilgiler için World Wide Web'de sistematik bir şekilde arama yapmak anlamına gelir.
+
     - Elasticsearch
+    Elasticsearch, Lucene library(kütüphanesine) dayalı bir arama motorudur. HTTP web arayüzü ve şema içermeyen JSON belgeleri ile dağıtılmış, multitenant-capable bir full-text search engine sağlar.
 
     - Solr
+    Solr is an open-source enterprise-search platform, written in Java. Its major features include full-text search, hit highlighting, faceted search, real-time indexing, dynamic clustering, database integration, NoSQL features and rich document handling
+
+    Solr, Java ile yazılmış açık kaynaklı bir kurumsal arama platformudur. Başlıca özellikleri arasında tam metin arama, hit vurgulama, yönlü arama, gerçek zamanlı indeksleme, dinamik kümeleme, veritabanı entegrasyonu, NoSQL özellikleri ve zengin belge işleme yer alır.
 
 ### 19. Message Brokers
 
+    Message Broker, bir mesajı gönderenin resmi mesajlaşma protokolünden alıcının resmi mesajlaşma protokolüne çeviren bir aracı bilgisayar programı modülüdür.
+
     - RabbitMQ
+    RabbitMQ, başlangıçta Advanced Message Queuing Protocol'ü uygulayan açık kaynaklı bir mesaj aracı yazılımıdır ve o zamandan beri Streaming Text Oriented Messaging Protocol, MQ Telemetry Transport,(Akışlı Metin Odaklı Mesajlaşma Protokolü, MQ Telemetri Aktarımı) ve diğer protokolleri desteklemek için bir eklenti mimarisiyle genişletilmiştir.
 
     - Kafka
+    Apache Kafka is a framework implementation of a software bus using stream-processing. It is an open-source software platform developed by the Apache Software Foundation written in Scala and Java. The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds.
 
 ### 20. Containerization vs Virtualization
 
