@@ -51,6 +51,3 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 [Awesome](https://github.com/sindresorhus/awesome)<br>
 [JavaScript Algorithms](https://github.com/trekhleb/javascript-algorithms/blob/master/README.tr-TR.md)<br>
 [Node Best Practices](https://github.com/goldbergyoni/nodebestpractices)<br>
-
-Müsait saatleri: sabah 9 - 10, aksam 17 - 18;
-zoom'da aktif ise arayabilirsiniz.
