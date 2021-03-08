@@ -35,14 +35,14 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 26. [Basic HTTP Server with NodeJs](https://github.com/cihatdev/staj/tree/master/02-26-Cuma)
 27. [Researching Technologies in Backend/Frontend Roadmap](https://github.com/cihatdev/staj/tree/master/02-27-Cumartesi)
 28. [Started Node.js Course in Udemy](https://github.com/cihatdev/staj/tree/master/02-28-Pazar)
-29. [Continue to Node.js](https://github.com/cihatdev/staj/tree/master/02-01-Pazartesi)
-30. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/02-02-Sali)
-31. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/02-03-Carsamba)
-32. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/02-04-Persembe)
-33. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/02-05-Cuma)
-34. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/02-06-Cumartesi)
-35. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/02-07-Pazar)
-36. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/02-08-Pazartesi)
+29. [Continue to Node.js](https://github.com/cihatdev/staj/tree/master/03-01-Pazartesi)
+30. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/03-02-Sali)
+31. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/03-03-Carsamba)
+32. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/03-04-Persembe)
+33. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/03-05-Cuma)
+34. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/03-06-Cumartesi)
+35. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/03-07-Pazar)
+36. [Devam ediyor...](https://github.com/cihatdev/staj/tree/master/03-08-Pazartesi)
 
 <hr>
 <br>
