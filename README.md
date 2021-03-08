@@ -42,8 +42,8 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 33. [working-with-mongoDB in NodeJS Course](https://github.com/cihatdev/staj/tree/master/03-05-Cuma)
 34. [working-with-mongoose in Nodejs Course](https://github.com/cihatdev/staj/tree/master/03-06-Cumartesi)
 35. [sessions-cookies in NodeJs Course](https://github.com/cihatdev/staj/tree/master/03-07-Pazar)
-36. [Blog Project](https://github.com/cihatdev/blog)
-
+36. [Adding Authentication in NodeJs Course](https://github.com/cihatdev/staj/tree/master/03-08-Pazartesi)
+37. [Blog Project](https://github.com/cihatdev/blog)
 <hr>
 <br>
 
