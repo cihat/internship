@@ -513,6 +513,49 @@ Deep Learning --> Machine Learning --> Artificial Intelligence
 Büyük veriyi geleneksel(eski) yöntemlerle saklamamız veya işlememiz çok zordur.
 Büyük veri ismiyle yanlış anlaşılabilinir, küçük veriler bile kullanıldığı bağlama bağlı olarak Big Data(Büyük Veri) olarak adlandırılır.
 
+<hr>
+<br>
+
+## [Become a Web Developer in 180 Days (Without a CS Degree)](https://betterprogramming.pub/become-a-web-developer-in-180-days-without-cs-degree-e869395972e1)
+
+- HTML/CSS temellerini öğren
+- JavaScript temellerini freeCodeCamp.org sitesinden öğrenebilirsin.
+- Hiçbir kütüphane, framework kullanmadan Vanilla JavaScript ile DOM olayını kavra.
+- Bir frontend Framework öğren(tavsite: VueJs)
+- Backend için NodeJs, MongoDB, ve PostgreSQL, öğren
+- Deploy etmeyi öğrene, DevOps and Git (Docker, Heroku, AWS)
+- İş aramaya başla...
+  ![](https://miro.medium.com/max/1800/1*Rvrw-O17vu0DW0H_GEAizw.png)
+  ![](https://miro.medium.com/max/1800/1*8QJ2PGEIXCkNi6x_eEoxKg.png)
+
+<hr>
+<br>
+
+## [Introducing Amazon Web Services (AWS)](https://medium.com/createdd-notes/introducing-amazon-web-services-aws-72c12547b9ff)
+
+Amazon Web Services (AWS)
+Kulladıkça öde fiyatlandırmasıyla sağlanan cloud hizmetidir.
+Statik bir website düşün bu web sitede HTML, CSS ve JavaScript kullanılıyor. Ekranda herhangi bir içerik değiştirilmiyor. Yani static websiteleri server-side teknolojileri gerektirmiyor(php, asp.net gibi).
+Bir dinamik website veya web app'i hayal edin, Bu web siteleri, web, uygulama ve veritabanı katmanlarına sahip klasik üç katmanlı uygulamaları içerir.
+Amazonun sağlamış olduğu hizmetlerin ihtiyaca göre farklı kategorileri mevcuttür. Amazonun kendi sitesinde bütün servesleri hakkında dokumantasyonlar var. Hemen hemen her alanda sağladığı cloud servisleri mevcuttur.
+
+<hr>
+<br>
+
+## [A sneak peek into Amazon Web Services Cloud (AWS)](https://medium.com/@blockchain_simplified/a-sneak-peek-into-amazon-web-services-cloud-aws-eae6ee8c4596)
+
+AWS, geniş ürün yelpazesi sayesinde cloud üzerinde uygulamalar oluşturmayı, verileri bir veritabanı cloud'unda depolamayı, uygulamaları cloud sunucusunda dağıtmayı ve dağıtmayı sağlar.
+Amazon Web Services Cloud, kullandığınız kadar öde esasına göre Compute, Database, Storage, Content Deliver(Hesaplama, Veritabanı, Depolama, İçerik Teslimi) gibi geniş bir çözüm koleksiyonu sunar. Bu kategorilerin her biri, farklı işlevler için kaputunun altında birden fazla ürüne sahiptir.
+Amazon'nun sunduğu sayısız hizmetleri vardır. Nerdeyse her alanda sunduğu bir hizmeti görebiliyoruz.
+Amazon serverisleri işlere yeni başlamış start-up'lar veya kendi projeseni hayata geçirmek isteyenler için büyük kolaylık sağlıyor tabi fiyatı karşılığında.
+
+<hr>
+<br>
+
+## [Everything You Wanted to Know About Amazon Web Services (AWS)](https://medium.com/@thinkwik/everything-you-wanted-to-know-about-amazon-web-services-aws-25376e8462a9)
+
+Amazon Web Services ile projelerin daha ölceklenebilir, daha güvenli, daha basit bir şekilde yapabiliriz, tabi ücreti mukabilinde.
+![](https://pbs.twimg.com/media/EIYXF-7XYAArjc8.jpg)
 
 <hr>
 <br>

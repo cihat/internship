@@ -223,6 +223,11 @@
 
 ### 8. Relational Databases
 
+**UPDATED**
+Herhangi bir projede bir veritabanı olmadığını düşünmek çok saçma gelir. Herbir projede ufak çaplı, büyük projerde muhakkak bir veritabanı kullanılır.  
+Bundan yıllar önce veritabanı seçmek çok kolaydı çünkü sadece bir tane veritabanı vardı, ve birçok yazılımcıda onu seçmek zorunda kalıyordu. Ama günümüzde onlarca database var ve ihtiyaca göre en performanlı olanı seçmek biraz karmaşık olabilir.
+İlişkisel database: Verileri bir tablo halinde aralarında ilişki olacak şekilde tutan bir veritabanı sistemidir. Aralarında ilişki olmasının nedeni daha etkili bir şekilde işlem yapmak içindir.Relational Database Management Systems (RDBMSs)
+
     - İlişkisel Veritabanı Yöntemi ?
 
         - İlişkisel Veritabanı Yönetim Sistemlerinde veriler tablolar içerisinde satırlar ve sütunlarda tutulur. Birbiri ile ilişkili verileri tuttuğumuz tablolar arasında ilişki (bağ) kurarak veritabanımızı inşa etmemizi sağlayan sistemlere ise İlişkisel Veritabanı Yönetim Sistemleri denir.
@@ -239,7 +244,11 @@
         kontrol eder eğer veri yoksa bize hata gönderir ve eğer verinin kopyası var ise güncelleme işlemini yapar, Kalıcılık ve Atomisite.
         Güvenli, kurallara dayalı, Veri Güvenliği, Veri Paylaşımı, Veri Bağımsızlığı ve tutarlı bir şekilde yönetilmesi gereken tüm bilgi ihtiyaçları için ilişkisel veritabanı kullanabilirsiniz.
 
+
     - PostgreSQL
+
+**UPDATED**
+NoSQL veritabanının yatay ölçeklendirmesi sunar. partial Index(Kısmı indeksleme sunar)
 
     İlk olarak PostgreSQL opensource olduğu için hergün kendini yeniliyor arkasında büyük bir geliştirici topluluğu var ve bundan dolayı hergün kendini yeniliyor.
     Güncel teknolojiyi takip ediyor.Başka bir veritabanından postgresql'e taşıyabiliriz çünkü Foreign Data Wrappers özelliği vardır ve bu özellik buna imkan tanıyor. Ayrıca kurulumu basit, hızlıdır. Yedeklemesi ve Geri Yüklemesi Kolaydır. Yani diğer relational database'lere nazaran daha bazı noktalarda daha iyi özellikleri varken bazı noktalarda daha köyü olduğu oluyor. Bundan dolayı ihtiyacları iyi analiz edip hangi veritabanı ihtiyacı karşılıyorsa onu seçmeliyiz.
@@ -252,7 +261,15 @@
     PostgreSQL, MYSQL ve diğer veritabanlarıyla kıyaslandığında INSERT/UPDATE işlemlerinde, transaction bazlı çalıştığından ötürü daha yavaştır. Ama bazı özellikleri, güvenilirliği, esnekliği ile diğerlerine nazaran daha avantajlıdır. Genişleyebilir mimariye sahiptir. Her işlem ve veri büyüklüğüne göre ölçeklenebilir, esnektir, genişleyebilir veya daraltılabilir. Eğer bir satır ve tabloda çok yüksek boyutlarla işlem yapılacaksa PostgreSQL ile çalışılır.
 
     - MySQL
-    MySQL'de opensource'dur. Dinamik web sitelerinin temelidir. Yani web'te yoğun bir şekilde kullanılır. Klasik görevi olan tablolardaki verileri yönetir, görüntüler, depolar ve değiştirir. Bir istemci-sunucu sistemi olarak çalışır: yani veritabanı sunucusudur. Hızlı, kararlı ve kullanıcı dostudur. Diğer şeylerin yanı sıra, çok kullanıcılı ve çok iş parçacıklı yeteneği, yönetimi kolay bir yetkilendirme konsepti ve yüksek trafik hacimlerinde bile optimum performans sunar. Hızlı, kararlı ve kullanıcı dostudur. Diğer şeylerin yanı sıra, çok kullanıcılı ve çok iş parçacıklı yeteneği, yönetimi kolay bir yetkilendirme konsepti ve yüksek trafik hacimlerinde bile optimum performans sunar. Bundan dolayı web için çok kullanılan bir veritabanıdır. Büyük miktarda veriyle bile yüksek performans, Üretken sistemlerde istikrar, Sunucu-istemci mimarisi, çok sayıda veri tabanının çalışmasına izin verir, Tabloların ve veri tabanlarının boyutunda doğrudan sınır yok.
+
+**UPDATED**
+Açık kaynaklıdır, büyük web projelerinde tercih edilir(facebook, Uber)
+MySQL'de opensource'dur. **ACID** transactional sunar, CAP açısından Consistency sunar.
+Shared Nothing MySQL Cluster aracılığıyla Horizontal partitioning(sharding) sunar.
+Multi-master ACID transactions sunar.
+Birçok modeli destekler. Hem SQL hem de JSON yapısını destekler.
+
+    Dinamik web sitelerinin temelidir. Yani web'te yoğun bir şekilde kullanılır. Klasik görevi olan tablolardaki verileri yönetir, görüntüler, depolar ve değiştirir. Bir istemci-sunucu sistemi olarak çalışır: yani veritabanı sunucusudur. Hızlı, kararlı ve kullanıcı dostudur. Diğer şeylerin yanı sıra, çok kullanıcılı ve çok iş parçacıklı yeteneği, yönetimi kolay bir yetkilendirme konsepti ve yüksek trafik hacimlerinde bile optimum performans sunar. Hızlı, kararlı ve kullanıcı dostudur. Diğer şeylerin yanı sıra, çok kullanıcılı ve çok iş parçacıklı yeteneği, yönetimi kolay bir yetkilendirme konsepti ve yüksek trafik hacimlerinde bile optimum performans sunar. Bundan dolayı web için çok kullanılan bir veritabanıdır. Büyük miktarda veriyle bile yüksek performans, Üretken sistemlerde istikrar, Sunucu-istemci mimarisi, çok sayıda veri tabanının çalışmasına izin verir, Tabloların ve veri tabanlarının boyutunda doğrudan sınır yok.
     MySQL, en fazla tercih edilen açık kaynak veritabanlarından biri olarak öne çıkıyor. Web Hosting teknolojisinde kullanılan MySQL temel olarak web siteleri için geliştirilen özel bir sunucu yazılımı ve internet uygulaması anlamına geliyor. Yüksek boyutlu verilerin özel teknolojiler ile depolanmasını ve istenildiğinde hızlı biçimde verilere erişilmesini sağlıyor. Bu da web geliştiricilerinin database’leri MySQL yardımı ile kontrol etme taleplerini artırıyor.
 
     Bu özellikler, MySQL’i verimli sözdizimi ve yüksek yanıt hızı gerektiren dinamik web siteleri gibi uygulamalar için ideal hale getirir. Ücretsiz kullanılabilirlik ile bağlantılı olarak, MySQL veri tabanı ile web barındırma bu nedenle kendisini resmi olmayan standart olarak belirlemiştir. Genellikle bir Linux işletim sistemi, PHP ve bir Apache web sunucusu ile birleştirilir ve bu kombinasyonda LAMP (Linux, Apache, MySQL, PHP) veya nginx kullanılırken LEMP olarak da bilinir. MySQL aslında büyük veritabanlarını yönetmek için mevcut veritabanı yazılımlarından daha hızlı olması için geliştirildi. Zorlu operasyonel, işlemsel ve üretim ortamlarında onlarca yıldır kullanılan MySQL, hesaplama ve depolamanın buluta taşınması ile birlikte gelişimine devam etmekte.
@@ -276,10 +293,20 @@
         Bir veritabanı sunucusu olarak güvenilir değil, veri kaybediyor. Büyük(!) veritabanları için uygun değildir. Kurumsal uygulamalarda MariaDB yerine MySQL tercih edilmelidir.
 
     - MS SQL
+
+**UPDATED**
+
         Microsoft SQL Server olarak açılır. Microsoft SQL Server ile veri işleme, indeksleme, sorgulama, raporlama gibi çeşitli işlemler yapılabiliyor. Bu veritabanı gelişmiş özellikleri belli meblağlar karşısında sizlere sağlıyor. Masaüstü uygulama ve programları kullanacak olanların ve internet sistemleri tasarlayıp hazırlayanların veritabanı gereksinimini iyi derecede karşılıyor.
         MSSQL, Windows platformlar üzerinde .NET veya ASP programlama dili aracılığıyla oluşturulan web siteleri ve web yazılımlarda veritabanı görevi görmesi amacıyla kullanılır. Bu yazılım dilleri içerisinde MS SQL veri tabanına bağlanmak ve bu veri tabanı üzerinde işlemler gerçekleştirmek birçok programlama diline göre çok daha kolaydır.
 
     - Oracle
+
+**UPDATED**
+“A Relational Model of Data for Large Shared Data Banks” makelesinin üzerine yapılan ilk veritabanıdır. Unix ve Linux sistemlerinde hakim olarak kullanılan populer bir veritabanıdır.
+İşlemsel ACID garantisini sunar, CAP açısından, tek bir Sunucu olarak immediate Consistency(Tutarlılık) sunar.
+Çok ileri düzeyde birçok veri modelini destekler(SQL, JSON, XML, Spatial Data, and RDF Store.)
+Blockchain Tables sunar. Her iki OLTP and OLAP destekler.
+
     Oracle veritabanı verilerin tamamını güvenli bir biçimde tutarak on binlerce insana aktarabildiğimiz yapıdır. Temelde veritabanı yönetimi olarak dünya üzerinde en büyük projelerin altında yer alır. Zaten Microsoft’tan sonra en büyük şirket Oracle olduğu için dünya genelinde büyük projeler için Oracle veritabanı kullanılır. Oracle veritabanı verilerin tamamını güvenli bir biçimde tutarak on binlerce insana aktarabildiğimiz yapıdır. Temelde veritabanı yönetimi olarak dünya üzerinde en büyük projelerin altında yer alır. Zaten Microsoft’tan sonra en büyük şirket Oracle olduğu için dünya genelinde büyük projeler için Oracle veritabanı kullanılır.
 
 ### 9. More About Database
@@ -315,12 +342,12 @@
          ACID aslında bir dizi olayların başharflerinden oluşan veritabanı için önemli konuları yer alan olaylardır. Herbirini çok önemli görevleri vardır.
          ACID kavramı, elektrik kesintisi, sistem çökmesi gibi durumlarda geçerliliği garanti etmeye yarayan veritabanı özelliklerinin bir dizi özelliğidir
 
-        Veri tabanı sistemlerinde transaction / işlem ile ilgili tanımlanmış standart kurallardır. <p>ACID kelimesi <strong>A</strong>tomicity, <strong>C</strong>onsistency, <strong>I</strong>solation, <strong>D</strong>urability özelliklerinin baş harflerinden oluşan bir ifadedir.</p>
-        Atomicity(bütünlük): İşlemler veri tabanı tarafından bir bütün olarak ele alınmalıdır. Yapılan işlem herhangi bir kesintiye uğradığında tüm işlemler geçersiz sayılır.
-        Consistency(Tutarlık): İşlemler tutarlı olmalıdır. Bir ekleme işlemi sırasında çalışan Foreign Key, Trigger işlemi ekleme işlemi ile tutarlı olmalıdır.
-        Isolation(bağımsızlık): Birden fazla işlem birbirinden bağımsız olarak ele alınmalıdır. Bir veri eklenmesi ve silinmesi sırayla yapılmalıdır. Önce silinme daha sonra ekleme yapılmamalıdır.
-        Durability(Dayanıklılık): İşlem sırasında herhangi bir hata geldiğinde veri tabanı verileri önceki duruma getirmelidir.
-        Yani özetlemek gerekirse: Bir hesaptan başka bir hesaba para aktarıldığında oluşacak herhangi bir hatada gönderme işleminin iptal edilmesi ve gönderilen paranın tekrar hesaba yatırılmasıdır.
+Veri tabanı sistemlerinde transaction / işlem ile ilgili tanımlanmış standart kurallardır. <p>ACID kelimesi <strong>A</strong>tomicity, <strong>C</strong>onsistency, <strong>I</strong>solation, <strong>D</strong>urability özelliklerinin baş harflerinden oluşan bir ifadedir.</p>
+Atomicity(bütünlük): İşlemler veri tabanı tarafından bir bütün olarak ele alınmalıdır. Yapılan işlem herhangi bir kesintiye uğradığında tüm işlemler geçersiz sayılır.
+Consistency(Tutarlık): İşlemler tutarlı olmalıdır. Bir ekleme işlemi sırasında çalışan Foreign Key, Trigger işlemi ekleme işlemi ile tutarlı olmalıdır.
+Isolation(bağımsızlık): Birden fazla işlem birbirinden bağımsız olarak ele alınmalıdır. Bir veri eklenmesi ve silinmesi sırayla yapılmalıdır. Önce silinme daha sonra ekleme yapılmamalıdır.
+Durability(Dayanıklılık): İşlem sırasında herhangi bir hata geldiğinde veri tabanı verileri önceki duruma getirmelidir.
+Yani özetlemek gerekirse: Bir hesaptan başka bir hesaba para aktarıldığında oluşacak herhangi bir hatada gönderme işleminin iptal edilmesi ve gönderilen paranın tekrar hesaba yatırılmasıdır.
 
         İlişkisel veritabanlarındaki Transaction(Transaction için olarak verilen örnek bir banka hesabından başka bir banka hesabına paranın transfer edilmesi olarak anlatılabilir. Burada 2 hesap gönderici ve alıcının hesabı üzerinde mantıksal bir operasyon gerçekleştiriliyor. Bu işleme Transaction deniyor.) için tanımlanmış özellik setidir.
         Bu transaction başarılı bir şekilde gerçekleşebilmesi için ACID ilkelerine uyması gerekmektedir.
