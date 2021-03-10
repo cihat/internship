@@ -1,0 +1,1 @@
+# Burada ingilizcede kullanılan ilk 1000 kelimeye çalışıyorum.

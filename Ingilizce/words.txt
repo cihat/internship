@@ -78,28 +78,28 @@ bad = kötü
 bag = çanta
 ball = top
 bank = banka
-bar
-base
-be
-beat
-beautiful
-because
-become
-bed
-before
-begin
-behavior
-behind
-believe
-benefit
-best
-better
-between
-beyond
-big
-bill
-billion
-bit
+bar = bar
+base = temel
+be = olmak
+beat = dövmek, yenmek
+beautiful = güzel
+because = çünkü
+become = olmak
+bed = yatak
+before = önce
+begin = başlamak
+behavior = davranış
+behind = arkada
+believe = inanmak
+benefit = fayda
+best = en iyisi
+better = daha iyi
+between = arasında
+beyond = ötesinde
+big = büyük
+bill = fatura
+billion milyar
+bit = bit
 black
 blood
 blue
