@@ -49,7 +49,6 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 40. [](https://github.com/cihatdev/staj/tree/master/03-12-Cuma)
 41. [](https://github.com/cihatdev/staj/tree/master/03-13-Cumartesi)
 42. [](https://github.com/cihatdev/staj/tree/master/03-14-Pazar)
-
 43. [Blog Project](https://github.com/cihatdev/blog)
 <hr>
 <br>
