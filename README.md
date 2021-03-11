@@ -2,11 +2,11 @@
 
 ![](https://www.businessstudent.com/wp-content/uploads/2018/08/internships.jpg)
 
-**01-02-2020** tarihinde başlayan 30 günlük bir staj çalışmasındaki, hergünün dolu dolu geçmesiyle tamamlanması hedeflenen ve hergün araştırdığım konuların dokumantasyonları günler halinde klosörlenmiş bir projedir.
+**01-02-2020** tarihinde başlayan 50 günlük bir staj çalışmasındaki, hergünün dolu dolu geçmesiyle tamamlanması hedeflenen ve hergün araştırdığım konuların dokumantasyonları günler halinde klosörlenmiş bir projedir.
 
 Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzlu](https://github.com/hayatbayramolsa)'nun verdiği konuları araştırarak self-learn yaparak sektörde olan teknolojileri, temel bilgileri kendimiz araştırıp öğrenerek devam etmektedir. Stajın ilk günleri temel bilgileri öğrenmek ve anlamak odaklıdır.Daha sonra ileri konuları araştırıp öğreneceğiz.
 
-0. [Projeler](https://github.com/cihatdev/staj/tree/master/00-Projeler-%F0%9F%94%A5)
+0. [Projeler](https://github.com/cihatdev/staj/tree/master/02-00-%F0%9F%94%A5)
 1. [Öğrenilmesi Gereken Konular](https://github.com/cihatdev/staj/tree/master/02-01-Pazartesi)
 2. [İnternet Nasıl Çalışır(How to work the internet ?)](https://github.com/cihatdev/staj/tree/master/02-02-Sali)
 3. [http, https, www, teknolojileri nelerdir ?](https://github.com/cihatdev/staj/tree/master/02-03-Carsamba)
@@ -44,8 +44,8 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 35. [sessions-cookies in NodeJs Course](https://github.com/cihatdev/staj/tree/master/03-07-Pazar)
 36. [Adding Authentication in NodeJs Course](https://github.com/cihatdev/staj/tree/master/03-08-Pazartesi)
 37. [Advanced-authentication, Send Email](https://github.com/cihatdev/staj/tree/master/03-09-Sali)
-38. [](https://github.com/cihatdev/staj/tree/master/03-10-Carsamba)
-39. [](https://github.com/cihatdev/staj/tree/master/03-11-Persembe)
+38. [Understanding Validation](https://github.com/cihatdev/staj/tree/master/03-10-Carsamba)
+39. [Error Handling](https://github.com/cihatdev/staj/tree/master/03-11-Persembe)
 40. [](https://github.com/cihatdev/staj/tree/master/03-12-Cuma)
 41. [](https://github.com/cihatdev/staj/tree/master/03-13-Cumartesi)
 42. [](https://github.com/cihatdev/staj/tree/master/03-14-Pazar)
