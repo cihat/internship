@@ -567,6 +567,18 @@ Amazon Web Services ile projelerin daha ölceklenebilir, daha güvenli, daha bas
 <hr>
 <br>
 
+## [How Cloud Computing Influences Artificial Intelligence?](https://medium.com/@raosrinivas2580/how-cloud-computing-influences-artificial-intelligence-5f1a8a2f2d5a)
+Cloud zaten şirketler yoğun olarak kullanıyor ve ilerde daha çok ilerleyecek. İlerde cloud yapay zeka ile birlikte kullanılacak ve birlikte gelişecek. Yapay zekanın cloud'la birlikte çalışması büyük avantajlar getirecek. İlerde ikisi birlikte iyi kominasyon olacak. İkiside birlikte büyüyecek. Herhangi bir kuruluş için yapay zeka altyapısı karşılayamayacak kadar pahalıdır. Yapay zeka sistemlerinin avantajı, birkaç hızlı GPU'lu (Grafik İşleme Birimleri) sunucularda çalıştığında yüksek performans sağlamasıdır. Ancak işletmeler için yapay zeka modüllerini karşılamanın bir yolu, bulut bilişim teknolojisinde bir hizmet olarak yapay zekaya erişim sağlamaktır.
+
+<hr>
+<br>
+
+## [Blockchain and AI: A Perfect Match?](https://www.bbvaopenmind.com/en/technology/artificial-intelligence/blockchain-and-ai-a-perfect-match/)
+
+
+<hr>
+<br>
+
 ### Tavsiye Siteler
 
 [Awesome CSS Learning ](https://github.com/micromata/awesome-css-learning#readme)

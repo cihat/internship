@@ -100,24 +100,24 @@ big = büyük
 bill = fatura
 billion milyar
 bit = bit
-black
-blood
-blue
-board
-body
-book
-born
-both
-box
-boy
-break
-bring
-brother
-budget
-build
-building
-business
-but
+black = siyah
+blood = kan
+blue = mavi
+board = tahta
+body = vücut
+book = kitap
+born = doğmus
+both = her ikisi de
+box = kutu
+boy = erkek
+break = mola
+bring = getirmek
+brother = kardeş
+budget = bütçe
+build = inşa etmek
+building = bina
+business = iş
+but = ama
 buy
 by
 call
