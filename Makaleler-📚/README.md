@@ -579,6 +579,7 @@ Cloud zaten şirketler yoğun olarak kullanıyor ve ilerde daha çok ilerleyecek
 
 ## [Big Data: How It Is Responsible For Advanced App Development](https://towardsdatascience.com/big-data-how-it-is-responsible-for-advanced-app-development-3180dbd2dba3)
 
+
 <hr>
 <br>
 
