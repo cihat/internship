@@ -118,28 +118,28 @@ build = inşa etmek
 building = bina
 business = iş
 but = ama
-buy
-by
-call
-camera
-campaign
-can
-cancer
-candidate
-capital
-car
-card
-care
-career
-carry
-case
-catch
-cause
-cell
-center
-central
-century
-certain
+buy = satın almak
+by = -tarafından
+call = çağrı
+camera = kamera
+campaign = kampanya
+can = yapabilmek
+cancer = kanser
+candidate = aday
+capital = başkent
+car = araba
+card = kart
+care = bakım
+career = kariyer
+carry = taşımak
+case = durum
+catch = yakalamak
+cause = sebep olmak
+cell = hücre
+center = merkez
+central = merkezi
+century = yüzyıl
+certain = belirli
 certainly
 chair
 challenge

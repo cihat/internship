@@ -562,12 +562,11 @@ Amazon Web Services ile projelerin daha ölceklenebilir, daha güvenli, daha bas
 
 ## [Blockchain Based Decentralised Cloud Computing](https://eternacapital.medium.com/blockchain-based-decentralised-cloud-computing-277f307611e1)
 
-
-
 <hr>
 <br>
 
 ## [How Cloud Computing Influences Artificial Intelligence?](https://medium.com/@raosrinivas2580/how-cloud-computing-influences-artificial-intelligence-5f1a8a2f2d5a)
+
 Cloud zaten şirketler yoğun olarak kullanıyor ve ilerde daha çok ilerleyecek. İlerde cloud yapay zeka ile birlikte kullanılacak ve birlikte gelişecek. Yapay zekanın cloud'la birlikte çalışması büyük avantajlar getirecek. İlerde ikisi birlikte iyi kominasyon olacak. İkiside birlikte büyüyecek. Herhangi bir kuruluş için yapay zeka altyapısı karşılayamayacak kadar pahalıdır. Yapay zeka sistemlerinin avantajı, birkaç hızlı GPU'lu (Grafik İşleme Birimleri) sunucularda çalıştığında yüksek performans sağlamasıdır. Ancak işletmeler için yapay zeka modüllerini karşılamanın bir yolu, bulut bilişim teknolojisinde bir hizmet olarak yapay zekaya erişim sağlamaktır.
 
 <hr>
@@ -575,6 +574,10 @@ Cloud zaten şirketler yoğun olarak kullanıyor ve ilerde daha çok ilerleyecek
 
 ## [Blockchain and AI: A Perfect Match?](https://www.bbvaopenmind.com/en/technology/artificial-intelligence/blockchain-and-ai-a-perfect-match/)
 
+<hr>
+<br>
+
+## [Big Data: How It Is Responsible For Advanced App Development](https://towardsdatascience.com/big-data-how-it-is-responsible-for-advanced-app-development-3180dbd2dba3)
 
 <hr>
 <br>
