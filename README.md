@@ -2,7 +2,7 @@
 
 ![](https://www.businessstudent.com/wp-content/uploads/2018/08/internships.jpg)
 
-**01-02-2020** tarihinde başlayan 50 günlük bir staj çalışmasındaki, hergünün dolu dolu geçmesiyle tamamlanması hedeflenen ve hergün araştırdığım konuların dokumantasyonları günler halinde klosörlenmiş bir projedir.
+**01-02-2020** tarihinde başlayan 40 günlük bir staj çalışmasındaki, hergünün dolu dolu geçmesiyle tamamlanması hedeflenen ve hergün araştırdığım konuların dokumantasyonları günler halinde klosörlenmiş bir projedir.
 
 Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzlu](https://github.com/hayatbayramolsa)'nun verdiği konuları araştırarak self-learn yaparak sektörde olan teknolojileri, temel bilgileri kendimiz araştırıp öğrenerek devam etmektedir. Stajın ilk günleri temel bilgileri öğrenmek ve anlamak odaklıdır.Daha sonra ileri konuları araştırıp öğreneceğiz.
 
@@ -46,17 +46,16 @@ Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzl
 37. [Advanced-authentication, Send Email](https://github.com/cihatdev/staj/tree/master/03-09-Sali)
 38. [Understanding Validation](https://github.com/cihatdev/staj/tree/master/03-10-Carsamba)
 39. [Error Handling](https://github.com/cihatdev/staj/tree/master/03-11-Persembe)
-40. [](https://github.com/cihatdev/staj/tree/master/03-12-Cuma)
-41. [](https://github.com/cihatdev/staj/tree/master/03-13-Cumartesi)
-42. [](https://github.com/cihatdev/staj/tree/master/03-14-Pazar)
-43. [Blog Project](https://github.com/cihatdev/blog)
+40. [Rest API - 1](https://github.com/cihatdev/staj/tree/master/03-12-Cuma)
+41. [Rest API - 2](https://github.com/cihatdev/staj/tree/master/03-13-Cumartesi)
+42. [Blog Project](https://github.com/cihatdev/blog)
 <hr>
 <br>
 
-[Faydalı Repolar(BomBoch)](https://github.com/BomBoch)<br>
+[Node Best Practices](https://github.com/goldbergyoni/nodebestpractices)<br>
 [Awesome](https://github.com/sindresorhus/awesome)<br>
 [JavaScript Algorithms](https://github.com/trekhleb/javascript-algorithms/blob/master/README.tr-TR.md)<br>
-[Node Best Practices](https://github.com/goldbergyoni/nodebestpractices)<br>
+[Faydalı Repolar(BomBoch)](https://github.com/BomBoch)<br>
 
 MIT License
 

@@ -1,13 +1,13 @@
 import React, { Component, Fragment } from 'react';
-import Button from '../../components/Button/Button';
-import ErrorHandler from '../../components/ErrorHandler/ErrorHandler';
-import FeedEdit from '../../components/Feed/FeedEdit/FeedEdit';
-import Post from '../../components/Feed/Post/Post';
-import Input from '../../components/Form/Input/Input';
-import Loader from '../../components/Loader/Loader';
-import Paginator from '../../components/Paginator/Paginator';
-import './Feed.css';
 
+import Post from '../../components/Feed/Post/Post';
+import Button from '../../components/Button/Button';
+import FeedEdit from '../../components/Feed/FeedEdit/FeedEdit';
+import Input from '../../components/Form/Input/Input';
+import Paginator from '../../components/Paginator/Paginator';
+import Loader from '../../components/Loader/Loader';
+import ErrorHandler from '../../components/ErrorHandler/ErrorHandler';
+import './Feed.css';
 
 class Feed extends Component {
   state = {
@@ -105,22 +105,19 @@ class Feed extends Component {
     this.setState({
       editLoading: true
     });
-    // Set up data (with image!)
+    const formData = new FormData();
+    formData.append('title', postData.title);
+    formData.append('content', postData.content);
+    formData.append('image', postData.image);
     let url = 'http://localhost:8080/feed/post';
-    let method = "POST";
-    if(this.state.editPost) {
+    let method = 'POST';
+    if (this.state.editPost) {
       url = 'URL';
     }
 
     fetch(url, {
       method: method,
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        title: postData.title,
-        content: postData.content,
-      })
+      body: formData
     })
       .then(res => {
         if (res.status !== 200 && res.status !== 201) {
@@ -129,6 +126,7 @@ class Feed extends Component {
         return res.json();
       })
       .then(resData => {
+        console.log(resData);
         const post = {
           _id: resData.post._id,
           title: resData.post.title,
