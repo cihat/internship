@@ -1,4 +1,4 @@
-# Capitals of Countries
+# Capital
 
 ## [Demo](https://cihat.github.io/capital/)
 
