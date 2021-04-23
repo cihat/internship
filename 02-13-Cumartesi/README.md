@@ -1,4 +1,4 @@
-# [Live Demo](https://cihatdev.github.io/fashion-blog/)
+# [Live Demo](https://cihat.github.io/fashion-blog/)
 
 <br>
 
