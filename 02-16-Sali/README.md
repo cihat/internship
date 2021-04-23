@@ -1,6 +1,6 @@
 # Capitals of Countries
 
-## [Live Demo](https://cihat.github.io/capitals/)
+## [Live Demo](https://cihat.github.io/capital/)
 
 <br>
 
