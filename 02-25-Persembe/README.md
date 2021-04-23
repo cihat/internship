@@ -1,6 +1,6 @@
 # Capitals of Countries
 
-## [Demo](https://cihatdev.github.io/capitals-of-countries/)
+## [Demo](https://cihat.github.io/capital/)
 
 This project is a project that I made to learn about the capitals of the countries. It is a project I made with SCSS and Pure JavaScript to improve myself and learn about country capitals.
 
