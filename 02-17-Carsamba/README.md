@@ -1,4 +1,4 @@
-# [Live Demo](https://cihatdev.github.io/maqs/)
+# [Live Demo](https://cihat.github.io/maqs/)
 
 <br>
 
