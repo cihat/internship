@@ -1,6 +1,6 @@
 # House Sale Project
 
-## [Live Demo](https://cihatdev.github.io/house-sale/)
+## [Live Demo](https://cihat.github.io/house-sale/)
 
 <br>
 
