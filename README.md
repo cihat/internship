@@ -2,7 +2,7 @@
 
 ![](https://www.businessstudent.com/wp-content/uploads/2018/08/internships.jpg)
 
-**01-02-2020** tarihinde başlayan 40 günlük bir staj çalışmasındaki, hergünün dolu dolu geçmesiyle tamamlanması hedeflenen ve hergün araştırdığım konuların dokumantasyonları günler halinde klosörlenmiş bir projedir.
+**01-02-2021** tarihinde başlayan 40 günlük bir staj çalışmasındaki, hergünün dolu dolu geçmesiyle tamamlanması hedeflenen ve hergün araştırdığım konuların dokumantasyonları günler halinde klosörlenmiş bir projedir.
 
 Staj'ın işleyişi tamamen self-learing'e dayalıdır. Mentörümüz [Enes Tuzlu](https://github.com/hayatbayramolsa)'nun verdiği konuları araştırarak self-learn yaparak sektörde olan teknolojileri, temel bilgileri kendimiz araştırıp öğrenerek devam etmektedir. Stajın ilk günleri temel bilgileri öğrenmek ve anlamak odaklıdır.Daha sonra ileri konuları araştırıp öğreneceğiz.
 
